@@ -944,7 +944,7 @@
 
     iget v5, p0, Landroid/content/pm/ResolveInfo;->icon:I
 
-    invoke-virtual {p1, v4, v5, v6}, Landroid/content/pm/PackageManager;->getLenovoDrawable(Ljava/lang/String;ILandroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, v4, v5, v6}, Landroid/content/pm/PackageManager;->getDrawable(Ljava/lang/String;ILandroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
