@@ -148,12 +148,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 256
-    const v0, 0x1010480
+    const v0, #android:attr@searchViewStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/SearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 257
     return-void
 .end method
 
@@ -268,20 +266,18 @@
     .local v3, "inflater":Landroid/view/LayoutInflater;
     const/4 v8, 0x1
 
-    const v9, 0x10900bf
+    const v9, #android:layout@search_view#t
 
     invoke-virtual {v0, v8, v9}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v5
 
-    .line 271
     .local v5, "layoutResId":I
     const/4 v8, 0x1
 
     invoke-virtual {v3, v5, p0, v8}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 273
-    const v8, 0x1020385
+    const v8, #android:id@search_src_text#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -291,13 +287,11 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mQueryTextView:Landroid/widget/SearchView$SearchAutoComplete;
 
-    .line 274
     iget-object v8, p0, Landroid/widget/SearchView;->mQueryTextView:Landroid/widget/SearchView$SearchAutoComplete;
 
     invoke-virtual {v8, p0}, Landroid/widget/SearchView$SearchAutoComplete;->setSearchView(Landroid/widget/SearchView;)V
 
-    .line 276
-    const v8, 0x1020382
+    const v8, #android:id@search_edit_frame#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -305,8 +299,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mSearchEditFrame:Landroid/view/View;
 
-    .line 277
-    const v8, 0x1020384
+    const v8, #android:id@search_plate#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -314,8 +307,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mSearchPlate:Landroid/view/View;
 
-    .line 278
-    const v8, 0x1020387
+    const v8, #android:id@submit_area#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -323,8 +315,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mSubmitArea:Landroid/view/View;
 
-    .line 279
-    const v8, 0x1020381
+    const v8, #android:id@search_button#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -334,8 +325,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mSearchButton:Landroid/widget/ImageView;
 
-    .line 280
-    const v8, 0x1020388
+    const v8, #android:id@search_go_btn#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -345,8 +335,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mSubmitButton:Landroid/widget/ImageView;
 
-    .line 281
-    const v8, 0x1020386
+    const v8, #android:id@search_close_btn#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -356,8 +345,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mCloseButton:Landroid/widget/ImageView;
 
-    .line 282
-    const v8, 0x1020389
+    const v8, #android:id@search_voice_btn#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -367,8 +355,7 @@
 
     iput-object v8, p0, Landroid/widget/SearchView;->mVoiceButton:Landroid/widget/ImageView;
 
-    .line 283
-    const v8, 0x1020383
+    const v8, #android:id@search_mag_icon#t
 
     invoke-virtual {p0, v8}, Landroid/widget/SearchView;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +452,7 @@
     .line 296
     const/16 v8, 0xc
 
-    const v9, 0x10900be
+    const v9, #android:layout@search_dropdown_item_icons_2line#t
 
     invoke-virtual {v0, v8, v9}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -1040,13 +1027,13 @@
 
     if-eqz v7, :cond_1
 
-    const v7, 0x1050049
+    const v7, #android:dimen@dropdownitem_icon_width#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v7
 
-    const v8, 0x1050047
+    const v8, #android:dimen@dropdownitem_text_padding_left#t
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1849,7 +1836,7 @@
 
     move-result-object v0
 
-    const v1, 0x1050032
+    const v1, #android:dimen@search_view_preferred_width#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

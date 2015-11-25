@@ -260,7 +260,7 @@
 
     move-result-object v0
 
-    const v3, 0x10103c3
+    const v3, #android:attr@textColorSearchUrl#t
 
     const/4 v4, 0x1
 
@@ -1888,8 +1888,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 302
-    const v2, 0x102037f
+    const v2, #android:id@edit_query#t
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -125,9 +125,9 @@
 
     new-instance v1, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;
 
-    const v2, 0x1040146
+    const v2, #android:string@capability_title_canRetrieveWindowContent#t
 
-    const v3, 0x1040147
+    const v3, #android:string@capability_desc_canRetrieveWindowContent#t
 
     invoke-direct {v1, v4, v2, v3}, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;-><init>(III)V
 
@@ -138,9 +138,9 @@
 
     new-instance v1, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;
 
-    const v2, 0x1040148
+    const v2, #android:string@capability_title_canRequestTouchExploration#t
 
-    const v3, 0x1040149
+    const v3, #android:string@capability_desc_canRequestTouchExploration#t
 
     invoke-direct {v1, v5, v2, v3}, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;-><init>(III)V
 
@@ -151,9 +151,9 @@
 
     new-instance v1, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;
 
-    const v2, 0x104014a
+    const v2, #android:string@capability_title_canRequestEnhancedWebAccessibility#t
 
-    const v3, 0x104014b
+    const v3, #android:string@capability_desc_canRequestEnhancedWebAccessibility#t
 
     invoke-direct {v1, v6, v2, v3}, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;-><init>(III)V
 
@@ -164,9 +164,9 @@
 
     new-instance v1, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;
 
-    const v2, 0x104014c
+    const v2, #android:string@capability_title_canRequestFilterKeyEvents#t
 
-    const v3, 0x104014d
+    const v3, #android:string@capability_desc_canRequestFilterKeyEvents#t
 
     invoke-direct {v1, v7, v2, v3}, Landroid/accessibilityservice/AccessibilityServiceInfo$CapabilityInfo;-><init>(III)V
 

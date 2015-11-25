@@ -1411,23 +1411,19 @@
 
     if-ltz v9, :cond_17
 
-    .line 329
-    const v11, 0x1040053
+    const v11, #android:string@numeric_date_template#t
 
     invoke-virtual {p0, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 330
     .restart local v6    # "template":Ljava/lang/String;
     if-ge v9, v3, :cond_13
 
     if-ge v9, v1, :cond_13
 
-    .line 331
     if-ge v3, v1, :cond_12
 
-    .line 332
     const/4 v11, 0x3
 
     new-array v11, v11, [Ljava/lang/Object;

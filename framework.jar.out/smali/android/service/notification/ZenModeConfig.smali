@@ -1573,19 +1573,16 @@
 
     const/4 v6, 0x1
 
-    .line 499
     if-ge p2, v4, :cond_0
 
     move v8, p2
 
-    .line 500
     .local v8, "num":I
     :goto_0
     if-ge p2, v4, :cond_1
 
-    const v9, 0x1140019
+    const v9, #android:plurals@zen_mode_duration_minutes#t
 
-    .line 503
     .local v9, "resId":I
     :goto_1
     invoke-static {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
@@ -1645,7 +1642,7 @@
     .line 500
     .restart local v8    # "num":I
     :cond_1
-    const v9, 0x114001a
+    const v9, #android:plurals@zen_mode_duration_hours#t
 
     goto :goto_1
 .end method

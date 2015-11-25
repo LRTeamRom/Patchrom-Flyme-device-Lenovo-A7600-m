@@ -233,7 +233,7 @@
     .line 373
     .restart local v0    # "rawString":Ljava/lang/String;
     :cond_0
-    const v3, 0x1040590
+    const v3, #android:string@storage_sd_card#t
 
     invoke-virtual {p0, v3}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->getString(I)Ljava/lang/String;
 
@@ -1135,25 +1135,21 @@
 
     if-eqz v4, :cond_3
 
-    .line 253
     :cond_1
-    const v4, 0x1040551
+    const v4, #android:string@progress_unmounting#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
-    .line 254
     invoke-virtual {p0}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->getMountService()Landroid/os/storage/IMountService;
 
     move-result-object v2
 
-    .line 255
     .local v2, "mountService":Landroid/os/storage/IMountService;
     iget-object v1, p0, Lcom/android/internal/os/storage/ExternalStorageFormatter;->mPath:Ljava/lang/String;
 
-    .line 258
     .local v1, "extStoragePath":Ljava/lang/String;
     :try_start_0
-    const-string/jumbo v4, "ro.mtk_2sdcard_swap"
+    const-string v4, "ro.mtk_2sdcard_swap"
 
     invoke-static {v4}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1234,26 +1230,21 @@
 
     if-eqz v4, :cond_6
 
-    .line 269
     :cond_4
-    const v4, 0x1040552
+    const v4, #android:string@progress_erasing#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
-    .line 270
     invoke-virtual {p0}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->getMountService()Landroid/os/storage/IMountService;
 
     move-result-object v2
 
-    .line 271
     .restart local v2    # "mountService":Landroid/os/storage/IMountService;
     iget-object v1, p0, Lcom/android/internal/os/storage/ExternalStorageFormatter;->mPath:Ljava/lang/String;
 
-    .line 272
     .restart local v1    # "extStoragePath":Ljava/lang/String;
     if-eqz v2, :cond_5
 
-    .line 273
     new-instance v4, Lcom/android/internal/os/storage/ExternalStorageFormatter$4;
 
     invoke-direct {v4, p0, v2, v1}, Lcom/android/internal/os/storage/ExternalStorageFormatter$4;-><init>(Lcom/android/internal/os/storage/ExternalStorageFormatter;Landroid/os/storage/IMountService;Ljava/lang/String;)V
@@ -1284,14 +1275,12 @@
 
     if-eqz v4, :cond_7
 
-    .line 327
-    const v4, 0x1040554
+    const v4, #android:string@media_bad_removal#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
     goto/16 :goto_0
 
-    .line 328
     :cond_7
     const-string v4, "checking"
 
@@ -1301,16 +1290,14 @@
 
     if-eqz v4, :cond_8
 
-    .line 329
-    const v4, 0x1040555
+    const v4, #android:string@media_checking#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
     goto/16 :goto_0
 
-    .line 330
     :cond_8
-    const-string/jumbo v4, "removed"
+    const-string v4, "removed"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1318,16 +1305,14 @@
 
     if-eqz v4, :cond_9
 
-    .line 331
-    const v4, 0x1040556
+    const v4, #android:string@media_removed#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
     goto/16 :goto_0
 
-    .line 332
     :cond_9
-    const-string/jumbo v4, "shared"
+    const-string v4, "shared"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1335,20 +1320,17 @@
 
     if-eqz v4, :cond_a
 
-    .line 333
-    const v4, 0x1040557
+    const v4, #android:string@media_shared#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
     goto/16 :goto_0
 
-    .line 335
     :cond_a
-    const v4, 0x1040558
+    const v4, #android:string@media_unknown_state#t
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
-    .line 336
     const-string v4, "ExternalStorageFormatter"
 
     new-instance v5, Ljava/lang/StringBuilder;

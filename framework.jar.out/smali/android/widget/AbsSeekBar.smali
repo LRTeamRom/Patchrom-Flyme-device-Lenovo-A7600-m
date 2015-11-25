@@ -3,6 +3,13 @@
 .source "AbsSeekBar.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroid/widget/AbsSeekBar$FlymeInjector;
+    }
+.end annotation
+
 # static fields
 .field private static final LOG_TAG:Ljava/lang/String; = "AbsSeekBar"
 
@@ -12,6 +19,20 @@
 
 
 # instance fields
+.field mMzDragTouchDownX:F
+
+.field mMzDragTouchDownY:F
+
+.field mMzHalfThumbWidth:I
+
+.field mMzInDragoning:Z
+
+.field mMzTouchDownProgress:I
+
+.field mMzTouchSlopSquare:I
+
+.field protected mTouchScrollMode:I
+
 .field private mDisabledAlpha:F
 
 .field private mHasThumbTint:Z
@@ -313,6 +334,8 @@
     move-result v3
 
     iput v3, p0, Landroid/widget/AbsSeekBar;->mScaledTouchSlop:I
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->initExtFlymeFields(Landroid/widget/AbsSeekBar;)V
 
     .line 135
     return-void
@@ -1116,6 +1139,8 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzDrawThumb(Landroid/widget/AbsSeekBar;Landroid/graphics/Canvas;)V
+
     .line 556
     iget-object v0, p0, Landroid/widget/AbsSeekBar;->mThumb:Landroid/graphics/drawable/Drawable;
 
@@ -1373,72 +1398,20 @@
 .end method
 
 .method public invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
-    .locals 7
+    .locals 1
     .param p1, "dr"    # Landroid/graphics/drawable/Drawable;
 
     .prologue
-    .line 843
-    iget-object v3, p0, Landroid/widget/AbsSeekBar;->mThumb:Landroid/graphics/drawable/Drawable;
-
-    if-ne p1, v3, :cond_0
-
-    .line 844
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
-
-    move-result-object v0
-
-    .line 845
-    .local v0, "dirty":Landroid/graphics/Rect;
-    iget v3, p0, Landroid/widget/AbsSeekBar;->mScrollX:I
-
-    iget v4, p0, Landroid/widget/AbsSeekBar;->mPaddingLeft:I
-
-    add-int/2addr v3, v4
-
-    iget v4, p0, Landroid/widget/AbsSeekBar;->mThumbOffset:I
-
-    sub-int v1, v3, v4
-
-    .line 846
-    .local v1, "scrollX":I
-    iget v3, p0, Landroid/widget/AbsSeekBar;->mScrollY:I
-
-    iget v4, p0, Landroid/widget/AbsSeekBar;->mPaddingTop:I
-
-    add-int v2, v3, v4
-
-    .line 848
-    .local v2, "scrollY":I
-    iget v3, v0, Landroid/graphics/Rect;->left:I
-
-    add-int/2addr v3, v1
-
-    iget v4, v0, Landroid/graphics/Rect;->top:I
-
-    add-int/2addr v4, v2
-
-    iget v5, v0, Landroid/graphics/Rect;->right:I
-
-    add-int/2addr v5, v1
-
-    iget v6, v0, Landroid/graphics/Rect;->bottom:I
-
-    add-int/2addr v6, v2
-
-    invoke-virtual {p0, v3, v4, v5, v6}, Landroid/widget/AbsSeekBar;->invalidate(IIII)V
-
-    .line 853
-    .end local v0    # "dirty":Landroid/graphics/Rect;
-    .end local v1    # "scrollX":I
-    .end local v2    # "scrollY":I
-    :goto_0
-    return-void
-
-    .line 851
-    :cond_0
     invoke-super {p0, p1}, Landroid/widget/ProgressBar;->invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    goto :goto_0
+    iget-object v0, p0, Landroid/widget/AbsSeekBar;->mThumb:Landroid/graphics/drawable/Drawable;
+
+    if-ne p1, v0, :cond_0
+
+    invoke-static {p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->invalidateThumb(Landroid/widget/AbsSeekBar;)V
+
+    :cond_0
+    return-void
 .end method
 
 .method isAnimationRunning()Z
@@ -2034,6 +2007,8 @@
 
     iput v2, p0, Landroid/widget/AbsSeekBar;->mTouchDownX:F
 
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzInitTouchDownStates(Landroid/widget/AbsSeekBar;Landroid/view/MotionEvent;)V
+
     goto :goto_0
 
     .line 591
@@ -2054,36 +2029,31 @@
 
     invoke-virtual {p0, v2}, Landroid/widget/AbsSeekBar;->invalidate(Landroid/graphics/Rect;)V
 
-    .line 595
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->invalidateThumb(Landroid/widget/AbsSeekBar;)V
+
     :cond_4
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStartTrackingTouch()V
 
-    .line 596
-    invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzInitTouchDownStates2(Landroid/widget/AbsSeekBar;Landroid/view/MotionEvent;)V
 
-    .line 597
     invoke-direct {p0}, Landroid/widget/AbsSeekBar;->attemptClaimDrag()V
 
     goto :goto_0
 
-    .line 602
     :pswitch_1
     iget-boolean v2, p0, Landroid/widget/AbsSeekBar;->mIsDragging:Z
 
     if-eqz v2, :cond_5
 
-    .line 603
-    invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzProcessTouchAction(Landroid/widget/AbsSeekBar;Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 605
     :cond_5
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
 
-    .line 606
     .local v0, "x":F
     iget v2, p0, Landroid/widget/AbsSeekBar;->mTouchDownX:F
 
@@ -2118,71 +2088,59 @@
 
     invoke-virtual {p0, v2}, Landroid/widget/AbsSeekBar;->invalidate(Landroid/graphics/Rect;)V
 
-    .line 611
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->invalidateThumb(Landroid/widget/AbsSeekBar;)V
+
     :cond_6
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStartTrackingTouch()V
 
-    .line 612
     invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
 
-    .line 613
     invoke-direct {p0}, Landroid/widget/AbsSeekBar;->attemptClaimDrag()V
 
     goto :goto_0
 
-    .line 619
     .end local v0    # "x":F
     :pswitch_2
     iget-boolean v3, p0, Landroid/widget/AbsSeekBar;->mIsDragging:Z
 
     if-eqz v3, :cond_7
 
-    .line 620
-    invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzProcessTouchAction(Landroid/widget/AbsSeekBar;Landroid/view/MotionEvent;)V
 
-    .line 621
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStopTrackingTouch()V
 
-    .line 622
     invoke-virtual {p0, v2}, Landroid/widget/AbsSeekBar;->setPressed(Z)V
 
-    .line 633
     :goto_1
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->invalidate()V
 
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->mzSetInDragoning(Landroid/widget/AbsSeekBar;)V
+
     goto :goto_0
 
-    .line 626
     :cond_7
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStartTrackingTouch()V
 
-    .line 627
     invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
 
-    .line 628
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStopTrackingTouch()V
 
     goto :goto_1
 
-    .line 637
     :pswitch_3
     iget-boolean v3, p0, Landroid/widget/AbsSeekBar;->mIsDragging:Z
 
     if-eqz v3, :cond_8
 
-    .line 638
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->onStopTrackingTouch()V
 
-    .line 639
     invoke-virtual {p0, v2}, Landroid/widget/AbsSeekBar;->setPressed(Z)V
 
-    .line 641
     :cond_8
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->invalidate()V
 
     goto/16 :goto_0
 
-    .line 586
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -2561,21 +2519,20 @@
 
     if-eqz v2, :cond_3
 
-    .line 186
     invoke-virtual {p0}, Landroid/widget/AbsSeekBar;->getDrawableState()[I
 
     move-result-object v1
 
-    .line 187
     .local v1, "state":[I
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 190
     .end local v1    # "state":[I
     :cond_3
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsSeekBar$FlymeInjector;->setThumbWidth(Landroid/widget/AbsSeekBar;)V
+
     return-void
 
-    .line 154
     .end local v0    # "needUpdate":Z
     :cond_4
     const/4 v0, 0x0
@@ -2665,4 +2622,116 @@
     const/4 v0, 0x0
 
     goto :goto_0
+.end method
+
+.method mzAttemptClaimDrag()V
+    .locals 0
+
+    .prologue
+    invoke-direct {p0}, Landroid/widget/AbsSeekBar;->attemptClaimDrag()V
+
+    return-void
+.end method
+
+.method mzGetFieldKeyProgressIncrement()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mKeyProgressIncrement:I
+
+    return v0
+.end method
+
+.method mzGetFieldPaddingBottom()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mPaddingBottom:I
+
+    return v0
+.end method
+
+.method mzGetFieldPaddingLeft()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mPaddingLeft:I
+
+    return v0
+.end method
+
+.method mzGetFieldPaddingRight()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mPaddingRight:I
+
+    return v0
+.end method
+
+.method mzGetFieldPaddingTop()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mPaddingTop:I
+
+    return v0
+.end method
+
+.method mzGetFieldScaledTouchSlop()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mScaledTouchSlop:I
+
+    return v0
+.end method
+
+.method mzGetFieldThumb()Landroid/graphics/drawable/Drawable;
+    .locals 1
+
+    .prologue
+    iget-object v0, p0, Landroid/widget/AbsSeekBar;->mThumb:Landroid/graphics/drawable/Drawable;
+
+    return-object v0
+.end method
+
+.method mzGetFieldThumbOffset()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mThumbOffset:I
+
+    return v0
+.end method
+
+.method mzTrackTouchEvent(Landroid/view/MotionEvent;)V
+    .locals 0
+    .param p1, "event"    # Landroid/view/MotionEvent;
+
+    .prologue
+    invoke-direct {p0, p1}, Landroid/widget/AbsSeekBar;->trackTouchEvent(Landroid/view/MotionEvent;)V
+
+    return-void
+.end method
+
+.method protected setTouchMode(I)V
+    .locals 2
+    .param p1, "mode"    # I
+
+    .prologue
+    iput p1, p0, Landroid/widget/AbsSeekBar;->mTouchScrollMode:I
+
+    iget v0, p0, Landroid/widget/AbsSeekBar;->mTouchScrollMode:I
+
+    const/4 v1, 0x1
+
+    if-le v0, v1, :cond_0
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Landroid/widget/AbsSeekBar;->mTouchScrollMode:I
+
+    :cond_0
+    return-void
 .end method

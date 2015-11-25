@@ -19413,6 +19413,13 @@
     .locals 0
 
     .prologue
+    return-void
+.end method
+
+.method mzNotifyActivityDrawnForKeyguard()V
+    .locals 0
+
+    .prologue
     .line 3396
     return-void
 .end method

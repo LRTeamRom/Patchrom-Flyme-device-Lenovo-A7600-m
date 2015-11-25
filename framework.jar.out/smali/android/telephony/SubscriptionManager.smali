@@ -35,7 +35,7 @@
 
 .field public static final DEFAULT_INT_VALUE:I = -0x64
 
-.field public static final DEFAULT_NAME_RES:I = 0x104000e
+.field public static final DEFAULT_NAME_RES:I = #android:string@unknownName#t
 
 .field public static final DEFAULT_PHONE_ID:I = 0x7fffffff
 
@@ -2419,18 +2419,18 @@
     .line 738
     :array_0
     .array-data 4
-        0x1080605
-        0x1080607
-        0x1080606
-        0x1080608
+        #android:drawable@sim_dark_blue#t
+        #android:drawable@sim_dark_orange#t
+        #android:drawable@sim_dark_green#t
+        #android:drawable@sim_dark_purple#t
     .end array-data
 
     .line 746
     :array_1
     .array-data 4
-        0x1080609
-        0x108060b
-        0x108060a
-        0x108060c
+        #android:drawable@sim_light_blue#t
+        #android:drawable@sim_light_orange#t
+        #android:drawable@sim_light_green#t
+        #android:drawable@sim_light_purple#t
     .end array-data
 .end method

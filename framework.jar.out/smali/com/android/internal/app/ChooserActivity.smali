@@ -184,25 +184,20 @@
 
     iput-object v0, p0, Lcom/android/internal/app/ChooserActivity;->mReplacementExtras:Landroid/os/Bundle;
 
-    .line 42
     const-string v0, "android.intent.extra.TITLE"
 
     invoke-virtual {v10, v0}, Landroid/content/Intent;->getCharSequenceExtra(Ljava/lang/String;)Ljava/lang/CharSequence;
 
     move-result-object v3
 
-    .line 43
     .local v3, "title":Ljava/lang/CharSequence;
     const/4 v4, 0x0
 
-    .line 44
     .local v4, "defaultTitleRes":I
     if-nez v3, :cond_2
 
-    .line 45
-    const v4, 0x104046e
+    const v4, #android:string@chooseActivity#t
 
-    .line 47
     :cond_2
     const-string v0, "android.intent.extra.INITIAL_INTENTS"
 

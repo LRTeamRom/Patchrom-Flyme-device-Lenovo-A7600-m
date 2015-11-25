@@ -240,7 +240,7 @@
     .line 133
     new-array v0, v3, [I
 
-    const v1, 0x101023c
+    const v1, #android:attr@state_long_pressable#t
 
     aput v1, v0, v2
 
@@ -267,12 +267,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 279
-    const v0, 0x101054e
+    const v0, #android:attr@keyboardViewStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/inputmethodservice/KeyboardView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 280
     return-void
 .end method
 
@@ -891,7 +889,7 @@
 
     move-result-object v11
 
-    const v12, 0x1120037
+    const v12, #android:bool@config_swipeDisambiguation#t
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3666,7 +3664,7 @@
     :sswitch_0
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x104057b
+    const v4, #android:string@keyboardview_keycode_alt#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3679,7 +3677,7 @@
     :sswitch_1
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x104057c
+    const v4, #android:string@keyboardview_keycode_cancel#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3692,7 +3690,7 @@
     :sswitch_2
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x104057d
+    const v4, #android:string@keyboardview_keycode_delete#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3705,7 +3703,7 @@
     :sswitch_3
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x104057e
+    const v4, #android:string@keyboardview_keycode_done#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3718,7 +3716,7 @@
     :sswitch_4
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x104057f
+    const v4, #android:string@keyboardview_keycode_mode_change#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3731,7 +3729,7 @@
     :sswitch_5
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x1040580
+    const v4, #android:string@keyboardview_keycode_shift#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3744,7 +3742,7 @@
     :sswitch_6
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x1040581
+    const v4, #android:string@keyboardview_keycode_enter#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3771,7 +3769,7 @@
     :cond_4
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x1040588
+    const v4, #android:string@keyboard_headset_required_to_hear_password#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3783,7 +3781,7 @@
     :cond_5
     iget-object v3, p0, Landroid/inputmethodservice/KeyboardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x1040589
+    const v4, #android:string@keyboard_password_character_no_headset#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4905,7 +4903,7 @@
     .param p1, "popupKey"    # Landroid/inputmethodservice/Keyboard$Key;
 
     .prologue
-    const v4, 0x1020026
+    const v4, #android:id@keyboardView#t
 
     const/high16 v13, -0x80000000
 
@@ -4975,7 +4973,7 @@
     .line 1098
     iget-object v1, p0, Landroid/inputmethodservice/KeyboardView;->mMiniKeyboardContainer:Landroid/view/View;
 
-    const v3, 0x1020027
+    const v3, #android:id@closeButton#t
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

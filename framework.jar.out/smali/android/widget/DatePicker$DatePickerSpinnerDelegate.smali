@@ -191,7 +191,7 @@
     .local v9, "maxDate":Ljava/lang/String;
     const/16 v14, 0x13
 
-    const v15, 0x1090042
+    const v15, #android:layout@date_picker_legacy#t
 
     invoke-virtual {v4, v14, v15}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -235,7 +235,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDelegator:Landroid/widget/DatePicker;
 
-    const v15, 0x10202e4
+    const v15, #android:id@pickers#t
 
     invoke-virtual {v14, v15}, Landroid/widget/DatePicker;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDelegator:Landroid/widget/DatePicker;
 
-    const v15, 0x10202e8
+    const v15, #android:id@calendar_view#t
 
     invoke-virtual {v14, v15}, Landroid/widget/DatePicker;->findViewById(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDelegator:Landroid/widget/DatePicker;
 
-    const v15, 0x10202e6
+    const v15, #android:id@day#t
 
     invoke-virtual {v14, v15}, Landroid/widget/DatePicker;->findViewById(I)Landroid/view/View;
 
@@ -328,7 +328,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDaySpinner:Landroid/widget/NumberPicker;
 
-    const v15, 0x1020349
+    const v15, #android:id@numberpicker_input#t
 
     invoke-virtual {v14, v15}, Landroid/widget/NumberPicker;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDelegator:Landroid/widget/DatePicker;
 
-    const v15, 0x10202e5
+    const v15, #android:id@month#t
 
     invoke-virtual {v14, v15}, Landroid/widget/DatePicker;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mMonthSpinner:Landroid/widget/NumberPicker;
 
-    const v15, 0x1020349
+    const v15, #android:id@numberpicker_input#t
 
     invoke-virtual {v14, v15}, Landroid/widget/NumberPicker;->findViewById(I)Landroid/view/View;
 
@@ -430,7 +430,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDelegator:Landroid/widget/DatePicker;
 
-    const v15, 0x10202e7
+    const v15, #android:id@year#t
 
     invoke-virtual {v14, v15}, Landroid/widget/DatePicker;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +465,7 @@
 
     iget-object v14, v0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mYearSpinner:Landroid/widget/NumberPicker;
 
-    const v15, 0x1020349
+    const v15, #android:id@numberpicker_input#t
 
     invoke-virtual {v14, v15}, Landroid/widget/NumberPicker;->findViewById(I)Landroid/view/View;
 
@@ -1226,53 +1226,46 @@
     .locals 4
 
     .prologue
-    const v3, 0x102034a
+    const v3, #android:id@decrement#t
 
-    const v2, 0x1020348
+    const v2, #android:id@increment#t
 
-    .line 1097
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDaySpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x1040577
+    const v1, #android:string@date_picker_increment_day_button#t
 
     invoke-direct {p0, v0, v2, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1099
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mDaySpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x1040578
+    const v1, #android:string@date_picker_decrement_day_button#t
 
     invoke-direct {p0, v0, v3, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1102
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mMonthSpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x1040575
+    const v1, #android:string@date_picker_increment_month_button#t
 
     invoke-direct {p0, v0, v2, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1104
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mMonthSpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x1040576
+    const v1, #android:string@date_picker_decrement_month_button#t
 
     invoke-direct {p0, v0, v3, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1107
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mYearSpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x1040579
+    const v1, #android:string@date_picker_increment_year_button#t
 
     invoke-direct {p0, v0, v2, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1109
     iget-object v0, p0, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->mYearSpinner:Landroid/widget/NumberPicker;
 
-    const v1, 0x104057a
+    const v1, #android:string@date_picker_decrement_year_button#t
 
     invoke-direct {p0, v0, v3, v1}, Landroid/widget/DatePicker$DatePickerSpinnerDelegate;->trySetContentDescription(Landroid/view/View;II)V
 
-    .line 1111
     return-void
 .end method
 
@@ -1359,7 +1352,7 @@
     .line 1091
     .local v0, "imeOptions":I
     :goto_0
-    const v2, 0x1020349
+    const v2, #android:id@numberpicker_input#t
 
     invoke-virtual {p1, v2}, Landroid/widget/NumberPicker;->findViewById(I)Landroid/view/View;
 

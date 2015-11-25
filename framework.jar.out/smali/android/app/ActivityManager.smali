@@ -650,7 +650,7 @@
 
     .line 2438
     .local v1, "res":Landroid/content/res/Resources;
-    const/high16 v4, 0x1050000
+    const/high16 v4, #android:dimen@app_icon_size#i
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -927,7 +927,7 @@
 
     move-result-object v0
 
-    const v1, 0x1120015
+    const v1, #android:bool@config_avoidGfxAccel#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 

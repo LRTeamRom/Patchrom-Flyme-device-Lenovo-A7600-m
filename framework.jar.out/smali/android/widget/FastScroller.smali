@@ -5588,7 +5588,7 @@
 
     sget-object v6, Lcom/android/internal/R$styleable;->FastScroll:[I
 
-    const v7, 0x10103f7
+    const v7, #android:attr@fastScrollStyle#t
 
     invoke-virtual {v1, v5, v6, v7, p1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

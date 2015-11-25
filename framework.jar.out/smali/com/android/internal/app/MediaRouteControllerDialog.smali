@@ -323,7 +323,7 @@
 
     move-result-object v0
 
-    const v1, 0x10803b2
+    const v1, #android:drawable@ic_media_route_connecting_holo_light#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x10803c7
+    const v1, #android:drawable@ic_media_route_on_holo_light#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -384,7 +384,7 @@
 
     move-result-object v0
 
-    const v1, 0x10803b1
+    const v1, #android:drawable@ic_media_route_connecting_holo_dark#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -409,7 +409,7 @@
 
     move-result-object v0
 
-    const v1, 0x10803c6
+    const v1, #android:drawable@ic_media_route_on_holo_dark#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -690,13 +690,11 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->requestFeature(I)Z
 
-    .line 173
-    const v1, 0x109006e
+    const v1, #android:layout@media_route_controller_dialog#t
 
     invoke-virtual {p0, v1}, Lcom/android/internal/app/MediaRouteControllerDialog;->setContentView(I)V
 
-    .line 175
-    const v1, 0x1020327
+    const v1, #android:id@media_route_volume_layout#t
 
     invoke-virtual {p0, v1}, Lcom/android/internal/app/MediaRouteControllerDialog;->findViewById(I)Landroid/view/View;
 
@@ -706,8 +704,7 @@
 
     iput-object v1, p0, Lcom/android/internal/app/MediaRouteControllerDialog;->mVolumeLayout:Landroid/widget/LinearLayout;
 
-    .line 176
-    const v1, 0x1020328
+    const v1, #android:id@media_route_volume_slider#t
 
     invoke-virtual {p0, v1}, Lcom/android/internal/app/MediaRouteControllerDialog;->findViewById(I)Landroid/view/View;
 
@@ -726,8 +723,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 213
-    const v1, 0x102032a
+    const v1, #android:id@media_route_disconnect_button#t
 
     invoke-virtual {p0, v1}, Lcom/android/internal/app/MediaRouteControllerDialog;->findViewById(I)Landroid/view/View;
 
@@ -746,27 +742,23 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 233
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Lcom/android/internal/app/MediaRouteControllerDialog;->mCreated:Z
 
-    .line 234
     invoke-direct {p0}, Lcom/android/internal/app/MediaRouteControllerDialog;->update()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 235
     invoke-virtual {p0, p1}, Lcom/android/internal/app/MediaRouteControllerDialog;->onCreateMediaControlView(Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/android/internal/app/MediaRouteControllerDialog;->mControlView:Landroid/view/View;
 
-    .line 236
-    const v1, 0x1020329
+    const v1, #android:id@media_route_control_frame#t
 
     invoke-virtual {p0, v1}, Lcom/android/internal/app/MediaRouteControllerDialog;->findViewById(I)Landroid/view/View;
 

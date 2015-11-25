@@ -46,12 +46,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 69
-    const v0, 0x1010091
+    const v0, #android:attr@dialogPreferenceStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/preference/ListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 70
     return-void
 .end method
 

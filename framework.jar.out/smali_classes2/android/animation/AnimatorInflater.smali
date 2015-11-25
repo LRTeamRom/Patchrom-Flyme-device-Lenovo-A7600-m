@@ -508,18 +508,15 @@
     :goto_1
     if-ge v3, v2, :cond_3
 
-    .line 173
     invoke-interface {p2, v3}, Landroid/util/AttributeSet;->getAttributeNameResource(I)I
 
     move-result v1
 
-    .line 174
     .local v1, "attrName":I
-    const v9, 0x10101cd
+    const v9, #android:attr@animation#t
 
     if-ne v1, v9, :cond_1
 
-    .line 175
     invoke-interface {p2, v3, v12}, Landroid/util/AttributeSet;->getAttributeResourceValue(II)I
 
     move-result v9

@@ -106,100 +106,83 @@
     .param p0, "type"    # I
 
     .prologue
-    .line 7026
     packed-switch p0, :pswitch_data_0
 
-    .line 7043
-    const v0, 0x104034e
+    const v0, #android:string@orgTypeCustom#t
 
     :goto_0
     return v0
 
-    .line 7027
     :pswitch_0
-    const v0, 0x1040350
+    const v0, #android:string@relationTypeAssistant#t
 
     goto :goto_0
 
-    .line 7028
     :pswitch_1
-    const v0, 0x1040351
+    const v0, #android:string@relationTypeBrother#t
 
     goto :goto_0
 
-    .line 7029
     :pswitch_2
-    const v0, 0x1040352
+    const v0, #android:string@relationTypeChild#t
 
     goto :goto_0
 
-    .line 7031
     :pswitch_3
-    const v0, 0x1040353
+    const v0, #android:string@relationTypeDomesticPartner#t
 
     goto :goto_0
 
-    .line 7032
     :pswitch_4
-    const v0, 0x1040354
+    const v0, #android:string@relationTypeFather#t
 
     goto :goto_0
 
-    .line 7033
     :pswitch_5
-    const v0, 0x1040355
+    const v0, #android:string@relationTypeFriend#t
 
     goto :goto_0
 
-    .line 7034
     :pswitch_6
-    const v0, 0x1040356
+    const v0, #android:string@relationTypeManager#t
 
     goto :goto_0
 
-    .line 7035
     :pswitch_7
-    const v0, 0x1040357
+    const v0, #android:string@relationTypeMother#t
 
     goto :goto_0
 
-    .line 7036
     :pswitch_8
-    const v0, 0x1040358
+    const v0, #android:string@relationTypeParent#t
 
     goto :goto_0
 
-    .line 7037
     :pswitch_9
-    const v0, 0x1040359
+    const v0, #android:string@relationTypePartner#t
 
     goto :goto_0
 
-    .line 7039
     :pswitch_a
-    const v0, 0x104035a
+    const v0, #android:string@relationTypeReferredBy#t
 
     goto :goto_0
 
-    .line 7040
     :pswitch_b
-    const v0, 0x104035b
+    const v0, #android:string@relationTypeRelative#t
 
     goto :goto_0
 
-    .line 7041
     :pswitch_c
-    const v0, 0x104035c
+    const v0, #android:string@relationTypeSister#t
 
     goto :goto_0
 
-    .line 7042
     :pswitch_d
-    const v0, 0x104035d
+    const v0, #android:string@relationTypeSpouse#t
 
     goto :goto_0
 
-    .line 7026
     nop
 
     :pswitch_data_0

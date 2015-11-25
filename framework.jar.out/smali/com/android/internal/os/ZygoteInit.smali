@@ -2166,7 +2166,7 @@
     .local v4, "startTime":J
     sget-object v6, Lcom/android/internal/os/ZygoteInit;->mResources:Landroid/content/res/Resources;
 
-    const v7, 0x1070006
+    const v7, #android:array@preloaded_drawables#t
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;
 
@@ -2282,7 +2282,7 @@
     .line 446
     sget-object v6, Lcom/android/internal/os/ZygoteInit;->mResources:Landroid/content/res/Resources;
 
-    const v7, 0x1070007
+    const v7, #android:array@preloaded_color_state_lists#t
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;
 

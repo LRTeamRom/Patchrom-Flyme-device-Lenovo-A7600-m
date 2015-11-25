@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e004d
+    const v1, #android:integer@config_screenBrightnessSettingDefault#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e004c
+    const v1, #android:integer@config_screenBrightnessSettingMaximum#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -318,7 +318,7 @@
 
     move-result-object v0
 
-    const v1, 0x10e004b
+    const v1, #android:integer@config_screenBrightnessSettingMinimum#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 

@@ -115,7 +115,7 @@
 
     move-result v3
 
-    const v4, 0x102037b
+    const v4, #android:id@split_action_bar#t
 
     if-ne v3, v4, :cond_0
 
@@ -140,7 +140,7 @@
 
     move-result-object v3
 
-    const v4, 0x1050010
+    const v4, #android:dimen@status_bar_height#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -533,11 +533,9 @@
     .locals 1
 
     .prologue
-    .line 95
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
-    .line 96
-    const v0, 0x1020379
+    const v0, #android:id@action_bar#t
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/ActionBarContainer;->findViewById(I)Landroid/view/View;
 
@@ -545,8 +543,7 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/ActionBarContainer;->mActionBarView:Landroid/view/View;
 
-    .line 97
-    const v0, 0x102037a
+    const v0, #android:id@action_context_bar#t
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/ActionBarContainer;->findViewById(I)Landroid/view/View;
 

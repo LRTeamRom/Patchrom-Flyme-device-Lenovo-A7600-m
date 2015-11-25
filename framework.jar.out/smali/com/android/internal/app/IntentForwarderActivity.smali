@@ -173,26 +173,20 @@
 
     if-eqz v18, :cond_0
 
-    .line 65
-    const v17, 0x1040531
+    const v17, #android:string@forward_intent_to_owner#t
 
-    .line 66
     .local v17, "userMessageId":I
     sget-object v16, Landroid/os/UserHandle;->OWNER:Landroid/os/UserHandle;
 
-    .line 75
     .local v16, "userDest":Landroid/os/UserHandle;
     :goto_0
     if-nez v16, :cond_2
 
-    .line 76
     invoke-virtual/range {p0 .. p0}, Lcom/android/internal/app/IntentForwarderActivity;->finish()V
 
-    .line 135
     :goto_1
     return-void
 
-    .line 67
     .end local v16    # "userDest":Landroid/os/UserHandle;
     .end local v17    # "userMessageId":I
     :cond_0
@@ -206,10 +200,8 @@
 
     if-eqz v18, :cond_1
 
-    .line 68
-    const v17, 0x1040532
+    const v17, #android:string@forward_intent_to_work#t
 
-    .line 69
     .restart local v17    # "userMessageId":I
     invoke-direct/range {p0 .. p0}, Lcom/android/internal/app/IntentForwarderActivity;->getManagedProfile()Landroid/os/UserHandle;
 

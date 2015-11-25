@@ -124,12 +124,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 175
-    const v0, 0x10104aa
+    const v0, #android:attr@toolbarStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/Toolbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 176
     return-void
 .end method
 

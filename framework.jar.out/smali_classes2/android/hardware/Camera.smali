@@ -282,42 +282,34 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 632
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 292
     iput-boolean v1, p0, Landroid/hardware/Camera;->mStereo3DModeForCamera:Z
 
-    .line 303
     iput-boolean v1, p0, Landroid/hardware/Camera;->mFaceDetectionRunning:Z
 
-    .line 305
     new-instance v1, Landroid/hardware/Camera$Face;
 
     invoke-direct {v1}, Landroid/hardware/Camera$Face;-><init>()V
 
     iput-object v1, p0, Landroid/hardware/Camera;->mObjectFace:Landroid/hardware/Camera$Face;
 
-    .line 306
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v1, p0, Landroid/hardware/Camera;->mObjectRect:Landroid/graphics/Rect;
 
-    .line 307
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Landroid/hardware/Camera;->mAutoFocusCallbackLock:Ljava/lang/Object;
 
-    .line 633
-    invoke-direct {p0, p1}, Landroid/hardware/Camera;->cameraInitNormal(I)I
+    invoke-direct {p0, p1}, Landroid/hardware/Camera;->hook_cameraInitNormal(I)I
 
     move-result v0
 
-    .line 634
     .local v0, "err":I
     invoke-static {v0}, Landroid/hardware/Camera;->checkInitErrors(I)Z
 
@@ -3514,4 +3506,30 @@
 .end method
 
 .method public final native unlock()V
+.end method
+
+.method private hook_cameraInitNormal(I)I
+    .locals 1
+    .param p1, "cameraId"    # I
+
+    .prologue
+    const/16 v0, 0x4c
+
+    invoke-static {v0}, Lmeizu/security/FlymePermissionManager;->isFlymePermissionGranted(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-direct {p0, p1}, Landroid/hardware/Camera;->cameraInitNormal(I)I
+
+    move-result v0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method

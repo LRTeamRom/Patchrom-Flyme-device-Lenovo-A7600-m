@@ -275,7 +275,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x10100a1
+    const v2, #android:attr@state_selected#t
 
     aput v2, v0, v1
 
@@ -352,12 +352,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 318
-    const v0, 0x101049d
+    const v0, #android:attr@timePickerStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/RadialTimePickerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 319
     return-void
 .end method
 
@@ -759,7 +757,7 @@
 
     move-result-object v13
 
-    const v14, 0x1010033
+    const v14, #android:attr@disabledAlpha#t
 
     const/4 v15, 0x1
 
@@ -815,22 +813,19 @@
 
     move-result-object v3
 
-    .line 336
     .local v3, "amPmBackgroundColor":Landroid/content/res/ColorStateList;
     if-nez v3, :cond_0
 
-    .line 337
-    const v13, 0x10600ec
+    const v13, #android:color@timepicker_default_ampm_unselected_background_color_material#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     move-result-object v3
 
-    .line 343
     :cond_0
     const/16 v13, 0xc
 
-    const v14, 0x10600eb
+    const v14, #android:color@timepicker_default_ampm_selected_background_color_material#t
 
     invoke-virtual {v12, v14}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -842,7 +837,7 @@
 
     .line 345
     .local v4, "amPmSelectedColor":I
-    const v13, 0x10100a1
+    const v13, #android:attr@state_selected#t
 
     invoke-static {v3, v13, v4}, Landroid/content/res/ColorStateList;->addFirstIfMissing(Landroid/content/res/ColorStateList;II)Landroid/content/res/ColorStateList;
 
@@ -871,7 +866,7 @@
     .line 352
     const/4 v13, 0x6
 
-    const v14, 0x10600ea
+    const v14, #android:color@timepicker_default_text_color_material#t
 
     invoke-virtual {v12, v14}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -988,7 +983,7 @@
     :cond_3
     const/4 v13, 0x3
 
-    const v14, 0x10600ea
+    const v14, #android:color@timepicker_default_text_color_material#t
 
     invoke-virtual {v12, v14}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1167,7 +1162,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1224,7 +1219,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1298,7 +1293,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1355,7 +1350,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1412,7 +1407,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1486,7 +1481,7 @@
 
     const/4 v15, 0x5
 
-    const v16, 0x10600ed
+    const v16, #android:color@timepicker_default_selector_color_material#t
 
     move/from16 v0, v16
 
@@ -1595,7 +1590,7 @@
 
     const/4 v14, 0x4
 
-    const v15, 0x10600ee
+    const v15, #android:color@timepicker_default_numbers_background_color_material#t
 
     invoke-virtual {v12, v15}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1616,42 +1611,35 @@
 
     invoke-virtual {v13, v14}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 444
     const/4 v13, 0x1
 
     move-object/from16 v0, p0
 
     iput-boolean v13, v0, Landroid/widget/RadialTimePickerView;->mShowHours:Z
 
-    .line 445
     const/4 v13, 0x0
 
     move-object/from16 v0, p0
 
     iput-boolean v13, v0, Landroid/widget/RadialTimePickerView;->mIs24HourMode:Z
 
-    .line 446
     const/4 v13, 0x0
 
     move-object/from16 v0, p0
 
     iput v13, v0, Landroid/widget/RadialTimePickerView;->mAmOrPm:I
 
-    .line 447
     const/4 v13, -0x1
 
     move-object/from16 v0, p0
 
     iput v13, v0, Landroid/widget/RadialTimePickerView;->mAmOrPmPressed:I
 
-    .line 449
     invoke-direct/range {p0 .. p0}, Landroid/widget/RadialTimePickerView;->initHoursAndMinutesText()V
 
-    .line 450
     invoke-direct/range {p0 .. p0}, Landroid/widget/RadialTimePickerView;->initData()V
 
-    .line 452
-    const v13, 0x1040051
+    const v13, #android:string@timepicker_transition_mid_radius_multiplier#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1665,8 +1653,7 @@
 
     iput v13, v0, Landroid/widget/RadialTimePickerView;->mTransitionMidRadiusMultiplier:F
 
-    .line 454
-    const v13, 0x1040052
+    const v13, #android:string@timepicker_transition_end_radius_multiplier#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1706,8 +1693,7 @@
 
     aput-object v15, v13, v14
 
-    .line 460
-    const v13, 0x1040049
+    const v13, #android:string@timepicker_selection_radius_multiplier#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4617,7 +4603,7 @@
     .line 645
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mCircleRadiusMultiplier:[F
 
-    const v5, 0x1040048
+    const v5, #android:string@timepicker_circle_radius_multiplier_24HourMode#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4632,7 +4618,7 @@
     .line 647
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mNumbersRadiusMultiplier:[F
 
-    const v5, 0x104004d
+    const v5, #android:string@timepicker_numbers_radius_multiplier_outer#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4647,7 +4633,7 @@
     .line 649
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mTextSizeMultiplier:[F
 
-    const v5, 0x1040050
+    const v5, #android:string@timepicker_text_size_multiplier_outer#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4662,7 +4648,7 @@
     .line 652
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mNumbersRadiusMultiplier:[F
 
-    const v5, 0x104004c
+    const v5, #android:string@timepicker_numbers_radius_multiplier_inner#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4677,7 +4663,7 @@
     .line 654
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mTextSizeMultiplier:[F
 
-    const v5, 0x104004f
+    const v5, #android:string@timepicker_text_size_multiplier_inner#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4697,22 +4683,19 @@
 
     aput v5, v1, v3
 
-    .line 674
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mAnimationRadiusMultiplier:[F
 
     const/high16 v5, 0x3f800000    # 1.0f
 
     aput v5, v1, v7
 
-    .line 675
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mAnimationRadiusMultiplier:[F
 
     const/high16 v5, 0x3f800000    # 1.0f
 
     aput v5, v1, v6
 
-    .line 677
-    const v1, 0x104004a
+    const v1, #android:string@timepicker_ampm_circle_radius_multiplier#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4868,7 +4851,7 @@
     :cond_2
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mCircleRadiusMultiplier:[F
 
-    const v5, 0x1040047
+    const v5, #android:string@timepicker_circle_radius_multiplier#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4883,7 +4866,7 @@
     .line 659
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mNumbersRadiusMultiplier:[F
 
-    const v5, 0x104004b
+    const v5, #android:string@timepicker_numbers_radius_multiplier_normal#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4898,7 +4881,7 @@
     .line 661
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mTextSizeMultiplier:[F
 
-    const v5, 0x104004e
+    const v5, #android:string@timepicker_text_size_multiplier_normal#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4916,7 +4899,7 @@
     :cond_3
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mCircleRadiusMultiplier:[F
 
-    const v5, 0x1040047
+    const v5, #android:string@timepicker_circle_radius_multiplier#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4931,7 +4914,7 @@
     .line 667
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mNumbersRadiusMultiplier:[F
 
-    const v5, 0x104004b
+    const v5, #android:string@timepicker_numbers_radius_multiplier_normal#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4946,7 +4929,7 @@
     .line 669
     iget-object v1, p0, Landroid/widget/RadialTimePickerView;->mTextSizeMultiplier:[F
 
-    const v5, 0x104004e
+    const v5, #android:string@timepicker_text_size_multiplier_normal#t
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -506,7 +506,7 @@
 
     move-result-object v3
 
-    const v4, 0x10e0059
+    const v4, #android:integer@config_volte_replacement_rat#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -3924,18 +3924,12 @@
 .end method
 
 .method public registerForVoiceCallIncomingIndication(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 1
+    .locals 0
     .param p1, "h"    # Landroid/os/Handler;
     .param p2, "what"    # I
     .param p3, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 1476
-    iget-object v0, p0, Lcom/android/internal/telephony/PhoneProxy;->mActivePhone:Lcom/android/internal/telephony/Phone;
-
-    invoke-interface {v0, p1, p2, p3}, Lcom/android/internal/telephony/Phone;->registerForVoiceCallIncomingIndication(Landroid/os/Handler;ILjava/lang/Object;)V
-
-    .line 1477
     return-void
 .end method
 
@@ -5379,16 +5373,10 @@
 .end method
 
 .method public unregisterForVoiceCallIncomingIndication(Landroid/os/Handler;)V
-    .locals 1
+    .locals 0
     .param p1, "h"    # Landroid/os/Handler;
 
     .prologue
-    .line 1480
-    iget-object v0, p0, Lcom/android/internal/telephony/PhoneProxy;->mActivePhone:Lcom/android/internal/telephony/Phone;
-
-    invoke-interface {v0, p1}, Lcom/android/internal/telephony/Phone;->unregisterForVoiceCallIncomingIndication(Landroid/os/Handler;)V
-
-    .line 1481
     return-void
 .end method
 

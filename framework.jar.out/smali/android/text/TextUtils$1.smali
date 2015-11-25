@@ -45,62 +45,51 @@
     .param p1, "p"    # Landroid/os/Parcel;
 
     .prologue
-    .line 686
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 688
     .local v0, "kind":I
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 689
     .local v2, "string":Ljava/lang/String;
     if-nez v2, :cond_1
 
-    .line 690
     const/4 v2, 0x0
 
-    .line 807
     .end local v2    # "string":Ljava/lang/String;
     :cond_0
     :goto_0
     return-object v2
 
-    .line 693
     .restart local v2    # "string":Ljava/lang/String;
     :cond_1
     const/4 v3, 0x1
 
     if-eq v0, v3, :cond_0
 
-    .line 697
     new-instance v1, Landroid/text/SpannableString;
 
     invoke-direct {v1, v2}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    .line 700
     .local v1, "sp":Landroid/text/SpannableString;
     :goto_1
+    :goto_flyme_0
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 702
     if-nez v0, :cond_2
 
     move-object v2, v1
 
-    .line 807
     goto :goto_0
 
-    .line 705
     :cond_2
     packed-switch v0, :pswitch_data_0
 
-    .line 803
     new-instance v3, Ljava/lang/RuntimeException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -389,6 +378,11 @@
 
     goto/16 :goto_1
 
+    :pswitch_flyme_0
+    invoke-direct {p0, p1, v1}, Landroid/text/TextUtils$1;->mzReadSpan(Landroid/os/Parcel;Landroid/text/Spannable;)V
+
+    goto/16 :goto_flyme_0
+
     .line 705
     :pswitch_data_0
     .packed-switch 0x1
@@ -416,6 +410,7 @@
         :pswitch_15
         :pswitch_16
         :pswitch_17
+        :pswitch_flyme_0
     .end packed-switch
 .end method
 
@@ -454,4 +449,20 @@
     move-result-object v0
 
     return-object v0
+.end method
+
+.method private mzReadSpan(Landroid/os/Parcel;Landroid/text/Spannable;)V
+    .locals 1
+    .param p1, "p"    # Landroid/os/Parcel;
+    .param p2, "sp"    # Landroid/text/Spannable;
+
+    .prologue
+    new-instance v0, Landroid/text/style/ParcelableImageSpan;
+
+    invoke-direct {v0, p1}, Landroid/text/style/ParcelableImageSpan;-><init>(Landroid/os/Parcel;)V
+
+    .local v0, "o":Landroid/text/style/ParcelableImageSpan;
+    invoke-static {p1, p2, v0}, Landroid/text/TextUtils;->mzAccessMethodReadSpan(Landroid/os/Parcel;Landroid/text/Spannable;Ljava/lang/Object;)V
+
+    return-void
 .end method

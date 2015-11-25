@@ -214,7 +214,7 @@
 
     move-result-object v7
 
-    const v8, 0x1040656
+    const v8, #android:string@write_fail_reason_cannot_write#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -293,7 +293,7 @@
 
     move-result-object v1
 
-    const v2, 0x1040655
+    const v2, #android:string@write_fail_reason_cancelled#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

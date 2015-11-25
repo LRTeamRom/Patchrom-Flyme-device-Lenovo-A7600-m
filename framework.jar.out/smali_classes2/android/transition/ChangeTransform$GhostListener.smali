@@ -55,29 +55,24 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 444
     invoke-virtual {p1, p0}, Landroid/transition/Transition;->removeListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
 
-    .line 445
     iget-object v0, p0, Landroid/transition/ChangeTransform$GhostListener;->mView:Landroid/view/View;
 
     invoke-static {v0}, Landroid/view/GhostView;->removeGhost(Landroid/view/View;)V
 
-    .line 446
     iget-object v0, p0, Landroid/transition/ChangeTransform$GhostListener;->mView:Landroid/view/View;
 
-    const v1, 0x1020046
+    const v1, #android:id@transitionTransform#t
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTagInternal(ILjava/lang/Object;)V
 
-    .line 447
     iget-object v0, p0, Landroid/transition/ChangeTransform$GhostListener;->mView:Landroid/view/View;
 
-    const v1, 0x1020047
+    const v1, #android:id@parentMatrix#t
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTagInternal(ILjava/lang/Object;)V
 
-    .line 448
     return-void
 .end method
 

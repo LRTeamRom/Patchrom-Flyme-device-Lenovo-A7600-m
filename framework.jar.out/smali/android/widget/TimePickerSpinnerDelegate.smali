@@ -218,7 +218,7 @@
 
     .line 121
     .local v16, "res":Landroid/content/res/Resources;
-    const v17, 0x1040667
+    const v17, #android:string@hour_picker_description#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -230,8 +230,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mHourPickerDescription:Ljava/lang/String;
 
-    .line 122
-    const v17, 0x1040669
+    const v17, #android:string@select_hours#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -243,8 +242,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mSelectHours:Ljava/lang/String;
 
-    .line 123
-    const v17, 0x1040668
+    const v17, #android:string@minute_picker_description#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -256,8 +254,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mMinutePickerDescription:Ljava/lang/String;
 
-    .line 124
-    const v17, 0x104066a
+    const v17, #android:string@select_minutes#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -300,7 +297,7 @@
     .line 130
     const/16 v17, 0x9
 
-    const v18, 0x10900e0
+    const v18, #android:layout@time_picker_holo#t
 
     move/from16 v0, v17
 
@@ -332,8 +329,7 @@
 
     invoke-virtual {v0, v15}, Landroid/widget/TimePicker;->addView(Landroid/view/View;)V
 
-    .line 135
-    const v17, 0x10203b2
+    const v17, #android:id@hours#t
 
     move/from16 v0, v17
 
@@ -349,8 +345,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mHourView:Landroid/widget/TextView;
 
-    .line 136
-    const v17, 0x10203b3
+    const v17, #android:id@separator#t
 
     move/from16 v0, v17
 
@@ -366,8 +361,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mSeparatorView:Landroid/widget/TextView;
 
-    .line 137
-    const v17, 0x10203b4
+    const v17, #android:id@minutes#t
 
     move/from16 v0, v17
 
@@ -383,8 +377,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mMinuteView:Landroid/widget/TextView;
 
-    .line 138
-    const v17, 0x10203b5
+    const v17, #android:id@ampm_label#t
 
     move/from16 v0, v17
 
@@ -460,7 +453,7 @@
     :cond_0
     const/16 v17, 0xb
 
-    const v18, 0x10600ed
+    const v18, #android:color@timepicker_default_selector_color_material#t
 
     move-object/from16 v0, v16
 
@@ -496,7 +489,7 @@
 
     move-result-object v18
 
-    const v19, 0x10100a1
+    const v19, #android:attr@state_selected#t
 
     move-object/from16 v0, v18
 
@@ -525,7 +518,7 @@
 
     move-result-object v18
 
-    const v19, 0x10100a1
+    const v19, #android:attr@state_selected#t
 
     move-object/from16 v0, v18
 
@@ -569,7 +562,7 @@
 
     .line 163
     :cond_1
-    const v17, 0x10203b1
+    const v17, #android:id@time_header#t
 
     move/from16 v0, v17
 
@@ -600,11 +593,9 @@
 
     invoke-virtual/range {v17 .. v18}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 166
     invoke-virtual {v5}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 168
-    const v17, 0x10203b7
+    const v17, #android:id@radial_picker#t
 
     move/from16 v0, v17
 
@@ -632,8 +623,7 @@
 
     iput-boolean v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mAllowAutoAdvance:Z
 
-    .line 176
-    const v17, 0x1040672
+    const v17, #android:string@time_placeholder#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -645,8 +635,7 @@
 
     iput-object v0, v1, Landroid/widget/TimePickerSpinnerDelegate;->mDoublePlaceholderText:Ljava/lang/String;
 
-    .line 177
-    const v17, 0x1040670
+    const v17, #android:string@deleted_key#t
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1018,7 +1007,7 @@
     .local v3, "tempView":Landroid/widget/TextView;
     iget-object v5, p0, Landroid/widget/TimePickerSpinnerDelegate;->mContext:Landroid/content/Context;
 
-    const v6, 0x103041f
+    const v6, #android:style@TextAppearance.Material.TimePicker.TimeLabel#t
 
     invoke-virtual {v3, v5, v6}, Landroid/widget/TextView;->setTextAppearance(Landroid/content/Context;I)V
 
@@ -3881,7 +3870,7 @@
     .locals 9
 
     .prologue
-    const v8, 0x10203b3
+    const v8, #android:id@separator#t
 
     const/16 v7, 0xc
 

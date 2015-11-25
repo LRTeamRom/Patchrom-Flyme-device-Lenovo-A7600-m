@@ -84,34 +84,28 @@
     .param p0, "type"    # I
 
     .prologue
-    .line 7465
     packed-switch p0, :pswitch_data_0
 
-    .line 7469
-    const v0, 0x104035e
+    const v0, #android:string@sipAddressTypeCustom#t
 
     :goto_0
     return v0
 
-    .line 7466
     :pswitch_0
-    const v0, 0x104035f
+    const v0, #android:string@sipAddressTypeHome#t
 
     goto :goto_0
 
-    .line 7467
     :pswitch_1
-    const v0, 0x1040360
+    const v0, #android:string@sipAddressTypeWork#t
 
     goto :goto_0
 
-    .line 7468
     :pswitch_2
-    const v0, 0x1040361
+    const v0, #android:string@sipAddressTypeOther#t
 
     goto :goto_0
 
-    .line 7465
     nop
 
     :pswitch_data_0

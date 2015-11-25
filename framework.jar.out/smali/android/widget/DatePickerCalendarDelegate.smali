@@ -365,7 +365,7 @@
     .local v16, "inflater":Landroid/view/LayoutInflater;
     const/16 v24, 0x11
 
-    const v25, 0x1090041
+    const v25, #android:layout@date_picker_holo#t
 
     move/from16 v0, v24
 
@@ -403,8 +403,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/DatePicker;->addView(Landroid/view/View;)V
 
-    .line 130
-    const v24, 0x10202ea
+    const v24, #android:id@date_picker_header#t
 
     move-object/from16 v0, v19
 
@@ -422,8 +421,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mDayOfWeekView:Landroid/widget/TextView;
 
-    .line 133
-    const v24, 0x10202e9
+    const v24, #android:id@day_picker_selector_layout#t
 
     move-object/from16 v0, v19
 
@@ -437,7 +435,7 @@
 
     .line 135
     .local v11, "dateLayout":Landroid/widget/LinearLayout;
-    const v24, 0x10202eb
+    const v24, #android:id@date_picker_month_day_year_layout#t
 
     move-object/from16 v0, v19
 
@@ -455,8 +453,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mMonthDayYearLayout:Landroid/widget/LinearLayout;
 
-    .line 137
-    const v24, 0x10202ec
+    const v24, #android:id@date_picker_month_and_day_layout#t
 
     move-object/from16 v0, v19
 
@@ -487,8 +484,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 140
-    const v24, 0x10202ed
+    const v24, #android:id@date_picker_month#t
 
     move-object/from16 v0, v19
 
@@ -506,8 +502,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mHeaderMonthTextView:Landroid/widget/TextView;
 
-    .line 141
-    const v24, 0x10202ee
+    const v24, #android:id@date_picker_day#t
 
     move-object/from16 v0, v19
 
@@ -525,8 +520,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mHeaderDayOfMonthTextView:Landroid/widget/TextView;
 
-    .line 142
-    const v24, 0x10202ef
+    const v24, #android:id@date_picker_year#t
 
     move-object/from16 v0, v19
 
@@ -700,7 +694,7 @@
 
     move-result-object v25
 
-    const v26, 0x10100a1
+    const v26, #android:attr@state_selected#t
 
     move-object/from16 v0, v25
 
@@ -764,7 +758,7 @@
 
     move-result-object v25
 
-    const v26, 0x10100a1
+    const v26, #android:attr@state_selected#t
 
     move-object/from16 v0, v25
 
@@ -832,7 +826,7 @@
 
     move-result-object v25
 
-    const v26, 0x10100a1
+    const v26, #android:attr@state_selected#t
 
     move-object/from16 v0, v25
 
@@ -947,7 +941,7 @@
 
     move-object/from16 v24, v0
 
-    const v25, 0x10100a1
+    const v25, #android:attr@state_selected#t
 
     move/from16 v0, v25
 
@@ -957,8 +951,7 @@
 
     invoke-virtual/range {v24 .. v25}, Landroid/widget/DayPickerView;->setCalendarTextColor(Landroid/content/res/ColorStateList;)V
 
-    .line 203
-    const v24, 0x104066b
+    const v24, #android:string@day_picker_description#t
 
     move-object/from16 v0, v21
 
@@ -974,8 +967,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mDayPickerDescription:Ljava/lang/String;
 
-    .line 204
-    const v24, 0x104066d
+    const v24, #android:string@select_day#t
 
     move-object/from16 v0, v21
 
@@ -991,8 +983,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mSelectDay:Ljava/lang/String;
 
-    .line 205
-    const v24, 0x104066c
+    const v24, #android:string@year_picker_description#t
 
     move-object/from16 v0, v21
 
@@ -1008,8 +999,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mYearPickerDescription:Ljava/lang/String;
 
-    .line 206
-    const v24, 0x104066e
+    const v24, #android:string@select_year#t
 
     move-object/from16 v0, v21
 
@@ -1025,8 +1015,7 @@
 
     iput-object v0, v1, Landroid/widget/DatePickerCalendarDelegate;->mSelectYear:Ljava/lang/String;
 
-    .line 208
-    const v24, 0x10202f0
+    const v24, #android:id@animator#t
 
     move-object/from16 v0, v19
 
@@ -2252,7 +2241,7 @@
 
     move-result v0
 
-    const v1, 0x10202ef
+    const v1, #android:id@date_picker_year#t
 
     if-ne v0, v1, :cond_1
 
@@ -2272,7 +2261,7 @@
 
     move-result v0
 
-    const v1, 0x10202ec
+    const v1, #android:id@date_picker_month_and_day_layout#t
 
     if-ne v0, v1, :cond_0
 
