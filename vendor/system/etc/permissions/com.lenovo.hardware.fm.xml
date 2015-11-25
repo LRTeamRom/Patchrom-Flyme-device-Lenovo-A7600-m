@@ -1,0 +1,5 @@
+<!-- This is the featre set for FM radio -->
+
+<permissions>
+    <feature name="com.lenovo.hardware.fm" />
+</permissions>

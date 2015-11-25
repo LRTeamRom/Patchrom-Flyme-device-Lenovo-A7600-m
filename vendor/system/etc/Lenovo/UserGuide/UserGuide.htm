@@ -1,0 +1,816 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<title>用户指南</title>
+<link  rel="stylesheet" type="text/css" href=".res/style.css"/>
+<script type="text/javascript">
+   function change(e,id)
+   { 
+		var child_sec = document.getElementById(id);
+		if(null != e){
+			if("open" == e.className){e.className = "close";}
+			else if("close" == e.className){e.className = "open";}
+		}
+
+		if (null != child_sec){
+			if("expanded" == child_sec.className){
+				child_sec.className = "collapsed";
+			}
+			else if("collapsed" == child_sec.className){
+				child_sec.className = "expanded";
+			}
+		}
+   }
+
+   function expand(i)
+   { 
+      var id = 'ch'+i;
+      var header = 'header'+i;
+      var child_sec = document.getElementById(id);
+      var headerTag = document.getElementById(header);
+      //alert(child_sec.id);alert(headerTag.id);
+
+      if(null != child_sec && "collapsed" == child_sec.className){
+       child_sec.className = "expanded";
+      }
+      if(null != headerTag && "open" == headerTag.className){
+        headerTag.className = "close";
+      }  
+        
+    }
+
+
+    function expandAll(flag)
+   { 
+      if(null != flag){
+          for (var i = 1; i <= 20; i++) {
+                var id = 'ch'+i;
+                var header = 'header'+i;
+                var child_sec = document.getElementById(id);
+                var headerTag = document.getElementById(header);
+                if(null == child_sec || null == headerTag){
+                  continue;
+                }
+                if("expandall" == flag){
+                  if("collapsed" == child_sec.className){
+                   child_sec.className = "expanded";
+                  }
+                  if("open" == headerTag.className){
+                    headerTag.className = "close";
+                  }
+                  
+                }else if("collapseall" == flag){
+                  if("expanded" == child_sec.className){
+                  child_sec.className = "collapsed";
+                  }
+                  if("close" == headerTag.className){
+                    headerTag.className = "open";
+                  }
+                }
+          }
+      }
+    
+   }
+  </script> 
+</head>
+
+<body>
+<div id="header" class="cn">
+  <table>
+    <tr>
+      <td><img src=".res/sanyuan.png"  alt="标题" width="40"/></td>
+      <td><span class="STYLE1 STYLE6">用户指南</span></td>
+    </tr>
+  </table>
+   <table>
+    <tr>
+      <td width="80"><a href="#" onclick="expandAll('expandall')">展开全部</a></td>
+      <td width="80"><a href="#" onclick="expandAll('collapseall')">收起全部</a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="text cn text1"><em><strong>提示：若您的浏览器不能正常显示本指南，请使用绿茶浏览器打开。若您已选择始终使用某一款应用程序打开本指南，请先清除该程序的默认设置（设置 > 应用管理 > 全部 > 应用信息 > 清除默认设置)，然后再次打开本指南。</strong></em></div>
+
+<h1 id="header1" onclick="change(this,'ch1');" class="open" ><span class="h_title">基础信息</span></h1>
+<div id="ch1" class="collapsed">
+<div class="text cn text1">在使用本信息及其支持的产品之前，请务必阅读以下信息：
+<div class="list">
+    <ul>
+      <li><em>快速入门指南</em></li>
+      <li><a href="#header10" onclick="expand('10');" target="_self" title="附录">附录</a></li>
+    </ul>
+  </div>
+  <p>若要获取电子版的快速入门指南，请访问<a href="http://www.lenovocare.com.cn" title="www.lenovocare.com.cn">http://www.lenovocare.com.cn</a>。</p> 
+  </div>
+  <h2 class="pink">主屏幕</h2>
+  <div class="text cn text1">
+    <p>主屏幕是使用手机的起始点。为了您的方便，主屏幕上已设置了一些实用的应用程序和小工具。 </p>
+    <div align="center"><img src=".res/Home_screen.png" alt="主屏幕" width="200" /></div>
+    <p><em><strong>注意：根据您的位置、语言、运营商以及机型，手机的功能和主屏幕会有所不同。</strong></em></p>
+  </div>
+  <h3 class='pink1'>管理主屏幕</h3>
+  <div class="text cn text1">
+    <p>使用屏幕管理可以添加、移动或删除主屏幕。</p>
+    <div class="list">
+      <ol>
+        <li>点按菜单键，然后点按<b>屏幕管理</b>。 </li>
+        <p>或者在任意主屏幕上，将手指一起捏合即可进入屏幕管理。</p>
+        <em><strong>提示：屏幕管理显示主屏幕缩略图。默认主屏幕在其缩略图底部显示  <img src=".res/Default_screen.png" width="20" height="18" alt="默认主屏幕" /> ，而其他主屏幕在其缩略图底部显示 <img src=".res/non_default_screen.png" width="20" height="18" alt="非默认主屏幕" /> 。</strong></em>
+        <li>进行以下任意操作： </li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>若要添加主屏幕，点按 <img src=".res/Add_screen.png" width="19" height="18" alt="添加屏幕" /> 。</li>
+        <li>若要移动主屏幕，按住屏幕缩略图，直至屏幕略有放大，将屏幕拖到新的位置，然后放开屏幕。
+        <li>若要删除空白主屏幕，点按屏幕左上角的 <img src=".res/del_screen.png" width="18" height="18" alt="删除屏幕" /> 。
+        <li>若要将一主屏幕设置为默认主屏幕，点按屏幕缩略图中的 <img src=".res/non_default_screen.png" width="20" height="18" alt="非默认主屏幕" /> 。 
+      </ul>
+    </div>
+  </div>
+  <h3 class='pink1'>使用编辑模式</h3>
+  <div class="text cn text1">
+    <p>在编辑模式中，可以添加小工具、移动小工具或应用程序、创建应用程序文件夹，以及卸载应用程序。 </p>
+    <div class="list">
+      <ol>
+        <li>点按菜单键，然后点按<b>编辑。</b></li>
+        <p>或按住主屏幕上的任何区域，即可快速进入编辑模式。</p>
+        <li>进行以下任意操作： </li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>若要在主屏幕上添加小工具，可将底部小工具列表向左或向右滑动，按住小工具，直至小工具弹出，将小工具拖到要放置的位置，然后放开。 </li>
+        <li>若要移动小工具或应用程序，可按住小工具或应用程序，直至其图标略有放大，将其拖到要放置的地方，然后放开。</li>
+        <li>若要创建应用程序文件夹，可按住应用程序，直至其图标略有放大，然后将其拖到其他应用程序上。</li>
+        <li>若要卸载应用程序，可按住应用程序，将其拖动到屏幕顶部边缘处的 <img src=".res/delete_apk.png" width="18" height="18" alt="删除应用程序" /> 。</li>
+        <p> <em><strong>注意：大多数预装应用程序无法卸载，因此屏幕顶部边缘处显示 <img src=".res/non_del_apk.png" width="18" height="18" alt="删除应用程序" /> 。</strong></em></p>
+      </ul>
+    </div>
+  </div>
+  <h3 class="pink1">更换壁纸</h3>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>点按菜单键，然后点按<b>壁纸。</b> </li>
+        <li>进行以下任意操作： </li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>若要将照片设置为壁纸，点按<b>进入相册</b>，选择并裁剪照片，然后点按<b>应用</b>并选择相应的选项。</li>
+        <li>若要使用壁纸，点按壁纸缩略图，然后点按<b>应用</b>并选择相应的选项。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="yellow">按键功能</h2>
+  <div class="text cn text1">本手机的触摸屏下方有三个按键。
+    <div class="list">
+      <ul>
+        <li><strong>菜单键</strong>：点按 <img src=".res/Menu_key.png" width="17" height="18" alt="菜单键" /> 即可显示菜单选项。</li>
+        <li><strong>主屏幕键：</strong>点按 <img src=".res/Home_key.png" width="18" height="18" alt="主屏幕键" /> 可返回到默认主屏幕。按住主屏幕键，即可看见正在运行的应用程序。然后执行以下操作：
+          <div class="list">
+            <ul margin-left:30px>
+              <li> 点按应用程序可将其打开。</li>
+              <li>按住应用程序即可查看其信息。</li>
+            </ul>
+          </div>
+        <li><strong>返回键：</strong>点按 <img src=".res/Back_key.png" width="17" height="18" alt="返回键" /> ，即可返回上一页面或退出当前应用程序。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="blue">屏幕锁定</h2>
+  <div class="text cn text1">
+    <p>当手机处于开启状态时，按电源键即可手动锁定屏幕。再按电源键，即可显示锁定的屏幕，从屏幕的底部向上滑动，即可解除锁定。</p>
+    <em><strong>注意：系统默认滑动解锁。若要修改解锁方式，请参阅<a href="#header9" title="设置" target="_self" onclick="expand('9');">设置</a>。</strong></em> </div>
+  <h2 class="pink">通知面板</h2>
+  <div class="text cn text1">
+    <p>通知面板将会通知您错过的电话、新短信，以及文件下载等正在进行的动作。通知面板还能让您快速访问 WLAN 开关等快捷开关。</p>
+    <div align="center"><img src=".res/Notification_panel.png" width="200" alt="通知面板" /></div>
+    <p>可以进行以下任意操作：</p>
+    <div class="list">
+      <ul>
+        <li>若要打开通知面板，从屏幕的顶部向下滑动。</li>
+        <li>若要关闭通知面板，从屏幕的底部向上滑动，或按返回键。 </li>
+        <li>若要打开 WLAN 连接等某项功能，点按快捷开关。再次点按即可关闭此功能。</li>
+        <li>若要查看通知的详细内容，点按即可。</li>
+        <li>若要删除所有通知，点按 <img src=".res/del_notification.png" width="18" height="18" alt="删除通知" /> 。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="yellow">USB 连接</h2>
+  <div class="text cn text1">
+    <p>当使用 USB 连接线将手机连接到计算机时，通知面板会提示“触摸可显示其他USB选项”。您可以点按此通知，然后选择连接计算机的方式：</p>
+    <div class="list">
+      <ul>
+        <li><strong>媒体设备 (MTP)</strong>：如果想要在手机与计算机之间传送照片、视频和铃声等媒体文件，则选择此模式。</li>
+        <li><strong>相机 (PTP)</strong>：如果想要在手机与计算机之间仅传送照片和视频，则选择此模式。</li>
+        <li><strong>USB存储设备 (SD卡)</strong>：如果想要将手机的SD卡与计算机连接，则选择此模式。</li>
+        <li><strong>USB 调试 (ADB)</strong>：选择此模式即可启用调试，随后即可使用计算机上的第三方手机助手软件来管理手机数据。</li>
+      </ul>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+
+<h1 id="header2" onclick="change(this,'ch2');" class="open" ><span class="h_title"><strong>打电话</strong></span></h1>
+
+<div id="ch2" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">拨打电话</h2>
+  <h3 class='pink1'>手动拨号</h3>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>电话</b>应用程序。</li>
+        <li>如果需要，可在<b>拨号</b>面板中点按<b>拨号</b>，即可显示键盘。</li>
+        <li>输入想要拨打的电话号码，然后点按 <img src=".res/make_call.png" width="20" height="20" alt="拨打电话" /> 。 </li>
+      </ol>
+    </div>
+  </div>
+  <h3 class='pink1'>从通话记录拨打电话</h3>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>电话</b>应用程序。</li>
+        <li>点按<b>通话记录</b>选项卡。</li>
+        <li>查看未接、已拨和已接电话，然后点按想要拨打的条目。</li>
+      </ol>
+    </div>
+  </div>
+  <h3 class='pink1'>拨打联系人</h3>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>电话</b>应用程序。</li>
+        <li>点按<b>联系人</b>选项卡。</li>
+        <li>找到想要通话的联系人，点按联系人姓名以显示联系人详细信息。</li>
+        <li>点按您想要拨打的电话号码。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">接听电话</h2>
+  <h3 class='yellow1'>接听或拒绝电话</h3>
+  <div class="text cn text1">
+    <p>接到电话时，会出现来电画面。可以进行以下一项操作：</p>
+    <div class="list">
+      <ul>
+        <li>将联系人图像拖到 <img src=".res/answer_call.png" width="20" height="18" alt="应答来电" /> 即可接听来电。</li>
+        <li>将联系人图像拖到 <img src=".res/reject_call.png" width="20" height="18" alt="拒绝来电" /> 即可拒绝来电。</li>
+      </ul>
+    </div>
+  </div>
+  <h3 class='yellow1'>静音来电</h3>
+  <div class="text cn text1">
+    <p>以下方法可使来电静音:</p>
+    <div class="list">
+      <ul>
+        <li>按音量上键或音量下键。</li>
+        <li>按电源键。</li>
+        <li>将手机正面向下。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="blue">通话中选项</h2>
+  <div class="text cn text1">
+    <p>正在通话时，屏幕上有以下选项可用：</p>
+    <div class="list">
+      <ul>
+        <li><b>添加通话</b>：显示拨号画面，可以拨打其他人电话。</li>
+        <li><b>等待</b>：暂停当前通话或恢复通话。</li>
+        <li><b>静音</b>：打开或关闭话筒。</li>
+        <li><b>录音</b>：开始或停止电话录音。</li>
+        <li><b>拨号键盘</b>：显示或隐藏键盘。</li>
+        <li><b>免提</b>：打开或关闭扬声器。</li>
+        <li><img src=".res/end_call.png" width="20" height="18" alt="结束通话" />：结束通话。</li>
+      </ul>
+    </div>
+    <p>也可以按音量键调高或调低音量。</p>
+  </div>
+  <h2 class="pink">使用通话记录</h2>
+  <div class="text cn text1">
+    <p>通话记录中含有未接、已拨和已接电话条目。您可以按住一条通话记录，直至出现选项菜单，然后点按选项。例如，您可以点按<b>添加联系人</b>选项，将此条目添加到联系人列表中。</p>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+<h1 id="header3" onclick="change(this,'ch3');" class="open" ><span class="h_title"><strong>联系人</strong></span></h1>
+<div id="ch3" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">创建联系人</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>联系人</b>应用程序。</li>
+        <li>点按 <img src=".res/Add_contact_to_list.png" width="21" height="20" alt="添加联系人" /> 。</li>
+        <li>输入联系人信息。</li>
+        <li>点按<b>保存</b>。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">搜索联系人</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>联系人</b>应用程序。</li>
+        <li>进行以下一项操作：</li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>向上或向下滚动联系人列表，找到所需联系人。</li>
+        <p><em><strong>提示：联系人列表的边上有索引，能帮助快速指引。点按一个字母即可跳到此段。</strong></em></p>
+        <li>点按搜索框，然后输入联系人姓名的前几个字母。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="blue">删除联系人</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>联系人</b>应用程序。</li>
+        <li>按住联系人，然后点按<b>删除</b>。 </li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="pink">导入联系人</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>联系人</b>应用程序。</li>
+        <li>按菜单键，然后点按<b>导入/导出。</b></li>
+        <li>点按<b>从存储设备导入</b>，选择一个或多个文件，然后点按<b>导入</b>。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">导出联系人</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>联系人</b>应用程序。</li>
+        <li>按菜单键，然后点按<b>导入/导出。</b></li>
+        <li>点按<b>导出到存储设备</b>，然后点按<b>确定</b>。</li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header4" onclick="change(this,'ch4');" class="open" ><span class="h_title"><strong>短信</strong></span></h1>
+<div id="ch4" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">发送短信</h2>
+  <div class="text cn text1">
+    <p>使用<strong>信息</strong>应用程序，可以发送文字信息和多媒体信息。</p>
+    <div class="list">
+      <ol>
+        <li>打开<strong>信息</strong>应用程序。</li>
+        <li>点按 <img src=".res/add_message.png" width="20" height="18" alt="添加短信" /> 。</li>
+        <li>点按收件人文字框，然后输入联系人姓名或电话号码。文字框将自动列出匹配的联系人。选择其中一个联系人。</li>
+        <p>或点按 <img src=".res/add_recipient.png" width="20" height="18" alt="添加联系人" /> 添加更多收件人。</p>
+        <li>点按短信文本框，然后输入信息。</li>
+        <p><em><strong>提示：如果想要发送多媒体信息，点按 <img src=".res/attach_media.png" width="20" height="18" alt="添附媒体" /> 以选择照片或视频等媒体对象类型，然后将想要的媒体对象添加到短信中。</strong></em></p>
+        <li>点按 <img src=".res/send.png" width="20" height="18" alt="发送短信" /> 。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">搜索短信</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>信息</b>应用程序。</li>
+        <li>点按搜索文本框，然后输入完整或部分联系人姓名或电话号码。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="blue">删除短信</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>信息</b>应用程序。</li>
+        <li>按住一条短信或一组短信，直至被选中，然后点按<b>删除</b>。</li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header5" onclick="change(this,'ch5');" class="open" ><span class="h_title"><strong>相机</strong></span></h1>
+<div id="ch5" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">相机基本操作</h2>
+  <div class="text cn text1">
+    <p>使用<strong>相机</strong>应用程序可进行拍照或录像。 </p>
+    <div align="center"><img src=".res/camera.png" alt="相机" width="200" /></div>
+    <div class="list">
+      <ul>
+        <li>点按 <img src=".res/camera_mode.png" height="18" alt="相机模式" /> 选择相机模式。</li>
+        <li>点按 <img src=".res/cam.png" alt="拍照" height="18" > 进行拍照。</li>
+        <li>点按 <img src=".res/video.png" alt="录像" height="18"> 开始录像。</li>
+        <li>点按照片或视频缩略图，即可查看<b>相册</b>应用程序中的照片或视频。更多信息，请参阅<a href="#header6" title="相册" target="_self" onclick="expand('6');">相册</a>。</li>
+        <li>点按 <img src=".res/Capture_mode.png" alt="拍摄模式" height="18"/> 选择拍摄模式。</li>
+        <li>点按 <img src=".res/flash_mode.png" height="18" alt="闪光模式" /> 选择闪光模式。</li>
+        <li>点按 <img src=".res/HDR.png" width="20" height="18" alt="HDR" /> 使用 HDR（高动态范围）。</li>
+        <li>点按 <img src=".res/switch.png" alt="切换" height="18" > 在前置摄像头和后置摄像头之间进行切换。</li>
+        <li>点按 <img src=".res/Settings.png" alt="图标" height="18" /> 配置其他相机设置。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="yellow">截屏</h2>
+  <div class="text cn text1">
+    <p>同时按住电源键和音量下键即可进行截屏。 </p>
+    <p>默认设置下，截屏图像会保存在手机的内部存储卡中。若要查看截屏，可进行下列操作之一：</p>
+    <div class="list">
+      <ul>
+        <li>打开<b>相册</b>应用程序，寻找<b>屏幕截图</b>相册。</li>
+        <li>打开<b>文件管家</b>应用程序，查看<b>内置存储卡</b>，然后进入<b>Pictures > Screenshots</b>文件夹。</li>
+      </ul>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header6" onclick="change(this,'ch6');" class="open" ><span class="h_title"><strong>相册</strong></span></h1>
+<div id="ch6" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">查看照片和视频</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>相册</b>应用程序。</li>
+        <li>点按相册。</li>
+        <p>照片和视频默认按相册分组。如果想要以时间线查看照片或视频,则点按 <img src=".res/album_timeline.png" alt="相簿时间线菜单" width="18" height="18" /> ,然后选择<strong>时间</strong>。</p>
+        <li>点按照片或视频，以全屏模式查看。</li>
+        <li>进行以下任意操作：</li>
+        <div class="list" style="margin-left:20px">
+          <ul>
+            <li>若要观看下一张或上一张照片或视频，向左或向右轻扫。</li>
+            <li>若要放大或缩小照片，展开或捏合照片。放大时，可拖动照片观看照片的其它部位。</li>
+            <li>若要观看视频，点按 <img src=".res/play_video.png" width="20" height="18" alt="播放视频" /> 。</li>
+          </ul>
+        </div>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">共享照片和视频</h2>
+  <div class="text cn text1">
+    <p>在观看照片或视频时，点按 <img src=".res/share_via.png" width="17" height="18" alt="共享通道" /> 并选择<strong>信息</strong>或<strong>蓝牙</strong>等共享通道，即可与他人共享照片或视频。</p>
+    <p>如果想要同时共享多张照片或多个视频，则进行以下所有操作：</p>
+    <div class="list">
+      <ol>
+        <li>打开<b>相册</b>应用程序。</li>
+        <li>在相册或时间线组中，按住想要共享的照片或视频，直至选中。</li>
+        <li>点按更多对象。</li>
+        <li>点按 <img src=".res/share_via.png" width="20" height="18" alt="共享通道" /> ，然后选择一个共享通道。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="blue">删除照片和视频</h2>
+  <div class="text cn text1">
+    <p>在观看照片或视频时，点按 <img src=".res/delete_photo.png" alt="删除照片" height="18" /> 即可删除照片或视频。</p>
+    <p>如果想要同时删除多张照片或多个视频，则进行以下所有操作：</p>
+    <div class="list">
+      <ol>
+        <li>打开<b>相册</b>应用程序。</li>
+        <li>在相册或时间线组中，按住想要删除的照片或视频，直至选中。</li>
+        <li>点按更多对象。</li>
+        <li>点按 <img src=".res/delete_photo.png" height="18" alt="删除照片" /> 。</li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header7" onclick="change(this,'ch7');" class="open" ><span class="h_title"><strong>网络</strong></span></h1>
+<div id="ch7" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">WLAN 连接</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > WLAN</b>。</li>
+        <li>点按 <b>WLAN </b>开关打开 WLAN。 </li>
+        <li>点按列表中的一个 WLAN 热点，即可连接至互联网。</li>
+        <p><strong><em>注意：访问安全链接时，您需要输入您的登录名和密码。</em></strong></p>
+      </ol>
+    </div>
+  </div>
+  <h2 class="yellow">数据连接</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 蜂窝移动网络</b>。</li>
+        <li>点按<b>数据连接</b>开关打开数据连接。</li>
+        <p><em><strong>注意：您需要具有数据服务的有效 SIM 卡。如果没有 SIM 卡，请与您的运营商联系。</strong></em></p>
+      </ol>
+    </div>
+  </div>
+  <h2 class="blue">设置热点</h2>
+  <div class="text cn text1">
+    <p>您可以使用 <b><b>WLAN</b> 热点</b>与其他手机或其他设备共享互联网连接。</p>
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 个人热点</b>。</li>
+        <li>点按 <B>WLAN 热点</B>开关打开热点。</li>
+        <p><em><strong>注意：也可以通过蓝牙或 USB 共享网络。</strong></em></p>
+        <li>如果这是第一次打开 WLAN 热点，点按 <b>WLAN 配置信息</b>即可查看或更改 WLAN 配置信息。<br/><em><strong>注意：若要允许他人的设备连接到您的网络，请告知其网络 SSID 和密码。</strong></em></li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header8" onclick="change(this,'ch8');" class="open" ><span class="h_title"><strong>浏览器</strong></span></h1>
+<div id="ch8" class="collapsed">
+<div id="wrap" class="cn">
+  <div class="text cn text1"> 如果手机已经连接至 WLAN 或移动网络，则可以使用<b>浏览器</b>应用程序访问互联网。有关连接 WLAN 或移动网络的详细信息，请参阅<a href="#header7" title="网络" target="_self" onclick="expand('7');">网络</a>。<br/>
+  </div>
+  <h2 class="pink">访问网站</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol type="1">
+        <li>打开<b>浏览器</b>应用程序。</li>
+        <li>点按地址框，输入网站地址，然后点按<b>前往</b>。</li>
+        <p>或点按搜索框，输入搜索关键词，然后点按<b>搜索</b>。</p>
+        <p><em><strong>提示：您不需要连带&ldquo;http://&rdquo;输入完整的网站地址即可访问网站。例如，若要访问 http://www.lenovo.com，仅需在地址栏内输入&ldquo;www.lenovo.com&rdquo;，然后点按前往<b></b>。</strong></em></p>
+        <li>在浏览网页时，可进行以下任意操作：</li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>点按 <img src=".res/back.png" alt="上一页" width="24" height="18"/> 可返回到上一网页。</li>
+        <li>点按 <img src=".res/go.png" alt="下一页" width="24" height="18"/> 可前进到最近访问的网页。</li>
+        <li>按住网页上的图片，然后点按<b>保存图片</b>，即可将图片保存到手机的内部存储卡中。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="yellow">添加书签</h2>
+  <div class="text cn text1">
+    <p>在浏览想要标书签的网页时，点按地址栏内的 <img src=".res/favorite.png" alt="添加书签" height="18" /> ，然后点按<b>添加书签</b>完成相应的输入。下次打开<b>浏览器</b>应用程序时，点按 <img src=".res/browser_set.png" alt="添加书签" height="18" /> ，然后点按 <img src=".res/favorite.png" alt="添加书签" height="18" /> ，即可快速访问该网页。</p>
+  </div>
+  <h2 class="blue">清除浏览器记录</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>打开<b>浏览器</b>应用程序。</li>
+        <li>点按 <b><img src=".res/browser_set.png" alt="browser_set" height="18" /> > 历史</b>。</li>
+        <li> 点按<b>清空</b>。</li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header9" onclick="change(this,'ch9');" class="open" ><span class="h_title"><strong>设置</strong></span></h1>
+<div id="ch9" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">设置日期和时间</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 日期和时间</b>。</li>
+        <li>进行以下任意操作：</li>
+      </ol>
+    </div>
+    <div class="list">
+      <ul style="margin-left:20px">
+        <li>若要使用网络提供的日期和时间，选择<b>自动确定日期和时间</b>复选框。</li>
+        <li>若要手动设置日期和时间，清除<b>自动确定日期和时间</b>复选框选择，然后分别点按<b>设置日期</b>和<b>设置时间</b>完成相应的设置。</li>
+        <li>若要使用网络提供的时区，选择<b>自动确定时区</b>复选框。</li>
+        <li>若要手动设置时区，清除<b>自动确定时区</b>复选框选择，点按<b>选择时区</b>，然后选择一个时区。</li>
+        <li>若要在 24 小时制和 12 小时制之间切换，选择或清除<b>使用 24 小时格式</b>复选框。</li>
+        <li>若要选择日期显示格式，点按<b>选择日期格式</b>，然后选择一个日期格式。</li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="yellow">设置语言</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 语言和输入法 > 语言</b>。</li>
+        <li>选择想要使用的显示语言。 </li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="blue">设置默认输入法</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 语言和输入法 > 默认</b>。</li>
+        <li> 选择一种输入法。 </li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="pink">设置屏幕锁定</h2>
+  <div class="text cn text1">
+    <p>转到<b>设置 > 锁屏 > 屏幕锁定方式</b>，选择一个解锁方式，并完成相应设置。</p>
+  </div>
+  <h2 class="yellow">允许安装来自未知来源的应用</h2>
+  <div class="text cn text1">
+    <p>在安装从未知来源下载的应用程序之前,请执行以下所有操作：</p>
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 安全</b>。 </li>
+        <li>选择<b>未知来源</b>复选框。</li>
+      </ol>
+    </div>
+  </div>
+  <h2 class="blue">设置铃声</h2>
+  <div class="text cn text1">
+    <p>您可以定义来电、短信和通知的默认铃声。也可以调节每种声音类型的音量。</p>
+    <p>转到<b>设置 > 声音和振动</b>。</p>
+  </div>
+  <h2 class="pink">恢复出厂设置</h2>
+  <div class="text cn text1">
+    <div class="list">
+      <ol>
+        <li>转到<b>设置 > 备份和重置 > 恢复出厂设置</b>。</li>
+        <li> 点按<b>重置手机</b>。</li>
+      </ol>
+    </div>
+  </div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+
+
+<h1 id="header10" onclick="change(this,'ch10');" class="open" ><span class="h_title"><strong>附录</strong></span></h1>
+<div id="ch10" class="collapsed">
+<div id="wrap" class="cn">
+  <h2 class="pink">安全和维护</h2>
+  <h3 class="pink1">使用手机</h3>
+  <div class="text cn text1"> 使用手机时，请遵循以下注意事项：
+    <div class="list">
+      <ul>
+        <li>使用之前，请详细阅读本节说明。</li>
+        <li>当要求禁止使用手机或使用手机会导致干扰或危险时，请不要开机。 </li>
+        <li>在飞机上，请始终保持手机关机。如果手机设置的闹钟、日程等在关机状态下具备自动开机功能，请在登机前检查并取消设置。 </li>
+        <li>使用手机时，应远离热源、高电压环境，如电器或电热烹饪设备。 </li>
+        <li>注意防火。在加油站、燃料仓库等存放易燃品的地方请关机。 </li>
+        <li>开车时严禁手持手机。请不要将手机放在气囊上方或气囊展开后能够触及的区域内，以免气囊膨胀时，手机受到很强的外力，可能对您造成严重伤害。 </li>
+        <li>只能使用本公司认可的标准电池和充电器等附件。对因使用第三方的附件造成的任何后果，本公司不承担任何责任。 </li>
+        <li>严禁擅自拆卸手机。 </li>
+        <li>手机靠近其他电子设备时会对其造成干扰。请远离电子设备，如电视机、收音机、个人计算机、心脏起搏器和助听器等设备。严禁将手机放于信用卡或磁场附近。在医院或其他特殊场所，请遵循特殊场所相关规定使用您的手机。 </li>
+        <li>严禁使手机受到机械振动或晃动。严禁用利器敲击屏幕。 </li>
+        <li>使用手机套可能会损坏手机外壳涂层。 </li>
+        <li>严禁使用溶解物，如苯、稀释剂或酒精，擦拭手机外壳。严禁让有腐蚀性的化学物品、清洁剂接触手机。只能使用干净的软布轻轻地擦拭您的手机。 </li>
+        <li>严禁将手机长时间暴露在阳光下，或过多烟雾与灰尘的地方。 </li>
+        <li>保持手机干燥，严禁在湿度高的环境中使用，如浴室。该设备不防水，严禁使其淋雨或受潮。 </li>
+        <li>当您要把充电器插头从您的手机上拔出时，抓紧插头往外拉，严禁拉电源线。 </li>
+        <li>请不要只依靠手机作为紧急时刻的通信工具，如医疗救护。 </li>
+        <li>请将手机放在儿童接触不到的安全地方，以防发生危险。 </li>
+      </ul>
+    </div>
+  </div>
+  <h3 class="pink1">使用电池</h3>
+  <div class="text cn text1">
+   <p>使用电池时，请遵循以下注意事项：</p>
+    <div class="list">
+      <ul>
+        <li>使用之前，请详细阅读本节说明和电池表面标识。 </li>
+        <li>请在凉爽、通风的室内给电池充电。否则充电时环境温度过高，会引起电池的发热、冒烟、燃烧或变形，甚至爆炸。 </li>
+        <li>电池内部有特殊的保护电路和装置，严禁擅自拆开电池，否则会造成短路或者电解液渗漏。若电解液进入眼睛会有失明的危险。这时请立即用清水冲洗眼睛（千万不要揉眼睛），并立即到医院就诊。 </li>
+        <li>严禁挤压电池，严禁机械振动或晃动电池，严禁使电池短路，因为这样会损坏电池或与之连接的元件。短路可由一些金属物品（如：硬币、笔和回形夹）直接把电池的正极和负极连接造成，因此严禁把电池跟金属物品放在一起。 </li>
+        <li>请保持金属触点和电池的清洁。 </li>
+        <li>严禁使用已损坏或已用尽的电池。 </li>
+        <li>请在电池无法满足性能要求时进行更换。电池可以充数百次电，直到需要更换。电池是消耗品，虽然它可以上百次的充放电，但它的电量会慢慢的减少。当您发现使用时间（通话时间和待机时间）明显减少时，即应该更换一块新电池。 </li>
+        <li>严禁将电池长时间暴露在阳光下，或过多烟雾与灰尘的地方。严禁在湿度高的环境中使用，如浴室。电池不防水，严禁使其淋雨或受潮。 </li>
+        <li>严禁将电池放置在过热或过冷的地方，温度高于50°C（122°F）或低于-10°C（14°F）的环境下会影响电池性能。 </li>
+        <li>严禁将电池掷入火中，以免发生爆炸。 </li>
+        <li>严禁将电池放在水中，以免引起内部短路，造成电池发热、冒烟、变形、损坏、甚至爆炸。 </li>
+        <li>请按规定处理电池（如回收），不可将电池作为生活垃圾处理，以免引起爆炸和污染。 </li>
+        <li>本电池只能使用专用的充电器充电，勿在0°C至45°C（32°F至113°F）的温度范围外充电，并且连续充电的时间严禁超过12个小时。 </li>
+        <li>请将电池放在儿童接触不到的安全地方，以防发生危险。 </li>
+      </ul>
+    </div>
+  </div>
+  <h3 class="pink1">使用充电器</h3>
+  <div class="text cn text1">
+    <p>使用充电器时，请遵循以下注意事项： </p>
+    <div class="list">
+      <ul>
+        <li>使用之前，请详细阅读本节说明和充电器表面标识。 </li>
+        <li>请不要拆卸或改装充电器，严禁在电源线损坏的情况下使用充电器，否则会导致触电、起火或充电器损坏。 </li>
+        <li>严禁用湿手接触充电器。如果充电器接触到水或其他液体，要立刻切断电源。 </li>
+        <li>严禁短路充电器，严禁机械振动或晃动充电器，严禁阳光直射，严禁在浴室等高湿度的地方使用充电器。充电器不防水，严禁使其淋雨或受潮。 </li>
+        <li>请不要在电视机、收音机等电器附近使用充电器。 </li>
+        <li>拔插头时要抓住充电器，拉电源线会损坏电线。 </li>
+        <li>请将充电器放在儿童接触不到的安全地方，以防发生危险。 </li>
+      </ul>
+    </div>
+  </div>
+  <h3 class="pink1">使用耳机</h3>
+  <div class="text cn text1">
+    <p>使用耳机时（您可能需要额外购买耳机），请遵循以下注意事项：</p>
+    <div class="list">
+      <ul>
+        <li>使用耳机时请注意控制适当的音量，以免损伤听力。 </li>
+        <li>请勿用力拉扯耳机线，以免出现断裂现象。 </li>
+        <li>在高温高湿的场所长时间使用耳机，容易造成耳机损坏或使用寿命降低。 </li>
+        <li>驾驶汽车、骑自行车或马路上行走时，请勿使用耳机，否则容易导致交通意外。 </li>
+        <li>请将耳机放在儿童接触不到的安全地方，以防发生危险。</li>
+      </ul>
+    </div>
+  </div>
+  <h3 class="pink1">系统更新风险声明</h3>
+  <div class="text cn text1">
+    <p>该操作系统仅支持官方提供的系统更新，若用户刷第三方ROM系统或采用任何破解的方式修改系统文件，可能会导致系统不稳定，可能会带来安全风险或危险，用户需要为类似行为承担责任。</p>
+</div>
+  <h3 class="pink1">医疗设备</h3>
+  <div class="text cn text1">
+    <p>任何无线电发射设备（包括本设备）都可能会对保护不当的医疗设备的功能造成干扰。如果有问题或者不确定医疗设备能否屏蔽外部射频能量，请向医疗人员或医疗设备厂商咨询。在禁止使用电子设备或禁用手机无线传输功能的地方，请遵守相关规定。</p>
+    <strong>心脏起搏器</strong><br />
+    装有心脏起搏器的人士在使用本产品时，请参考如下建议：
+    </p>
+    <div class="list">
+      <ul>
+        <li>应始终保持手机与起搏器的距离大于15.3厘米（约6英寸）。 </li>
+        <li>携带手机时，不应将其置于胸部口袋里。 </li>
+        <li>应使用与佩戴起搏器不同侧的耳朵接听电话，以减少造成干扰的潜在因素。 </li>
+      </ul>
+    </div>
+    <p><strong>助听器、植入耳蜗 </strong><br />
+      助听器、植入耳蜗的使用者在使用本产品时，请咨询授权医疗人员并参考医疗设备提供商的说明。 </p>
+    若怀疑有干扰产生，请关机并将手机移至较远的位置。</div>
+  <h2 class="yellow">常见问题</h2>
+  <div class="text cn text1">
+    <p>在使用手机过程中出现任何问题，请参照下列方法加以解决。如果问题仍然存在，请立即与联想指定经销商或维修商联系。</p>
+    <div class="list">
+      <ol>
+        <li><strong>什么是PIN码？屏幕出现输入PIN码如何处理？</strong></li>
+        <p>PIN码用于防止用户的SIM卡被非法使用。若您的手机已启动PIN码保护功能，开机后，屏幕会显示输入PIN码的提示。如果连续三次输入错误的PIN码，SIM卡将自动上锁。您必须输入PUK码才能解锁。PIN码与SIM卡有关，而与手机无关，PIN码由网络运营商提供。初始PIN码一般为1234。如果您不知道PIN码，请立即与网络运营商联络。</p>
+        <li><strong>什么是PUK码？屏幕出现输入PUK码如何处理？</strong></li>
+        <p>PUK码是个人解锁码，被用作解开因为连续三次输入错误PIN码而被锁上的SIM卡。如果累计10次输入错误的PUK码，SIM卡将失效。PUK码由网络运营商提供。如果您不知道PUK码，请立即与网络运营商联络。</p>
+        <li><strong>屏幕出现插入SIM卡信息如何处理？</strong></li>
+        <p>确认SIM卡是否安装正确。检查SIM卡是否正常工作，其可能有缺陷或出现故障。如果是这样，请交付网络运营商解决。</p>
+        <li><strong>显示不在服务区，网络故障如何处理？</strong></li>
+        <p>检查信号强度的状态图标。如果无网络信号，您可能处于地下室或建筑物中的网络盲区，请移至其他地区接收信号。还有另外一种情况，您可能处于网络未覆盖区，可以要求您的网络运营商提供网络服务范围。</p>
+        <li><strong>声音质量差，回音或有噪声使通话困难如何处理？ </strong></li>
+        <p>挂断电话，再次拨号，网络运营商可能为您转接一条通话质量较好的线路。</p>
+        <li><strong>待机时间变短如何处理？ </strong></li>
+        <p>所在地信号较弱，手机长时间搜索信号所致。在您不想接听电话时，可暂时关机；或者电池使用时间过长，接近电池使用寿命，此时请更换新电池。</p>
+        <li><strong>手机不能开机如何处理？</strong></li>
+        <p>检查电池电量或充电。可以在充电期间，打开手机检验一下。手机如果长时间静置后容易使电池过度放电，此时无法开机，充电开始后较长时间内也无响应，需要等电量恢复后才能开机。</p>
+        <li><strong>不能发送短信息如何处理？</strong></li>
+        <p>您要检查您的短信服务中心号码选项，查看您是否有设置短信服务中心号码或者号码错误，您可能没有开通SMS服务，或者短信息发送对象无效，或您所在地区的网络运营商不支持该项服务（具体可咨询当地网络运营商）。</p>
+        <li><strong>不能充电如何处理？</strong></li>
+        <p>有三种可能：一是手机充电器工作不良，您可以就近与联想指定维修商或经销商联络；二是环境温度不适宜，可以更换充电环境；三是接触不良，可以检查充电器插头。</p>
+        <li><strong>联系人不能添加数据如何处理？</strong></li>
+        <p>联系人存储已满，可删除部分原有无用条目。</p>
+        <li><strong>不能选择某些功能如何处理？</strong></li>
+        <p>没有开通此项服务或者所在地的网络运营商不支持该服务。请与联想指定维修商、经销商或网络运营商联络。 </p>
+        <li><strong>联想手机采用的是什么操作系统？</strong></li>
+        <p>本手机采用的是Android操作系统，该操作系统从2007年面世以来得到了手机用户的广泛认可。目前，Android操作系统已经是世界上用户最多的智能手机操作系统之一。 </p>
+        <li><strong>如何安装第三方应用？ </strong></li>
+        <p>联想智能手机在出厂时就已经预置了多款流行的应用程序，能够满足普通用户的基本需求。用户也可以从电子市场和第三方管理软件下载安装其他第三方应用，或者通过USB数据线拷贝第三方应用程序到手机上并安装。</p>
+        <p><em><strong>注意：只有联想预置的应用是经过联想测试并保证使用效果的，其他用户自行下载的应用需要确认该应用经过Google的授权并获得数字签名方能保证使用效果。如果用户需要安装非Google授权的应用，需要设置允许安装未知来源的应用程序，请参阅<a href="#header9" title="设置" target="_self" onclick="expand('9');">设置</a>。安装非认证的应用存在风险，一切由于用户自行安装非授权应用引起的软硬件问题联想不承担维修责任。联想建议用户尽量下载官方认证的应用。 </strong></em></p>
+        <li><strong>第三方应用的下载和安装需要收费吗？ </strong></li>
+        <p>目前Android应用中超过半数都是免费的，下载和安装这部分应用都不需要收费。但是，下载带来的数据流量是需要收费的，收费标准请咨询当地运营商。建议您在WLAN环境下下载应用程序，并且在没有数据流量包月套餐或套餐流量即将耗尽情况下，按照以下步骤关闭数据连接和数据漫游：</p>
+        <div class="list">
+          <ol>
+            <li type="a">选择以下任意一种方式来关闭数据连接：关闭<strong><b>设置</b> > 蜂窝移动网络</strong>中的<strong>数据连接</strong>；关闭通知面板中的<strong>数据连接</strong>。</li>
+            <li type="a">取消勾选<strong><b>设置</b> > 蜂窝移动网络 &gt; 国际漫游</strong>中的<strong>数据漫游</strong>。</li>
+          </ol>
+        </div>
+        <p><em><strong>注意：由于用户个人没有关闭数据连接和数据漫游带来的高额流量费用联想方面不承担相关责任。</strong></em></p>
+        <li><strong>发现系统速度越来越慢该如何处理？</strong></li>
+        <p>智能手机和电脑一样，可能在长时间运行多个程序后会发现系统逐渐变“卡”，此时重启手机就可解决该问题。</p>
+        <p>如果重启还解决不了问题的话，回忆一下最近您是否下载安装过一些新的第三方应用程序，进入<strong><b>设置</b> > 应用管理 > 已安装</strong>，尝试卸载最近安装的程序后再重启手机。</p>
+        <p>如果以上两种方法都解决不了您的问题的话，可将手机恢复出厂设置，请参阅<a href="#header9" title="设置" target="_self" onclick="expand('9');">设置</a>。 </p>
+        <p><em><strong>注意：做此操作前注意使用手机自带的备份与恢复工具备份您的重要数据，或可以使用第三方工具。</strong></em></p>
+        <li><strong>电池不耐用如何处理？ </strong></li>
+        <p>智能手机多为大屏手机，且支持的功能众多，如果您长时间上网、看视频、玩游戏，那么电池的续航时间也会相应地减少。那么怎样才能尽可能延长电池的续航时间及其使用寿命呢？在您不需要无线连接的时候，关闭WLAN、蓝牙、GPS、Exchange帐户同步，在光线昏暗或者夜晚时，建议您调低屏幕亮度，不仅能延长手机的使用时间，更能保护您的视力。 </p>
+      </ol>
+    </div>
+</div>
+<div class="text cn text1" align="right"><a href="#header" title="回到顶部" target="_self">回到顶部</a></div>
+</div>
+</div>
+<div id="footer" class="cn">
+  <table width="100%">
+    <tr>
+      <td>版权所有：2015联想集团</td>
+      <td align="right"><a href="http://www.lenovo.com" title="lenovo.com">www.lenovo.com</a></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

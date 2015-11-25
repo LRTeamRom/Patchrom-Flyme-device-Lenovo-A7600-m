@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@interpolator/lenovo_slow_in" android:shareInterpolator="true" android:zAdjustment="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="350" android:fillBefore="true" android:fillAfter="false" android:fromXDelta="0.0%" android:toXDelta="-25.0%" android:fillEnabled="false" />
+    <alpha android:duration="350" android:fromAlpha="1.0" android:toAlpha="0.5" />
+</set>

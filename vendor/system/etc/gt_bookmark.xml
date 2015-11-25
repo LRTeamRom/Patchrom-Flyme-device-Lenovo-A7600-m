@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <root>
+
+     <page>
+
+         <item title="10086门户" url="http://10086.cn/m" type="1"/>
+
+         <item title="移动应用商场" url="a.10086.cn" type="1"/>
+
+         <item title="移动梦网" url="wap.monternet.com" type="1"/>
+
+         <item title="手机阅读" url="wap.cmread.com" type="1"/>
+
+         <item title="手机游戏" url="g.10086.cn" type="1"/>
+
+         <item title="手机视频" url="wap.cmvideo.cn" type="1"/>
+
+         <item title="手机冲浪" url="go.10086.cn" type="1"/>
+
+         <item title="无线音乐" url="m.10086.cn" type="1"/>
+
+         <item title="12580" url="12580wap.10086.cn" type="1"/>
+
+     </page>
+
+ </root>

@@ -1,0 +1,18 @@
+version: 2.0.3-8fee34-SNAPSHOT
+apkFileName: framework-res.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 9
+  tag: vendor_a7600m
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '1'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0-421
+sharedLibrary: false
+doNotCompress:
+- arsc

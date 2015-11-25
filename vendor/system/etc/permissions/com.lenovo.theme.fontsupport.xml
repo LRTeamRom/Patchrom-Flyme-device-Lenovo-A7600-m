@@ -1,0 +1,7 @@
+<!-- Lenovo-sw luxp4 add 2014-10-24 begin PATCHROM -->
+<!-- lenovo-sw add by caijh on 20141024. This is the feature for font switch -->
+
+<permissions>
+    <feature name="com.lenovo.theme.fontsupport" />
+</permissions>
+<!-- Lenovo-sw luxp4 add 2014-10-24 end PATCHROM -->
