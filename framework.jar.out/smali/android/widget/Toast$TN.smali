@@ -101,6 +101,8 @@
     const/16 v1, 0x98
 
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
+    
+    invoke-direct/range {p0 .. p0}, Landroid/widget/Toast$TN;->mzInitToastType()V
 
     const/16 v1, 0x10
 

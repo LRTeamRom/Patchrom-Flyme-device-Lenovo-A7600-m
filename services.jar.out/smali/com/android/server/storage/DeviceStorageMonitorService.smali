@@ -1418,7 +1418,7 @@
 
     .line 699
     .local v8, "mNotificationMgr":Landroid/app/NotificationManager;
-    const v3, 0x805003b
+    sget v3, Lcom/flyme/internal/R$string;->low_internal_storage_view_title:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

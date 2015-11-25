@@ -1708,6 +1708,8 @@
 
     iget-boolean v0, p0, Landroid/preference/Preference;->mParentDependencyMet:Z
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_1
 
     const/4 v0, 0x1

@@ -870,7 +870,7 @@
     .line 545
     sget-object v3, Lcom/android/server/power/ShutdownThread;->pd:Landroid/app/ProgressDialog;
 
-    invoke-virtual {v3}, Landroid/app/ProgressDialog;->show()V
+    invoke-static/range {p0 .. p0}, Lcom/android/server/power/InjectorPower;->showShutDownAnimation(Landroid/content/Context;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
 

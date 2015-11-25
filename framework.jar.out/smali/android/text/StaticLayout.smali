@@ -724,6 +724,14 @@
 
     .line 732
     .local v6, "ellipsisWidth":F
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p10
+
+    invoke-direct {v0, v1, v6}, Landroid/text/StaticLayout;->mzCalculateEllipsis(Landroid/text/TextPaint;F)F
+
+    move-result v6
+
     const/4 v5, 0x0
 
     .line 733

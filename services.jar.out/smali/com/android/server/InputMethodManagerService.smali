@@ -1255,7 +1255,7 @@
     goto :goto_0
 .end method
 
-.method private calledFromValidUser()Z
+.method protected calledFromValidUser()Z
     .locals 7
 
     .prologue
@@ -3135,7 +3135,7 @@
     move-result-object v0
 
     :cond_5
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_flyme_0
 
     const-string v3, "InputMethodManagerService"
 
@@ -3163,6 +3163,7 @@
 
     invoke-static {v3, v4}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    :cond_flyme_0
     const/4 v3, -0x1
 
     const/4 v4, 0x0
@@ -10743,7 +10744,7 @@
 
     move-result v12
 
-    if-nez v12, :cond_5
+    if-nez v12, :cond_flyme_0
 
     .line 1669
     sget-boolean v12, Lcom/android/server/InputMethodManagerService;->DEBUG:Z

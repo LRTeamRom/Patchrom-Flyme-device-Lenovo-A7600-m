@@ -41279,6 +41279,8 @@
     .param p9, "crashInfo"    # Landroid/app/ApplicationErrorReport$CrashInfo;
 
     .prologue
+    invoke-static/range {p1 .. p9}, Lcom/android/server/am/InjectorAMS;->reportApplicationError(Ljava/lang/String;Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Lcom/android/server/am/ActivityRecord;Lcom/android/server/am/ActivityRecord;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;Landroid/app/ApplicationErrorReport$CrashInfo;)V
+
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -41318,6 +41320,16 @@
     check-cast v10, Landroid/os/DropBoxManager;
 
     .local v10, "dbox":Landroid/os/DropBoxManager;
+    invoke-static/range {p1 .. p1}, Lcom/android/server/am/InjectorAMS;->isEventTypeConstraint(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
+
     if-eqz v10, :cond_0
 
     invoke-virtual {v10, v9}, Landroid/os/DropBoxManager;->isTagEnabled(Ljava/lang/String;)Z
@@ -42170,7 +42182,7 @@
     goto/16 :goto_1
 
     :cond_6
-    invoke-direct {p0, p1, v5}, Lcom/android/server/am/ActivityManagerService;->moveAffiliatedTasksToFront(Lcom/android/server/am/TaskRecord;I)Z
+    invoke-direct {p0, p1, v5}, Lcom/android/server/am/ActivityManagerService;->mzMoveAffiliatedTasksToFront(Lcom/android/server/am/TaskRecord;I)Z
 
     move-result v7
 
@@ -42313,7 +42325,7 @@
     invoke-static {v7, v8}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_d
-    if-eqz v2, :cond_1
+    if-eqz v2, :cond_flyme_0
 
     sget-boolean v7, Lcom/android/server/am/ActivityManagerService;->DEBUG_RECENTS:Z
 
@@ -42485,6 +42497,12 @@
     const/4 v2, 0x1
 
     goto/16 :goto_4
+
+    :cond_flyme_0
+
+    invoke-direct/range {p0 .. p0}, Lcom/android/server/am/ActivityManagerService;->mzBroadcastRecentTasksChanged()V
+
+    return-void
 .end method
 
 .method final appDiedLocked(Lcom/android/server/am/ProcessRecord;)V

@@ -23,10 +23,6 @@
 
 .field public static final NONE:I = 0x0
 
-.field public static final WAPI_CERT:I = 0x6
-
-.field public static final WAPI_PSK:I = 0x5
-
 .field public static final WPA2_PSK:I = 0x4
 
 .field public static final WPA_EAP:I = 0x2
@@ -80,13 +76,13 @@
 
     aput-object v2, v0, v1
 
-    const/4 v1, 0x5
+    add-int/lit8 v1, v1, 0x1
 
     const-string v2, "WAPI_PSK"
 
     aput-object v2, v0, v1
 
-    const/4 v1, 0x6
+    add-int/lit8 v1, v1, 0x1
 
     const-string v2, "WAPI_CERT"
 

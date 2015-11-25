@@ -70,6 +70,8 @@
 
 
 # instance fields
+.field private mMzModeObserver:Lcom/android/server/LocationManagerService$MzNetworkProviderModeSettingsObserver;
+
 .field private mAlarmManager:Landroid/app/AlarmManager;
 
 .field private final mAppOps:Landroid/app/AppOpsManager;
@@ -4125,6 +4127,8 @@
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_1
+    invoke-direct/range {p0 .. p0}, Lcom/android/server/LocationManagerService;->initSettingProvider()V
+
     move-object/from16 v0, p0
 
     move-object/from16 v1, v25

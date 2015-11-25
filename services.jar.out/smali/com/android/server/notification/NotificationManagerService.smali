@@ -117,6 +117,10 @@
 
 
 # instance fields
+.field mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+
+.field mServiceAquireLock:Ljava/lang/Object;
+
 .field private dbHelper:Lcom/android/server/notification/WhiteListDbHelper;
 
 .field private mAm:Landroid/app/IActivityManager;
@@ -2969,6 +2973,8 @@
     invoke-virtual {v6, v7}, Lcom/android/server/notification/NotificationManagerService$NotificationListeners;->notifyRemovedLocked(Landroid/service/notification/StatusBarNotification;)V
 
     :cond_1
+    invoke-virtual/range {p0 .. p1}, Lcom/android/server/notification/NotificationManagerService;->hookcancelNotification(Lcom/android/server/notification/NotificationRecord;)V
+
     iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mSoundNotification:Lcom/android/server/notification/NotificationRecord;
 
     if-eqz v6, :cond_5

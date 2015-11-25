@@ -2028,6 +2028,18 @@
     .line 2317
     .restart local v2    # "handled":Z
     :goto_2
+    invoke-static/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindow$FlymeInjector;->mzDispatchKeyEvent(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;Landroid/view/KeyEvent;)Z
+
+    move-result v6
+
+    if-eqz v6, :cond_flyme_0
+
+    const/4 v5, 0x1
+
+    return v5
+
+    :cond_flyme_0
+
     # getter for: Lcom/android/internal/policy/impl/PhoneWindow;->DBG_MOTION:Z
     invoke-static {}, Lcom/android/internal/policy/impl/PhoneWindow;->access$1100()Z
 

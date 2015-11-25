@@ -531,7 +531,7 @@
 
     .end local v6    # "file":Ljava/io/RandomAccessFile;
     :goto_1
-    invoke-direct {p0}, Landroid/media/MediaRecorder;->_prepare()V
+    invoke-direct {p0}, Landroid/media/MediaRecorder;->hook_prepare()V
 
     return-void
 

@@ -142,7 +142,7 @@
     if-eqz v1, :cond_2
 
     .line 281
-    sget-object v2, Landroid/util/Patterns;->LENOVO_WEB_URL:Ljava/util/regex/Pattern;
+    sget-object v2, Landroid/util/MzPatterns;->WEB_URL:Ljava/util/regex/Pattern;
 
     const/4 v1, 0x3
 
@@ -196,6 +196,8 @@
     if-eqz v1, :cond_4
 
     .line 292
+    invoke-static {v0, p0}, Landroid/text/util/Linkify;->mzGatherTelLinks(Ljava/util/ArrayList;Landroid/text/Spannable;)Z
+
     sget-object v2, Landroid/util/Patterns;->PHONE:Ljava/util/regex/Pattern;
 
     new-array v3, v11, [Ljava/lang/String;
@@ -223,6 +225,8 @@
 
     .line 300
     :cond_5
+    invoke-static {v0, p0, p1}, Landroid/text/util/Linkify;->mzGatherLinksDateTime(Ljava/util/ArrayList;Landroid/text/Spannable;I)V
+
     invoke-static {v0}, Landroid/text/util/Linkify;->pruneOverlaps(Ljava/util/ArrayList;)V
 
     .line 302

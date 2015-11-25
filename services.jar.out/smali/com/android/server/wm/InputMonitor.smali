@@ -1820,6 +1820,9 @@
     invoke-virtual {p0, v3}, Lcom/android/server/wm/InputMonitor;->updateInputWindowsLw(Z)V
 
     :cond_3
+
+    invoke-static/range {p1 .. p1}, Lcom/android/server/wm/InjectorWMS;->mzSetInputFocusLw(Lcom/android/server/wm/WindowState;)V
+
     return-void
 .end method
 

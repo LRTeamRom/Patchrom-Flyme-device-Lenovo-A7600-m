@@ -913,6 +913,8 @@
     move-object/from16 v0, p0
 
     iput-boolean v2, v0, Lcom/android/server/pm/PackageManagerService;->mMediaMounted:Z
+    
+    invoke-static/range {p0 .. p0}, Lcom/android/server/pm/InjectorPMS;->setup(Lcom/android/server/pm/PackageManagerService;)V
 
     const/4 v2, 0x1
 
@@ -2417,6 +2419,8 @@
     move-object/from16 v0, v22
 
     invoke-virtual {v0, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    invoke-static/range {v22 .. v22}, Lcom/android/server/pm/InjectorPMS;->mzAddAlreadyDexOpted(Ljava/util/HashSet;)V
 
     invoke-virtual/range {v27 .. v27}, Ljava/io/File;->list()[Ljava/lang/String;
 
@@ -26865,6 +26869,8 @@
 
     iput-object v4, v0, Lcom/android/server/pm/PackageManagerService;->mResolveComponentName:Landroid/content/ComponentName;
 
+    invoke-static {}, Lcom/android/server/pm/InjectorPMS;->scanPackageForAccessControl()V
+
     :cond_7
     monitor-exit v5
     :try_end_1
@@ -50899,6 +50905,10 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     move-object v0, v8
+
+    invoke-static/range {p1 .. p1}, Lcom/android/server/pm/InjectorPMS;->getAccessActivityInfo(Landroid/content/ComponentName;)Landroid/content/pm/ActivityInfo;
+
+    move-result-object v0
 
     goto/16 :goto_0
 .end method

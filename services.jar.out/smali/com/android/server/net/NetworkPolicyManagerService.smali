@@ -8223,7 +8223,7 @@
 
     move-wide/from16 v2, v18
 
-    invoke-direct {v0, v1, v4, v2, v3}, Lcom/android/server/net/NetworkPolicyManagerService;->enqueueNotification(Landroid/net/NetworkPolicy;IJ)V
+    invoke-direct {v0, v1, v4, v2, v3}, Lcom/android/server/net/NetworkPolicyManagerService;->mzEnqueueNotification(Landroid/net/NetworkPolicy;IJ)V
 
     move-object/from16 v0, v16
 
@@ -8231,7 +8231,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-direct {v0, v4}, Lcom/android/server/net/NetworkPolicyManagerService;->notifyOverLimitLocked(Landroid/net/NetworkTemplate;)V
+    #invoke-direct {v0, v4}, Lcom/android/server/net/NetworkPolicyManagerService;->notifyOverLimitLocked(Landroid/net/NetworkTemplate;)V
 
     goto :goto_1
 
@@ -8271,7 +8271,7 @@
 
     move-wide/from16 v2, v18
 
-    invoke-direct {v0, v1, v4, v2, v3}, Lcom/android/server/net/NetworkPolicyManagerService;->enqueueNotification(Landroid/net/NetworkPolicy;IJ)V
+    invoke-direct {v0, v1, v4, v2, v3}, Lcom/android/server/net/NetworkPolicyManagerService;->mzEnqueueNotification(Landroid/net/NetworkPolicy;IJ)V
 
     goto :goto_1
 

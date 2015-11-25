@@ -9,6 +9,12 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;,
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeStatusBarEventReceiver;,
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeStatusBarDarkTheme;,
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeStatusBarButton;,
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeHideBootMessage;,
+        Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeShowBootMessage;,
         Lcom/android/internal/policy/impl/PhoneWindowManager$UnpinEventDetector;,
         Lcom/android/internal/policy/impl/PhoneWindowManager$ScreenLockTimeout;,
         Lcom/android/internal/policy/impl/PhoneWindowManager$HideNavInputEventReceiver;,
@@ -197,6 +203,30 @@
 
 
 # instance fields
+.field mFlymeBootLayout:Landroid/view/View;
+
+.field mFlymeBootMsgBar:Landroid/widget/ProgressBar;
+
+.field mFlymeBootMsgText:Landroid/widget/TextView;
+
+.field mFlymeBootMsgTitle:Landroid/widget/TextView;
+
+.field mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+
+.field mMzKeyguardState:Landroid/view/WindowManagerPolicy$WindowState;
+
+.field mMzLastSystemUiFlagsIgnoreRecentPanel:I
+
+.field mMzScreenshotChordLongPress:Ljava/lang/Runnable;
+
+.field private mMzVolumeUpKeyConsumedByScreenshotChord:Z
+
+.field private mMzVolumeUpKeyTime:J
+
+.field mzPwm:Lcom/android/internal/policy/impl/MzPhoneWindowManager;
+
+.field mMzKeyguardSecure:Ljava/lang/Boolean;
+
 .field VIRTUALKEY_VIBRATE_DELAY:J
 
 .field enableReboot:Z
@@ -6507,6 +6537,14 @@
 
     move-result p3
 
+    move-object/from16 v0, p1
+
+    move/from16 v1, p3
+
+    invoke-static {v0, v1}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->getLauncherFlag(Landroid/view/WindowManagerPolicy$WindowState;I)I
+
+    move-result p3
+
     move/from16 v0, p2
 
     move/from16 v1, p3
@@ -6798,6 +6836,8 @@
     .restart local v1    # "needsMenu":Z
     .restart local v4    # "visibility":I
     :cond_5
+    invoke-static {p0, v4}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->setLastSystemUiFlagsIgnoreRecentPanel(Lcom/android/internal/policy/impl/PhoneWindowManager;I)V
+
     iput v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLastSystemUiFlags:I
 
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLastFocusNeedsMenu:Z
@@ -7817,6 +7857,9 @@
     iput-boolean v7, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
     :cond_7
+    :goto_flyme_0
+    invoke-static/range {p0 .. p2}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzPolicyShowWhenLocked(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManager$LayoutParams;)V
+
     :goto_4
     iget v8, p2, Landroid/view/WindowManager$LayoutParams;->x:I
 
@@ -7917,6 +7960,10 @@
 
     if-eqz v8, :cond_15
 
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)Z
+
+    move-result v4
+
     if-eqz v4, :cond_15
 
     move v8, v6
@@ -7933,6 +7980,8 @@
     iput-boolean v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
 
     :cond_b
+    invoke-static/range {p0 .. p2}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->setHideLockScreen(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManager$LayoutParams;)V
+
     iget-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mWinShowWhenLocked:Landroid/view/WindowManagerPolicy$WindowState;
 
     if-eqz v6, :cond_c
@@ -7986,6 +8035,10 @@
     .restart local v4    # "secureKeyguard":Z
     :cond_11
     if-eqz v2, :cond_13
+
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)Z
+
+    move-result v4
 
     if-eqz v4, :cond_12
 
@@ -12808,7 +12861,7 @@
     :goto_1
     iget-boolean v7, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
-    if-eqz v7, :cond_6
+    if-eqz v7, :cond_flyme_0
 
     iget-object v7, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarController:Lcom/android/internal/policy/impl/BarController;
 
@@ -12816,7 +12869,7 @@
 
     move-result v7
 
-    if-eqz v7, :cond_6
+    if-eqz v7, :cond_flyme_0
 
     iget-object v7, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarController:Lcom/android/internal/policy/impl/BarController;
 
@@ -12825,6 +12878,9 @@
     iget v9, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLastSystemUiFlags:I
 
     invoke-virtual {v7, v6, v8, v9}, Lcom/android/internal/policy/impl/BarController;->updateVisibilityLw(ZII)I
+
+    :cond_flyme_0
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->setFlymeNavButtonVisible(Lcom/android/internal/policy/impl/PhoneWindowManager;)V
 
     :cond_6
     :goto_2
@@ -13109,11 +13165,11 @@
 
     move-result v7
 
-    if-eqz v7, :cond_6
+    if-eqz v7, :cond_flyme_1
 
     or-int/lit8 v0, v0, 0x1
 
-    goto/16 :goto_2
+    goto :goto_flyme_0
 
     :cond_12
     move v3, v6
@@ -13140,7 +13196,7 @@
 
     move-result v7
 
-    if-eqz v7, :cond_15
+    if-eqz v7, :cond_flyme_1
 
     or-int/lit8 v0, v0, 0x1
 
@@ -13177,7 +13233,7 @@
 
     move-result v7
 
-    if-eqz v7, :cond_6
+    if-eqz v7, :cond_flyme_1
 
     or-int/lit8 v0, v0, 0x1
 
@@ -14761,6 +14817,9 @@
     invoke-virtual {p0, v6}, Lcom/android/internal/policy/impl/PhoneWindowManager;->goingToSleep(I)V
 
     :cond_1
+    
+    invoke-static/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->initExtFlymeFields(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/content/Context;)V
+    
     const/4 v6, 0x1
 
     const-string v7, "persist.applaunchtime.enable"
@@ -15484,7 +15543,7 @@
     goto/16 :goto_1
 
     :cond_b
-    invoke-virtual/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->getTelecommService()Landroid/telecom/TelecomManager;
+    invoke-static {}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->getFlymeTelecommService()Landroid/telecom/TelecomManager;
 
     move-result-object v39
 
@@ -15636,6 +15695,18 @@
     .local v14, "attrs":Landroid/view/WindowManager$LayoutParams;
     :goto_2
     if-eqz v14, :cond_18
+
+    invoke-static/range {p1 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzInterceptHomeKey(Landroid/view/WindowManagerPolicy$WindowState;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_flyme_0
+
+    const-wide/16 v46, 0x0
+
+    return-wide v46
+
+    :cond_flyme_0
 
     iget v0, v14, Landroid/view/WindowManager$LayoutParams;->type:I
 
@@ -17293,7 +17364,7 @@
 
     and-int v4, v4, v30
 
-    if-eqz v4, :cond_52
+    if-eqz v4, :cond_flyme_1
 
     const-wide/16 v46, -0x1
 
@@ -18174,6 +18245,8 @@
 
     .restart local v21    # "useHapticFeedback":Z
     :sswitch_0
+    invoke-direct/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->mzInterceptVolumeKeyUpForTelephony(Landroid/view/KeyEvent;)V
+
     const/16 v22, 0x19
 
     move/from16 v0, v22
@@ -18293,6 +18366,8 @@
     invoke-static/range {v22 .. v23}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     invoke-virtual/range {v20 .. v20}, Landroid/telecom/TelecomManager;->silenceRinger()V
+
+    invoke-direct/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->mzInterceptVolumeKeyDownForTelephony(Landroid/view/KeyEvent;)V
 
     and-int/lit8 v17, v17, -0x2
 
@@ -18703,7 +18778,7 @@
     invoke-direct/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->mzInterceptScreenshotChord()V
 
     :cond_2e
-    invoke-virtual/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->getTelecommService()Landroid/telecom/TelecomManager;
+    invoke-static {}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->getFlymeTelecommService()Landroid/telecom/TelecomManager;
 
     move-result-object v20
 
@@ -20018,6 +20093,12 @@
     iput v2, v10, Landroid/graphics/Rect;->right:I
 
     :cond_5
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    invoke-static {v0, v1, v8, v9}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->setLayoutWindowLW(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
+
     sget-boolean v2, Lcom/android/internal/policy/impl/PhoneWindowManager;->DEBUG_LAYOUT:Z
 
     if-eqz v2, :cond_6

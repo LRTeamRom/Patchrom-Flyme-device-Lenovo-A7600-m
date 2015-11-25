@@ -32,6 +32,58 @@
 
 
 # instance fields
+.field protected mLastDownSelectPosition:I
+
+.field protected mLastUpSelectPosition:I
+
+.field mMzDividerFilterListener:Landroid/widget/ListView$DividerFilter;
+
+.field mMzDragDownPosition:I
+
+.field mMzDragMotionPosition:I
+
+.field mMzDragMotionViewBottom:I
+
+.field mMzDragMotionViewTop:I
+
+.field mMzDragMotionY:I
+
+.field mMzDragRegionRect:Landroid/graphics/Rect;
+
+.field mMzDragSelectListener:Landroid/widget/ListView$OnDragSelectListener;
+
+.field mMzDragSlop:I
+
+.field mMzDragWidth:I
+
+.field mMzEnableDragSelection:Z
+
+.field mMzFocuseRect:Landroid/graphics/Rect;
+
+.field mMzInDividerHeight:I
+
+.field mMzIntercepeDragMotionX:I
+
+.field mMzIntercepeDragMotionY:I
+
+.field mMzIsBeginDragSelect:Z
+
+.field mMzIsCheckBoxAnim:Z
+
+.field mMzIsDividerInside:Z
+
+.field mMzIsOutOfDragRegion:Z
+
+.field mMzIsOutOfListContent:Z
+
+.field mMzLastDragMotionY:I
+
+.field mMzLongPressPosition:I
+
+.field mMzScrollSelection:Landroid/widget/ListView$MzScrollSelectionRunnable;
+
+.field mMzSelectToBottom:Z
+
 .field private mAbandonActiveViews:Z
 
 .field private mAreAllItemsSelectable:Z

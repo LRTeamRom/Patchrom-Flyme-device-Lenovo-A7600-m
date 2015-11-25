@@ -182,6 +182,8 @@
     iput-boolean v1, p0, Landroid/content/res/AssetManager;->mOpen:Z
 
     invoke-direct {p0, v1}, Landroid/content/res/AssetManager;->init(Z)V
+    
+    invoke-direct/range {p0 .. p0}, Landroid/content/res/AssetManager;->addFlymeAssetPath()V
 
     const-string v0, "/system/framework/lenovo-res/lenovo-res.apk"
 

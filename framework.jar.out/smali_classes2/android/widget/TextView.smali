@@ -13,6 +13,8 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Landroid/widget/TextView$4;,
+        Landroid/widget/TextView$FlymeInjector;,
+        Landroid/widget/TextView$MzInputShownChangeListener;,
         Landroid/widget/TextView$TextFontListener;,
         Landroid/widget/TextView$ChangeWatcher;,
         Landroid/widget/TextView$Marquee;,
@@ -9740,6 +9742,8 @@
     .line 4347
     .local v18, "s2":Landroid/text/Spannable;
     :goto_4
+    invoke-static/range {p0 .. p0}, Landroid/widget/TextView$FlymeInjector;->resetAutoLinkMask(Landroid/widget/TextView;)V
+    
     if-eqz v14, :cond_c
 
     move-object/from16 v0, p0
@@ -19800,6 +19804,10 @@
     iput-boolean v1, p0, Landroid/widget/TextView;->mPreDrawListenerDetached:Z
 
     :cond_1
+    const/4 v0, 0x1
+
+    invoke-static {p0, v0}, Landroid/widget/TextView$FlymeInjector;->updateCurrentCursorVisbilityOnFocusOrInputTypeChanged(Landroid/widget/TextView;Z)V
+
     iget-object v0, p0, Landroid/widget/TextView;->mFontListener:Landroid/widget/TextView$TextFontListener;
 
     if-eqz v0, :cond_2
@@ -25475,6 +25483,10 @@
     if-eqz v5, :cond_b
 
     :cond_8
+    iget-object v7, p0, Landroid/widget/TextView;->mEditor:Landroid/widget/Editor;
+
+    invoke-virtual {v7, p1}, Landroid/widget/Editor;->onTouchUpEventMz(Landroid/view/MotionEvent;)V
+
     invoke-static {}, Landroid/view/inputmethod/InputMethodManager;->peekInstance()Landroid/view/inputmethod/InputMethodManager;
 
     move-result-object v2

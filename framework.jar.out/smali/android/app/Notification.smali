@@ -336,6 +336,8 @@
 
     iput-wide v0, p0, Landroid/app/Notification;->simId:J
 
+    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
+
     return-void
 .end method
 
@@ -427,6 +429,8 @@
     const-wide/16 v0, -0x1
 
     iput-wide v0, p0, Landroid/app/Notification;->simId:J
+    
+    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
 
     return-void
 .end method
@@ -868,6 +872,8 @@
     invoke-virtual {v1}, Landroid/widget/RemoteViews;->setNotification()V
 
     :cond_c
+    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;Landroid/os/Parcel;)V
+    
     return-void
 .end method
 
@@ -1581,6 +1587,8 @@
     invoke-virtual {v5}, Landroid/widget/RemoteViews;->setNotification()V
 
     :cond_10
+    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->cloneIntoFlyme(Landroid/app/Notification;Landroid/app/Notification;)V
+    
     return-void
 .end method
 

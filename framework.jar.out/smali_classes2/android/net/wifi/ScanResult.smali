@@ -176,6 +176,8 @@
 
     iput v0, p0, Landroid/net/wifi/ScanResult;->isAutoJoinCandidate:I
 
+    invoke-direct/range {p0 .. p1}, Landroid/net/wifi/ScanResult;->setHexSSID(Landroid/net/wifi/ScanResult;)V
+
     iget-wide v0, p1, Landroid/net/wifi/ScanResult;->blackListTimestamp:J
 
     iput-wide v0, p0, Landroid/net/wifi/ScanResult;->blackListTimestamp:J

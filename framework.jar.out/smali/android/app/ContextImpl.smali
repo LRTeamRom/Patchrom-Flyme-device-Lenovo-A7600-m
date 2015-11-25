@@ -798,6 +798,8 @@
     invoke-direct {v1}, Landroid/app/ContextImpl$62;-><init>()V
 
     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
+    
+    invoke-static {}, Landroid/app/ContextImpl;->registeFlymeManager()V
 
     const-string v0, "jobscheduler"
 

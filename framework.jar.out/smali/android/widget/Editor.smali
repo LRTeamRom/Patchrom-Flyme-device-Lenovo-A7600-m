@@ -64,6 +64,26 @@
 
 
 # instance fields
+.field public mCursorOffsetX:I
+
+.field public mEnableDragSelection:Z
+
+.field public mHandler:Landroid/widget/Editor$OptionHandle;
+
+.field public mIsInDragSelectionMode:Z
+
+.field public mLastLayoutHeight:I
+
+.field public mLastScrollTime:J
+
+.field public mOptionWrapper:Landroid/widget/Editor$OptionWrapper;
+
+.field public mSelectionActionModeCallback:Landroid/widget/Editor$SelectionActionModeCallback;
+
+.field public mSelectonActionModeRunnable:Ljava/lang/Runnable;
+
+.field public mStartActionModeResult:Z
+
 .field public final SHOW_POP_MENU:I
 
 .field mBlink:Landroid/widget/Editor$Blink;
@@ -243,6 +263,8 @@
     iput v1, p0, Landroid/widget/Editor;->mStatusBarHeight:I
 
     iput-object p1, p0, Landroid/widget/Editor;->mTextView:Landroid/widget/TextView;
+    
+    invoke-static/range {p0 .. p0}, Landroid/widget/Editor$FlymeInjector;->initExtFlymeFields(Landroid/widget/Editor;)V
 
     iget-boolean v0, p0, Landroid/widget/Editor;->mLenovoSelectPopMenuSupport:Z
 
@@ -7098,6 +7120,18 @@
     .locals 8
 
     .prologue
+    iget-object v0, p0, Landroid/widget/Editor;->mTextView:Landroid/widget/TextView;
+
+    if-eqz v0, :cond_flyme_0
+
+    invoke-virtual/range {p0 .. p0}, Landroid/widget/Editor;->startSelectionActionModeMz()Z
+
+    move-result v2
+
+    return v2
+
+    :cond_flyme_0
+
     const/4 v7, 0x0
 
     const/4 v2, 0x1
@@ -7315,6 +7349,8 @@
     .locals 2
 
     .prologue
+    invoke-static/range {p0 .. p0}, Landroid/widget/Editor$FlymeInjector;->removeSelectonActionModeRunnable(Landroid/widget/Editor;)V
+    
     const-string v0, "TextView"
 
     const-string v1, "stopSelectionActionMode()"

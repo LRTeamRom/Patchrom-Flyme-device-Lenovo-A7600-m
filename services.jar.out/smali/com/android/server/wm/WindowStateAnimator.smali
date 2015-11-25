@@ -3707,6 +3707,8 @@
     invoke-virtual/range {v24 .. v26}, Landroid/graphics/RectF;->offset(FF)V
 
     :cond_28
+    invoke-direct/range {p0 .. p0}, Lcom/android/server/wm/WindowStateAnimator;->moveShownFrameIfNeed()V
+
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/android/server/wm/WindowStateAnimator;->mAlpha:F

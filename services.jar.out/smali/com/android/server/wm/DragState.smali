@@ -1254,6 +1254,8 @@
     .line 325
     .end local v11    # "touchedBinder":Landroid/os/IBinder;
     :cond_6
+    invoke-direct {p0, v12}, Lcom/android/server/wm/DragState;->mzNotifyMoveLw(Lcom/android/server/wm/WindowState;)V
+
     :try_start_1
     iget-object v0, p0, Lcom/android/server/wm/DragState;->mTargetWindow:Lcom/android/server/wm/WindowState;
 

@@ -1226,7 +1226,7 @@
     iget-object v2, p0, Landroid/app/WallpaperManager;->mContext:Landroid/content/Context;
 
     # invokes: Landroid/app/WallpaperManager$Globals;->openDefaultWallpaperRes(Landroid/content/Context;)Ljava/io/InputStream;
-    invoke-static {v1, v2}, Landroid/app/WallpaperManager$Globals;->access$300(Landroid/app/WallpaperManager$Globals;Landroid/content/Context;)Ljava/io/InputStream;
+    invoke-static {v2}, Landroid/app/WallpaperManager$FlymeInject;->mzOpenDefaultWallpaper(Landroid/content/Context;)Ljava/io/InputStream;
 
     move-result-object v0
 

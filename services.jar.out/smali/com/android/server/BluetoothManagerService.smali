@@ -264,6 +264,8 @@
     const-string v3, "android.intent.action.USER_SWITCHED"
 
     invoke-virtual {v1, v3}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    
+    invoke-direct {p0, v1}, Lcom/android/server/BluetoothManagerService;->mzAddFilterAction(Landroid/content/IntentFilter;)V
 
     const-string v3, "android.intent.action.ACTION_BOOT_IPO"
 

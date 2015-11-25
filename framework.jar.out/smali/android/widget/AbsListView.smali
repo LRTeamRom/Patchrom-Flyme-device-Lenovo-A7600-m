@@ -2377,6 +2377,12 @@
     goto :goto_0
 
     :cond_2
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzContentFits(Landroid/widget/AbsListView;)Z
+
+    move-result v1
+
+    return v1
+
     sget-boolean v3, Landroid/widget/AbsListView;->sDbg:Z
 
     if-eqz v3, :cond_3
@@ -3211,6 +3217,8 @@
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
     iput v1, p0, Landroid/widget/AbsListView;->mDensityScale:F
+    
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->initExtFlymeFields(Landroid/widget/AbsListView;)V
 
     sget-boolean v1, Landroid/widget/AbsListView;->sDbgLayout:Z
 
@@ -3453,6 +3461,16 @@
     .locals 6
 
     .prologue
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzOnTouchCancel(Landroid/widget/AbsListView;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
+
     const/4 v5, -0x1
 
     const/4 v4, 0x0
@@ -7311,6 +7329,14 @@
     iput v0, v1, Landroid/widget/AbsListView;->mDirection:I
 
     :cond_16
+    move-object/from16 v0, p0
+
+    move/from16 v1, v21
+
+    invoke-static {v0, v1}, Landroid/widget/AbsListView$FlymeInjector;->mzScrollIfNeeded(Landroid/widget/AbsListView;I)I
+
+    move-result v21
+
     move/from16 v0, v21
 
     neg-int v10, v0
@@ -7468,6 +7494,14 @@
     .end local v31    # "overscrollMode":I
     :cond_1b
     :goto_7
+    move-object/from16 v0, p0
+
+    move/from16 v1, v21
+
+    invoke-static {v0, v1}, Landroid/widget/AbsListView$FlymeInjector;->mzScrollIfNeeded3(Landroid/widget/AbsListView;I)I
+
+    move-result v21
+
     if-eqz v21, :cond_1e
 
     sget-boolean v3, Landroid/widget/AbsListView;->sDbgMotion:Z
@@ -7981,6 +8015,18 @@
 
     .local v5, "overscroll":Z
     :goto_0
+    invoke-static {p0, p2}, Landroid/widget/AbsListView$FlymeInjector;->mzStartScrollIfNeeded2(Landroid/widget/AbsListView;I)Z
+
+    move-result v9
+
+    if-nez v9, :cond_flyme_0
+
+    const/4 v9, 0x0
+
+    return v9
+
+    :cond_flyme_0
+
     sget-boolean v9, Landroid/widget/AbsListView;->sDbgMotion:Z
 
     if-eqz v9, :cond_0
@@ -8173,6 +8219,8 @@
     .line 3528
     :cond_7
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/AbsListView;->scrollIfNeeded(IILandroid/view/MotionEvent;)V
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzStartScrollIfNeeded(Landroid/widget/AbsListView;)V
 
     .line 3532
     .end local v1    # "count":I
@@ -9418,6 +9466,9 @@
     iput v5, p0, Landroid/widget/AbsListView;->mGroupFlags:I
 
     :cond_4
+
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsListView$FlymeInjector;->mzDispatchDraw(Landroid/widget/AbsListView;Landroid/graphics/Canvas;)V
+
     return-void
 
     .end local v0    # "clipToPadding":Z
@@ -14461,6 +14512,9 @@
     invoke-virtual {v2, v3, v4}, Landroid/widget/FastScroller;->onItemCountChanged(II)V
 
     :cond_5
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzOnLayout2(Landroid/widget/AbsListView;)V
+
     return-void
 
     :cond_6
@@ -14894,6 +14948,8 @@
     invoke-virtual {p0}, Landroid/widget/AbsListView;->invalidateParentIfNeeded()V
 
     invoke-virtual {p0}, Landroid/widget/AbsListView;->awakenScrollBars()Z
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzOnOverScrolled(Landroid/widget/AbsListView;)V
 
     :cond_1
     return-void
@@ -15815,6 +15871,9 @@
     invoke-virtual {v0, p1, p2, p3, p4}, Landroid/widget/FastScroller;->onSizeChanged(IIII)V
 
     :cond_2
+
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzOnSizeChanged(Landroid/widget/AbsListView;)V
+
     return-void
 .end method
 
@@ -16288,6 +16347,9 @@
 
     .line 3845
     .local v12, "vtev":Landroid/view/MotionEvent;
+
+    invoke-static/range {p0 .. p1}, Landroid/widget/AbsListView$FlymeInjector;->mzOnTouchEvent(Landroid/widget/AbsListView;Landroid/view/MotionEvent;)V
+
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v3

@@ -19906,6 +19906,10 @@
     invoke-virtual {v0, v1}, Lcom/android/server/wifi/WifiConfigStore;->loge(Ljava/lang/String;)V
 
     :cond_a
+    move-object/from16 v0, p0
+
+    invoke-direct {v0, v15, v4}, Lcom/android/server/wifi/WifiConfigStore;->mzSetKeyEncry(Ljava/lang/String;Landroid/net/wifi/WifiConfiguration;)V
+
     iget v0, v4, Landroid/net/wifi/WifiConfiguration;->priority:I
 
     move/from16 v19, v0

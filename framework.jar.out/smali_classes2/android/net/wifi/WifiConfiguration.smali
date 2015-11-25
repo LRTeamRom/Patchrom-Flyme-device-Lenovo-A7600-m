@@ -616,6 +616,8 @@
     invoke-direct {v1}, Landroid/net/IpConfiguration;-><init>()V
 
     iput-object v1, p0, Landroid/net/wifi/WifiConfiguration;->mIpConfiguration:Landroid/net/IpConfiguration;
+    
+    invoke-direct/range {p0 .. p0}, Landroid/net/wifi/WifiConfiguration;->initFlymeExtFields()V
 
     const/4 v1, 0x1
 
@@ -1032,6 +1034,8 @@
     iget-boolean v1, p1, Landroid/net/wifi/WifiConfiguration;->dirty:Z
 
     iput-boolean v1, p0, Landroid/net/wifi/WifiConfiguration;->dirty:Z
+    
+    invoke-direct/range {p0 .. p1}, Landroid/net/wifi/WifiConfiguration;->initFlymeExtFields(Landroid/net/wifi/WifiConfiguration;)V
 
     sget-boolean v1, Landroid/net/wifi/WifiConfiguration;->mMtkEapSimAka:Z
 

@@ -1314,6 +1314,8 @@
 
     const/16 v2, 0x29
 
+    add-int/lit8 v2, v2, 0x1
+
     new-array v2, v2, [Ljava/lang/String;
 
     const-string v3, "bugreport_in_power_menu"
@@ -1549,6 +1551,12 @@
     const/16 v3, 0x28
 
     const-string v4, "sleep_timeout"
+
+    aput-object v4, v2, v3
+
+    add-int/lit8 v3, v3, 0x1
+
+    const-string v4, "meizu_keyguard_lock"
 
     aput-object v4, v2, v3
 

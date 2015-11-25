@@ -11,6 +11,10 @@
 .end annotation
 
 # static fields
+.field public static final SEEK_BAR_SCROLL_MODE_COMMON:I = 0x0
+
+.field public static final SEEK_BAR_SCROLL_MODE_SLOW:I = 0x1
+
 .field private static final LOG_TAG:Ljava/lang/String; = "AbsSeekBar"
 
 .field private static final NO_ALPHA:I = 0xff

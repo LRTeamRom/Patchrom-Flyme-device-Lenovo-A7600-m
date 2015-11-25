@@ -254,6 +254,8 @@
     .end annotation
 .end field
 
+.field public themeChanged:I
+
 .field public compatScreenHeightDp:I
 
 .field public compatScreenWidthDp:I
@@ -3123,6 +3125,10 @@
 
     sub-int v2, v3, v4
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->compareTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)I
+
+    move-result v2
+
     if-nez v2, :cond_0
 
     invoke-direct {p0, p1, v2}, Landroid/content/res/Configuration;->smaliCompareTo(Landroid/content/res/Configuration;I)I
@@ -3477,7 +3483,7 @@
     or-int/lit16 v0, v0, 0x1000
 
     :cond_12
-    invoke-direct {p0, p1, v0}, Landroid/content/res/Configuration;->smaliDiff(Landroid/content/res/Configuration;I)I
+    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInject;->diff(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
 
     move-result v0
 
@@ -3982,6 +3988,8 @@
     move-result v0
 
     iput v0, p0, Landroid/content/res/Configuration;->seq:I
+    
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->readFromParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
 
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
@@ -4170,6 +4178,8 @@
     iget v0, p1, Landroid/content/res/Configuration;->seq:I
 
     iput v0, p0, Landroid/content/res/Configuration;->seq:I
+    
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->setTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
 
     iget-boolean v0, p1, Landroid/content/res/Configuration;->simSetLocale:Z
 
@@ -4240,6 +4250,8 @@
     iput v1, p0, Landroid/content/res/Configuration;->densityDpi:I
 
     iput v1, p0, Landroid/content/res/Configuration;->seq:I
+    
+    invoke-static/range {p0 .. p0}, Landroid/content/res/Configuration$FlymeInject;->setToDefaults(Landroid/content/res/Configuration;)V
 
     iput-boolean v1, p0, Landroid/content/res/Configuration;->simSetLocale:Z
 
@@ -5706,6 +5718,8 @@
 
     .line 1078
     :cond_19
+    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInject;->updateFrom(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
+    
     iget-boolean v2, p1, Landroid/content/res/Configuration;->simSetLocale:Z
 
     if-eqz v2, :cond_1b
@@ -5853,6 +5867,8 @@
     iget v0, p0, Landroid/content/res/Configuration;->seq:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+    
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->writeToParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
 
     iget-boolean v0, p0, Landroid/content/res/Configuration;->simSetLocale:Z
 
