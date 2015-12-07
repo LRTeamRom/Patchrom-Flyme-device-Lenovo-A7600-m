@@ -40,14 +40,14 @@ vendor_modify_images := boot
 # The default value is app or pri-app which not need to configure.
 # You can configure the directory name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-vendor_remove_dirs := preload
+vendor_remove_dirs := preload media/images media/video
 
 ##############################################################################
 # The value decides the file which you want to remove in the vendor directory for the ota package.
 # The default value is nothing.
 # You can configure the file name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-#vendor_remove_files := bin/zchgd
+vendor_remove_files := media/loading.zip media/poweroff.mp4 media/start.mp4
 
 ##############################################################################
 # The value decides the vendor apk which you want to save in the vendor directory for the ota package.
