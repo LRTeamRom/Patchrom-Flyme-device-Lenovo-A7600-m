@@ -329,14 +329,14 @@
     iput-wide v0, p0, Landroid/app/Notification;->when:J
 
     iput v2, p0, Landroid/app/Notification;->priority:I
+    
+    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
 
     iput v2, p0, Landroid/app/Notification;->simInfoType:I
 
     const-wide/16 v0, -0x1
 
     iput-wide v0, p0, Landroid/app/Notification;->simId:J
-
-    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
 
     return-void
 .end method
@@ -423,14 +423,14 @@
     move-result-object v0
 
     invoke-virtual {p0, p1, p6, p7, v0}, Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
+    
+    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
 
     iput v1, p0, Landroid/app/Notification;->simInfoType:I
 
     const-wide/16 v0, -0x1
 
     iput-wide v0, p0, Landroid/app/Notification;->simId:J
-    
-    invoke-static/range {p0 .. p0}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;)V
 
     return-void
 .end method
@@ -854,6 +854,8 @@
     move-result v1
 
     iput v1, p0, Landroid/app/Notification;->color:I
+    
+    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;Landroid/os/Parcel;)V
 
     iget-object v1, p0, Landroid/app/Notification;->tickerView:Landroid/widget/RemoteViews;
 
@@ -872,8 +874,6 @@
     invoke-virtual {v1}, Landroid/widget/RemoteViews;->setNotification()V
 
     :cond_c
-    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->initNotificationExt(Landroid/app/Notification;Landroid/os/Parcel;)V
-    
     return-void
 .end method
 
@@ -1554,6 +1554,8 @@
     invoke-virtual {p1}, Landroid/app/Notification;->lightenPayload()V
 
     :cond_d
+    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->cloneIntoFlyme(Landroid/app/Notification;Landroid/app/Notification;)V
+    
     if-eqz p2, :cond_e
 
     iget-object v5, p1, Landroid/app/Notification;->tickerView:Landroid/widget/RemoteViews;
@@ -1587,8 +1589,6 @@
     invoke-virtual {v5}, Landroid/widget/RemoteViews;->setNotification()V
 
     :cond_10
-    invoke-static/range {p0 .. p1}, Landroid/app/Notification$FlymeInject;->cloneIntoFlyme(Landroid/app/Notification;Landroid/app/Notification;)V
-    
     return-void
 .end method
 
