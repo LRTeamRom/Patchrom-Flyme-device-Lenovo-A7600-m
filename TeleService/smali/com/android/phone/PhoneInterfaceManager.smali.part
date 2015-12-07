@@ -1,0 +1,65 @@
+.method public getPhoneRat(I)I
+    .locals 1
+    .param p1, "phoneId"    # I
+
+    .prologue
+    .line 2399
+    invoke-static {}, Lcom/android/internal/telephony/ProxyController;->getInstance()Lcom/android/internal/telephony/ProxyController;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/android/internal/telephony/ProxyController;->getPhoneRat(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public setPhoneRat([Landroid/telephony/PhoneRatFamily;)Z
+    .locals 4
+    .param p1, "rats"    # [Landroid/telephony/PhoneRatFamily;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .prologue
+    .line 2386
+    const/4 v1, 0x1
+
+    .line 2388
+    .local v1, "ret":Z
+    :try_start_0
+    invoke-static {}, Lcom/android/internal/telephony/ProxyController;->getInstance()Lcom/android/internal/telephony/ProxyController;
+
+    move-result-object v2
+
+    invoke-virtual {v2, p1}, Lcom/android/internal/telephony/ProxyController;->setPhoneRat([Landroid/telephony/PhoneRatFamily;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 2394
+    :goto_0
+    return v1
+
+    .line 2389
+    :catch_0
+    move-exception v0
+
+    .line 2390
+    .local v0, "ex":Ljava/lang/Exception;
+    const-string v2, "PhoneInterfaceManager"
+
+    const-string v3, "setPhoneRat: Exception"
+
+    invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 2391
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    .line 2392
+    const/4 v1, 0x0
+
+    goto :goto_0
+.end method
