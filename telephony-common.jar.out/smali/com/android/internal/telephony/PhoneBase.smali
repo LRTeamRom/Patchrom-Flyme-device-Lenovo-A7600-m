@@ -6540,12 +6540,25 @@
 .end method
 
 .method public registerForVoiceCallIncomingIndication(Landroid/os/Handler;ILjava/lang/Object;)V
-    .locals 0
+    .locals 2
     .param p1, "h"    # Landroid/os/Handler;
     .param p2, "what"    # I
     .param p3, "obj"    # Ljava/lang/Object;
 
     .prologue
+    .line 2163
+    const-string v0, "PhoneBase"
+
+    const-string v1, "registerForVoiceCallIncomingIndication"
+
+    invoke-static {v0, v1}, Landroid/telephony/Rlog;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 2164
+    iget-object v0, p0, Lcom/android/internal/telephony/PhoneBase;->mVoiceCallIncomingIndicationRegistrants:Landroid/os/RegistrantList;
+
+    invoke-virtual {v0, p1, p2, p3}, Landroid/os/RegistrantList;->addUnique(Landroid/os/Handler;ILjava/lang/Object;)V
+
+    .line 2165
     return-void
 .end method
 
@@ -7654,10 +7667,16 @@
 .end method
 
 .method public unregisterForVoiceCallIncomingIndication(Landroid/os/Handler;)V
-    .locals 0
+    .locals 1
     .param p1, "h"    # Landroid/os/Handler;
 
     .prologue
+    .line 2168
+    iget-object v0, p0, Lcom/android/internal/telephony/PhoneBase;->mVoiceCallIncomingIndicationRegistrants:Landroid/os/RegistrantList;
+
+    invoke-virtual {v0, p1}, Landroid/os/RegistrantList;->remove(Landroid/os/Handler;)V
+
+    .line 2169
     return-void
 .end method
 
