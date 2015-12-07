@@ -3526,35 +3526,11 @@
     const/4 v0, 0x0
 
     .line 1022
-    iget-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerKeyRebootHandled:Z
+    iget-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerKeyHandled:Z
 
     if-nez v1, :cond_0
 
-    .line 1023
-    iget-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHandler:Landroid/os/Handler;
-
-    iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerLongPressReboot:Ljava/lang/Runnable;
-
-    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
-
-    .line 1025
-    :cond_0
-    iget-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mGlobalActions:Lcom/android/internal/policy/impl/GlobalActions;
-
-    if-eqz v1, :cond_1
-
-    .line 1026
-    iget-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mGlobalActions:Lcom/android/internal/policy/impl/GlobalActions;
-
-    invoke-virtual {v1}, Lcom/android/internal/policy/impl/GlobalActions;->cancelRebootDialog()V
-
-    .line 1029
-    :cond_1
-    iget-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerKeyHandled:Z
-
-    if-nez v1, :cond_2
-
-    .line 1030
+    .line 794
     iget-object v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPowerLongPress:Ljava/lang/Runnable;
@@ -3562,12 +3538,12 @@
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 1031
-    if-nez p1, :cond_2
+    if-nez p1, :cond_0
 
     const/4 v0, 0x1
 
     .line 1033
-    :cond_2
+    :cond_0
     return v0
 .end method
 
