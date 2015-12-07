@@ -146,6 +146,10 @@
 
     invoke-virtual {v1}, Landroid/app/ActivityManagerInternal;->goingToSleep()V
 
+    iget-object v1, p0, Lcom/android/server/power/Notifier$2;->this$0:Lcom/android/server/power/Notifier;
+
+    invoke-static {v1, v0}, Lcom/android/server/power/Notifier$FlymeInjector;->mzNotifyAccessControlGotoSleep(Lcom/android/server/power/Notifier;I)V
+
     .line 354
     return-void
 
