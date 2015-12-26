@@ -56,7 +56,8 @@ vendor_remove_files := media/loading.zip media/poweroff.mp4 media/start.mp4
 #-----------------------------------------------------------------------------
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService
+                     ProxyHandler Shell DefaultContainerService LenovoKeyguardSettings LenovoLightSettings \
+		     MobileNetworkSettings MTKSettingsPlugin SimSettings SoundSettings WifiSettings
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
