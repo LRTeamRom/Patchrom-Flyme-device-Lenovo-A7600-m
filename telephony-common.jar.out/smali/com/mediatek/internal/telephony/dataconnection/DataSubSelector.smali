@@ -139,15 +139,15 @@
     invoke-direct {v0}, Landroid/content/IntentFilter;-><init>()V
 
     .line 107
-    .local v0, "filter":Landroid/content/IntentFilter;
-    const-string v1, "android.intent.action.ACTION_SUBINFO_RECORD_UPDATED"
+    #.local v0, "filter":Landroid/content/IntentFilter;
+    #const-string v1, "android.intent.action.ACTION_SUBINFO_RECORD_UPDATED"
 
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    #invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 108
-    const-string v1, "android.intent.action.SIM_STATE_CHANGED"
+    #const-string v1, "android.intent.action.SIM_STATE_CHANGED"
 
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    #invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 109
     iget-object v1, p0, Lcom/mediatek/internal/telephony/dataconnection/DataSubSelector;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;

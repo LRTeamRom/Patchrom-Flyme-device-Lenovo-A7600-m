@@ -61,13 +61,13 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lcom/mediatek/epdg/EpdgServiceImpl;->mContext:Landroid/content/Context;
+    #iget-object v0, p0, Lcom/mediatek/epdg/EpdgServiceImpl;->mContext:Landroid/content/Context;
 
-    const-string v1, "android.permission.ACCESS_NETWORK_STATE"
+    #const-string v1, "android.permission.ACCESS_NETWORK_STATE"
 
-    const-string v2, "EpdgService"
+    #const-string v2, "EpdgService"
 
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-virtual {v0, v1, v2}, Landroid/content/Context;->enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     return-void

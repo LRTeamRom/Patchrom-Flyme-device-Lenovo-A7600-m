@@ -259,9 +259,9 @@
 
     const/16 v1, 0x9
 
-    const-string v2, "android.permission.ACCESS_NETWORK_STATE"
+    #const-string v2, "android.permission.ACCESS_NETWORK_STATE"
 
-    aput-object v2, v0, v1
+    #aput-object v2, v0, v1
 
     const/16 v1, 0xa
 

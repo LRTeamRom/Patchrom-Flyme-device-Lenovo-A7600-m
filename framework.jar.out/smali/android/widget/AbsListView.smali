@@ -5925,9 +5925,9 @@
     :pswitch_3
     invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->mzOnTouchUpForOverScroll(Landroid/widget/AbsListView;)Z
 
-    move-result v18
+    move-result v20
 
-    if-nez v18, :cond_flyme_0
+    if-nez v20, :cond_flyme_0
 
     move-object/from16 v0, p0
 

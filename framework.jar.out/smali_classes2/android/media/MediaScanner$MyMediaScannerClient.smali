@@ -1634,40 +1634,40 @@
 
     .line 1130
     .local v20, "focusLow":J
-    const-string v4, "focus_value_high"
+    #const-string v4, "focus_value_high"
 
-    invoke-static/range {v18 .. v19}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    #invoke-static/range {v18 .. v19}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    move-result-object v5
+    #move-result-object v5
 
-    invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    #invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 1131
-    const-string v4, "focus_value_low"
+    #const-string v4, "focus_value_low"
 
-    invoke-static/range {v20 .. v21}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    #invoke-static/range {v20 .. v21}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    move-result-object v5
+    #move-result-object v5
 
-    invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    #invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 1132
-    const-string v4, "group_id"
+    #const-string v4, "group_id"
 
-    invoke-static/range {v22 .. v23}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    #invoke-static/range {v22 .. v23}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    move-result-object v5
+    #move-result-object v5
 
-    invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    #invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 1133
-    const-string v4, "group_index"
+    #const-string v4, "group_index"
 
-    invoke-static/range {v25 .. v25}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #invoke-static/range {v25 .. v25}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    move-result-object v5
+    #move-result-object v5
 
-    invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    #nvoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 1135
     const-string v4, "MTKCameraRefocus"
@@ -1683,13 +1683,13 @@
     .line 1136
     .local v34, "refocus":I
     :goto_b
-    const-string v4, "camera_refocus"
+    #const-string v4, "camera_refocus"
 
-    invoke-static/range {v34 .. v34}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #invoke-static/range {v34 .. v34}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    move-result-object v5
+    #move-result-object v5
 
-    invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    #invoke-virtual {v7, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     goto/16 :goto_1
 
@@ -3495,22 +3495,22 @@
 
     .line 976
     :cond_1
-    const-string v2, "is_live_photo"
+    #const-string v2, "is_live_photo"
 
-    iget-boolean v3, p0, Landroid/media/MediaScanner$MyMediaScannerClient;->mIsLivePhoto:Z
+    #iget-boolean v3, p0, Landroid/media/MediaScanner$MyMediaScannerClient;->mIsLivePhoto:Z
 
-    invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    #invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    move-result-object v3
+    #move-result-object v3
 
-    invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Boolean;)V
+    #invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Boolean;)V
 
     .line 978
-    const-string v2, "slow_motion_speed"
+    #const-string/jumbo v2, "slow_motion_speed"
 
-    iget-object v3, p0, Landroid/media/MediaScanner$MyMediaScannerClient;->mSlowMotionSpeed:Ljava/lang/String;
+    #iget-object v3, p0, Landroid/media/MediaScanner$MyMediaScannerClient;->mSlowMotionSpeed:Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-virtual {v0, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 980
     const-string v2, "orientation"
@@ -5670,11 +5670,11 @@
 
     .line 800
     :cond_23
-    const-string v3, "is_live_photo"
+    #const-string v3, "is_live_photo"
 
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    #invoke-virtual {p1, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
-    move-result v3
+    #move-result v3
 
     if-eqz v3, :cond_25
 
