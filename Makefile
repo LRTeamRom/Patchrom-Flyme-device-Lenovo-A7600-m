@@ -57,7 +57,14 @@ vendor_remove_files := media/loading.zip media/poweroff.mp4 media/start.mp4
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService LenovoKeyguardSettings LenovoLightSettings \
-		     MobileNetworkSettings MTKSettingsPlugin SimSettings SoundSettings WifiSettings
+		     MobileNetworkSettings MTKSettingsPlugin SimSettings SoundSettings WifiSettings Stk1 \
+		     AtciService BasicDreams BSPTelephonyDevTool CaptivePortalLogin \
+		     PhaseBeam EngineerMode EngineerModeSim HD_RawDataTest_lenovo_v1.2.0_20150119 \
+		     LenovoFMRadio LenovoFactoryMode LenovoScreenMode \
+		     LenovoSmartScene LenovoSmartWifi LiveWallpapers LiveWallpapersPicker SystemDaemonService \
+		     MtkFloatMenu MtkFmRadio MTKLogger MTKThermalManager NlpService NoiseField \
+		     PacProcessor PhaseBeam AMapNetworkLocation CDS_INFO LenovoBlackGestures WideTouch \
+		     
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
