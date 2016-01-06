@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 55
+    .line 49
     iput-object p1, p0, Landroid/media/MediaScannerConnection$1;->this$0:Landroid/media/MediaScannerConnection;
 
     invoke-direct {p0}, Landroid/media/IMediaScannerListener$Stub;-><init>()V
@@ -39,7 +39,7 @@
     .param p2, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 57
+    .line 51
     iget-object v1, p0, Landroid/media/MediaScannerConnection$1;->this$0:Landroid/media/MediaScannerConnection;
 
     # getter for: Landroid/media/MediaScannerConnection;->mClient:Landroid/media/MediaScannerConnection$MediaScannerConnectionClient;
@@ -47,14 +47,14 @@
 
     move-result-object v0
 
-    .line 58
+    .line 52
     .local v0, "client":Landroid/media/MediaScannerConnection$MediaScannerConnectionClient;
     if-eqz v0, :cond_0
 
-    .line 59
+    .line 53
     invoke-interface {v0, p1, p2}, Landroid/media/MediaScannerConnection$MediaScannerConnectionClient;->onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 61
+    .line 55
     :cond_0
     return-void
 .end method
