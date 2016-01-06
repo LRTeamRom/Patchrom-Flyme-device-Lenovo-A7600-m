@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/color_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/color_light_demo" android:key="colorlight_demo" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/color_light_call" android:key="colorlight_call" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/color_light_missed_call" android:key="colorlight_missed_call" android:summaryOn="@string/color_light_hasopen" android:summaryOff="@string/color_light_hasclose" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/color_light_unread_mms" android:key="colorlight_unread_mms" android:summaryOn="@string/color_light_hasopen" android:summaryOff="@string/color_light_hasclose" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/color_light_battery" android:key="colorlight_battery" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/color_light_other" android:key="colorlight_other" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touch_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lenovo="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.lenovo.settings.charactersettings.EnhanceStatusPreferenceRom20 android:id="@id/gesture_topspeed_snap_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/gesture_topspeed_snap_title" android:key="gesture_topspeed_snap" android:summary="@string/gesture_topspeed_snap_summary" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+    <com.lenovo.settings.charactersettings.EnhanceStatusPreferenceRom20 android:id="@id/gesture_pick_up_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/gesture_pick_up_title" android:key="gesture_pick_up" android:summary="@string/gesture_pick_up_summary_short" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+</PreferenceScreen>

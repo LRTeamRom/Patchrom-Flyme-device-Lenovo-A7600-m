@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/display_effect_divider_background" android:layout_width="fill_parent" android:layout_height="@dimen/display_effect_divider_size" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/display_effect_img_height" android:src="@drawable/bg" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <fragment android:name="com.flyme.deviceoriginalsettings.display.screeneffect.ui.EffectModeAndParamFragmentV3" android:id="@id/display_panel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@color/display_effect_divider_background" android:layout_width="fill_parent" android:layout_height="@dimen/display_effect_divider_size" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/display_effect_bottom_height">
+        <TextView android:id="@id/cancel" android:text="@string/display_effect_buttom_text_cancel" style="@style/EffectOfScreen.Operator" />
+        <View android:background="@color/display_effect_divider_background" android:layout_width="@dimen/display_effect_divider_size" android:layout_height="@dimen/display_effect_bottom_button_divider_height" android:layout_marginTop="@dimen/display_effect_bottom_button_divider_margin_top" />
+        <TextView android:id="@id/apply" android:text="@string/display_effect_buttom_text_apply" style="@style/EffectOfScreen.Operator" />
+    </LinearLayout>
+</LinearLayout>

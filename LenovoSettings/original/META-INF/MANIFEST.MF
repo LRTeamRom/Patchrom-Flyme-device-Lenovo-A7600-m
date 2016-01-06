@@ -1,0 +1,3215 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/proxy.xml
+SHA1-Digest: lzA9bO4DH1mP3raQnaWcKhviYc4=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_2_light.png
+SHA1-Digest: zLoAjlAeRuIcW23oDcm6B6sZovE=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_3_light.png
+SHA1-Digest: 1Wq98s/9WLavSLmCmgoag1nV5lI=
+
+Name: res/drawable/btn_ueimprov_bg_selector.xml
+SHA1-Digest: cGKCVAuulHLKBQZtNRSaWdjegKQ=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_sync_off_holo.png
+SHA1-Digest: yNEkVcaWh7MuMbEYKTZ0tiXT5Cs=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_network_signal_3.png
+SHA1-Digest: pPU48rjNAb01iNB9cEFe9TeWco4=
+
+Name: res/xml/lenovo_about_settings.xml
+SHA1-Digest: gx01R13g6yMumpQEDpCYcwDqvtQ=
+
+Name: res/layout/user_info_header.xml
+SHA1-Digest: 2hhzjxlk/bVzKJn7l1Pafl4aJFc=
+
+Name: res/layout/intent_sender.xml
+SHA1-Digest: DfLrBcmT0yWDf2idzwmWUU4eTj4=
+
+Name: res/drawable-mdpi-v4/ic_network_signal_0.png
+SHA1-Digest: 1wjJ2e7ImKm0sVX3xC+BuFam9jo=
+
+Name: res/drawable-mdpi-v4/ic_sync_anim_holo.png
+SHA1-Digest: M9GgWCFAE/ph2tr2RDqSHVxkHSE=
+
+Name: res/drawable/lenovo_chelp_gesture_light_up_screen.xml
+SHA1-Digest: 6DaHOu4sXt7QvjHMetT+bdbbQXY=
+
+Name: res/layout/preference_charactersettings_switch_item.xml
+SHA1-Digest: oAr/LJaIMSjhrDj11V6pww9dzTs=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_settings_display.png
+SHA1-Digest: ONblvdxKeog7PJMh6zGqcIGJqJg=
+
+Name: res/drawable/preference_highlight.xml
+SHA1-Digest: QPZuaJNRFNFD/UARSOrp4yZStYw=
+
+Name: res/layout/lenovo_preference_switch_k7.xml
+SHA1-Digest: r3vSv2yxD/yAy+H1InmFWeC5cFk=
+
+Name: res/drawable-xhdpi-v4/ic_lockscreen_ime.png
+SHA1-Digest: 8Aq5BuzjENbESsBpfnM14TcC/cA=
+
+Name: res/drawable-xhdpi-v4/ic_settings_dataconnect.png
+SHA1-Digest: 4VSvw0z/MaHLCTYcU+VFm07Hni4=
+
+Name: res/drawable/data_sweep_warning.xml
+SHA1-Digest: TIvqVzjvPsnXOSiXCotHCiUZe8A=
+
+Name: res/color/usb_mode_preference_color.xml
+SHA1-Digest: TfmAZwZOShFk5dRgo+P37vX5LHk=
+
+Name: res/layout-sw600dp-v13/access_point_category_for_setup_wizard_xl
+ .xml
+SHA1-Digest: zjQsO0seNni+9oTmwCFXTo67bX4=
+
+Name: res/drawable-xhdpi-v4/tab_selected_focused_holo.9.png
+SHA1-Digest: Tl2ViOnLLqn8t3j5PLE6zrYNK2o=
+
+Name: res/drawable-xhdpi-v4/lenovo_effect_of_sreen_param_bar_thumb_pre
+ ssed.png
+SHA1-Digest: clnhOCumXv8cgMsXnbtOMR61vU0=
+
+Name: res/layout/preference_header_switch_item_rom20.xml
+SHA1-Digest: siSX4xkd0oQwGf2rjO2tZ00fGec=
+
+Name: res/layout/manage_applications_item.xml
+SHA1-Digest: yevyOk3X4yaQwp/sAxNDG9LMGKQ=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_ok.png
+SHA1-Digest: wAlM0+s0/AvLUU/Nq+MndKVAgO8=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_network_signal_1.png
+SHA1-Digest: S6omzIVcHiRbfs7QRfvfxLSkhf8=
+
+Name: res/layout/com_lenovo_lsf_forget.xml
+SHA1-Digest: EQRfASuIl+QkT3++WMfw5nt74mQ=
+
+Name: res/xml/device_info_sim_status_gemini.xml
+SHA1-Digest: JTMfyIDZ/GWphHgH7dBof9fvRDg=
+
+Name: res/drawable-xhdpi-v4/ic_settings_storage.png
+SHA1-Digest: NErTsffK3z3TYjB8RMBu55mpZyQ=
+
+Name: res/layout/empty_print_state.xml
+SHA1-Digest: a5JcgS7coYq/RQYhGGrp2abQcMA=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_off_c_holo.9.png
+SHA1-Digest: xYFFF7fRPCTP0RA+xLgHBbPZHfQ=
+
+Name: res/drawable-mdpi-v4/avatar_default_6.png
+SHA1-Digest: j/Byc/1wcbEgndsR6ReiT1GSAQw=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_3_light.png
+SHA1-Digest: GLrMkx0y8V2w6kA3xUVza3TQEjY=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_mid_r_holo.9.png
+SHA1-Digest: QX++JWc11LL0j4mWH/NWKo8TeWg=
+
+Name: res/drawable-xhdpi-v4/ic_settings_location.png
+SHA1-Digest: OXNII6m7Ju+sAVG6nVN0AxqFVGg=
+
+Name: res/drawable-mdpi-v4/ic_tab_selected_all.png
+SHA1-Digest: 2pB4cSbvldsO5IBk1rczN/cnvzg=
+
+Name: res/layout-sw600dp-v13/crypt_keeper_pattern_entry.xml
+SHA1-Digest: VIFPOS6cyHMUM8K68aW5dTOUz0s=
+
+Name: res/xml/power_usage_summary.xml
+SHA1-Digest: jalR+nGlOdfTdOlkniABktLwPis=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_pressed_c_holo.9.png
+SHA1-Digest: CTKJpVhm0llOKJ4WOhoHagr/PTI=
+
+Name: res/drawable-mdpi-v4/ic_network_signal_4.png
+SHA1-Digest: L2WacrZCgvJEjFf6iRBTbm3hJJ4=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_button.xml
+SHA1-Digest: y4OA20NsNLwtxyrjO3Q3ZBkIILo=
+
+Name: res/layout/preference_widget_wifi_signal.xml
+SHA1-Digest: DGmbmAbfJHlFXgYXlNn56v6UIfY=
+
+Name: res/drawable-xhdpi-v4/divider_horizontal_dark.9.png
+SHA1-Digest: RuizCE5pOYjV+NwvqXfRvQ1eiCE=
+
+Name: res/drawable/lenovo_chelp_wide_touch.xml
+SHA1-Digest: wVeSouZSOVNTQEdICf9yvRXfnrE=
+
+Name: res/layout/location_list_no_item.xml
+SHA1-Digest: ZYsUUGJyNTJ6cyoyhDI803QFhAQ=
+
+Name: res/layout/crypt_keeper_pin_field.xml
+SHA1-Digest: FRHVdnCs/jHk2nsJbfRmD4dtHnM=
+
+Name: res/drawable/ideaui_rounded_cornor_preference_background_middle_
+ holo_light.xml
+SHA1-Digest: hVR0D57Ax2FAHAXnkJVmb6IKz34=
+
+Name: res/layout/data_usage_app_title.xml
+SHA1-Digest: FATczR5+wx3e6PBoi2xufQS5e10=
+
+Name: res/drawable-xhdpi-v4/tab_unselected_holo.9.png
+SHA1-Digest: JI4uCQu81HTSsYbhaQLppw/+mfg=
+
+Name: res/drawable-mdpi-v4/avatar_default_7.png
+SHA1-Digest: ESj5zn8NhY/maLFBGyKWR5mYAGw=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_location_saving_holo.
+ png
+SHA1-Digest: sOSykt/WVnrRP4azksw1MkCBcxA=
+
+Name: res/drawable-xhdpi-v4/ic_settings_double_click_home_enabled.png
+SHA1-Digest: CWEXezmfJL6ijOokV0jFfBFC13w=
+
+Name: res/drawable/menu_item_scan_click.xml
+SHA1-Digest: FnNX8VNa1bpgSLK5dYTX3faHN7o=
+
+Name: res/xml/tts_engine_settings.xml
+SHA1-Digest: mz1iRd6caoFTsxoA0Lj2yBEdgQM=
+
+Name: res/layout/preference_helper.xml
+SHA1-Digest: 0ktMiVHwik29OC4UnJJWoSsjRbc=
+
+Name: res/drawable-xhdpi-v4/ic_settings_phone_idle.png
+SHA1-Digest: FyFyOsbP14h2/k7pQ8EW1zlMWuk=
+
+Name: res/drawable-xhdpi-v4/pq.png
+SHA1-Digest: 2XNJbVKW/D6Cbz1ApwI3xA4V5og=
+
+Name: res/layout/master_clear_confirm.xml
+SHA1-Digest: LBW00JLCl8+GMY+ookZcpleA3U8=
+
+Name: res/layout/preference_icon.xml
+SHA1-Digest: +WHcoD8mxjqhTQ83w8oI5w6jspw=
+
+Name: res/drawable-xhdpi-v4/specllchecker_settings_p.png
+SHA1-Digest: orDPkiAcMUf9vBZmSb6aJG0cmoM=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_7.png
+SHA1-Digest: itsJeFa/nkBte5weNt0yp286ycM=
+
+Name: res/layout/battery_info.xml
+SHA1-Digest: zN6tDbNjTHrk8QLhyjQCYvqUzzw=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_emergency.png
+SHA1-Digest: NAYIpKja1K9W+4ViR7Fg/Dqx+Fo=
+
+Name: res/drawable-xhdpi-v4/data_sweep_warning_activated.9.png
+SHA1-Digest: 0sZtzqWFIQzzRJaI2iHfM7NgCic=
+
+Name: res/layout/preference_category_holo.xml
+SHA1-Digest: 4Rx7IXo4vSVQxm3MYtJW1i/EoLI=
+
+Name: res/drawable/wifi_signal_open_dark.xml
+SHA1-Digest: uJRRThO+tO9Es8924y0qSfiPzhs=
+
+Name: res/drawable-xhdpi-v4/ic_settings_overturn_lock_enable.png
+SHA1-Digest: +bJZF9ddikOVgGdHfUY1qIeq0cY=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_3_dark.png
+SHA1-Digest: dwzmkDpImJQvraLA80cKi+AApJ4=
+
+Name: res/layout/radio_info.xml
+SHA1-Digest: cyIdDtK/S155LrBdln2A2zTmIqI=
+
+Name: res/drawable-xhdpi-v4/avatar_default_4.png
+SHA1-Digest: gya9RwHIVy49+uzgYn5IJu6rnDg=
+
+Name: res/xml/testing_settings.xml
+SHA1-Digest: nfglZT9DDd+S/4YwfwmT4qghqHg=
+
+Name: res/layout/app_permission_item_old.xml
+SHA1-Digest: lGNlqjwCsgKvw9Cs1lFRPZy3yvg=
+
+Name: res/drawable-mdpi-v4/lock_anim_4.png
+SHA1-Digest: K+DVXvtZNqTV5AcrSQ2f0+gcw+A=
+
+Name: res/drawable-xhdpi-v4/ic_wfd_laptop.png
+SHA1-Digest: 2wU8EZRNNlExDMFuQKuNFlYLUpw=
+
+Name: res/layout-sw600dp-land-v13/choose_lock_pattern.xml
+SHA1-Digest: JUjgwvfb9YZy+meqKnMax3NmPVw=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_bluetooth_on_holo.pn
+ g
+SHA1-Digest: BxyonDUzACIsLCL+qoLJ6b8pGIs=
+
+Name: res/drawable-mdpi-v4/lock_anim_14.png
+SHA1-Digest: +bJ+EplEaymC/CpeJpSeOtBzqcI=
+
+Name: res/layout/master_clear_account.xml
+SHA1-Digest: yMf/nFhDK+ukohvVMDoLWpdqH/Q=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_logout_menu.png
+SHA1-Digest: YdnUfosbyMsqPI2c3jKbnXfj5/w=
+
+Name: res/drawable-xhdpi-v4/ic_sync_red_holo.png
+SHA1-Digest: yMyX2oRw/VcWp9jdF/4R+ioYJEE=
+
+Name: res/layout/com_lenovo_lsf_account_binding.xml
+SHA1-Digest: dVA6S8DZGBpOiFqhafE0xDa1IBc=
+
+Name: res/layout/wifi_ap_bandwidth_usage.xml
+SHA1-Digest: 5RCCxMVDnStnHyOxeM5NgoSLPqo=
+
+Name: res/drawable-xhdpi-v4/ic_menu_add_dark.png
+SHA1-Digest: I+DDC22gZIXezx4j4KEHIswZz4Q=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_logout_menu.png
+SHA1-Digest: d/8YLI9QGyG22NTaDTIc2p9Z4tw=
+
+Name: res/xml/language_settings.xml
+SHA1-Digest: ZDtLQfZ472bpC2ByOj572CKPypI=
+
+Name: res/drawable-mdpi-v4/lock_anim_11.png
+SHA1-Digest: lzplve13IoLOyqmoBkRfHOq2XHs=
+
+Name: res/drawable-mdpi-v4/ic_bt_transmit_ftp.png
+SHA1-Digest: xREy7BoPo/McgGAyeGpbEfzZh5Y=
+
+Name: res/layout/settings_tabs_pager.xml
+SHA1-Digest: +StYWevkgjl6qux46TdEqsDeyvU=
+
+Name: res/layout/nfc_payment_option.xml
+SHA1-Digest: ichXD6xebDyPDDQFmU56TUdPbbg=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_sinalogin_foucs.png
+SHA1-Digest: BH5DKIwkjVnZNJ4WK5m9H0tJxNY=
+
+Name: res/layout/wifi_config_ui_for_setup_wizard.xml
+SHA1-Digest: jLwbRgPI+cksuoJX/9WA14uQeqk=
+
+Name: res/drawable-xhdpi-v4/data_sweep_limit_default.9.png
+SHA1-Digest: oVt8aLk/iwnGyCkQUx13w9ufkxk=
+
+Name: res/layout/bluetooth_pairing_contentview.xml
+SHA1-Digest: zmaNjOmSpKmqZa/ZzmMd3n88fVs=
+
+Name: res/drawable/wifi_signal_lock_light.xml
+SHA1-Digest: TJQMGKSyHaOGMweTlNERiWrKpxw=
+
+Name: res/drawable-xhdpi-v4/ic_settings_accessibility.png
+SHA1-Digest: 3zYe1aZpN6ziAd1D4wXEbaZszgU=
+
+Name: res/drawable-mdpi-v4/appwidget_bg_holo.9.png
+SHA1-Digest: pAUIdUoO3b6cnNNRG4FCZk+pdgw=
+
+Name: res/layout/search_result_item.xml
+SHA1-Digest: VeCc6PRkUNLO6IzjiXEnlOb0SBo=
+
+Name: res/drawable-mdpi-v4/ic_settings_display.png
+SHA1-Digest: 46niN/dNDtSQ9k8u+9qEUisfS3o=
+
+Name: res/layout/bookmark_picker_item.xml
+SHA1-Digest: T2U0XKHGkkKAvB64WrQOHdEk03c=
+
+Name: res/drawable/appwidget_button_left.xml
+SHA1-Digest: 8r5diaEUpTYKgiKtJtktnRQyglg=
+
+Name: res/drawable/ideaui_rounded_cornor_preference_background_bottom_
+ holo_light.xml
+SHA1-Digest: UuFwS7tLohuHO+FkvZomKVrhgsc=
+
+Name: res/xml/tether_prefs.xml
+SHA1-Digest: nN4Fhe+UWFv9lrREm7HuCUmyTzM=
+
+Name: res/layout/nfc_payment.xml
+SHA1-Digest: 0PrcW/Hy4p2vupdzbom9i0l810M=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_top_holo_light_pressed.9.png
+SHA1-Digest: G759UfD7L9s9QiMjIBv/89naP68=
+
+Name: res/layout/preference_header_button_item_rom20.xml
+SHA1-Digest: 0PyLn1r5XmZxq1jMDykQ8fjO4xY=
+
+Name: res/xml/account_settings.xml
+SHA1-Digest: HBRS6LpETqq44hOdxW/5PUi//f4=
+
+Name: res/layout/user_dictionary_item.xml
+SHA1-Digest: KkaPcpHtcBxwtFWrijdbp+fMWMQ=
+
+Name: res/drawable-xhdpi-v4/data_sweep_left_default.9.png
+SHA1-Digest: mF9juqwZPlv69hzGqDZB7vyA+7I=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_fail.png
+SHA1-Digest: vGVdsuwjVj46F1e6zKH9gkuFkhk=
+
+Name: res/drawable-mdpi-v4/ic_bt_cellphone.png
+SHA1-Digest: oNnZ1H1rcVmGFKPTNGPbMZR18Io=
+
+Name: res/drawable-xhdpi-v4/ic_bt_headset_hfp.png
+SHA1-Digest: vsKz22B80WP4D3IJ1qLf+Zg3TSg=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_radio_sel.png
+SHA1-Digest: ZyXPzYBaHk0StsCQVqcjufY9r6c=
+
+Name: res/drawable-xhdpi-v4/ic_settings_wlan_position.png
+SHA1-Digest: AJMgxQWmpQT64Qiv32rjMdJwpS0=
+
+Name: res/layout/preference_spellchecker.xml
+SHA1-Digest: J4105xirDNT/ATTWO7BPqgvQCGI=
+
+Name: res/drawable-xhdpi-v4/ic_wps_dark.png
+SHA1-Digest: IDPtCwzrUenIym7nbFWEJVOatDs=
+
+Name: res/drawable-mdpi-v4/nav_divider.png
+SHA1-Digest: srl/LpXT3ASLfcr9ajNcXPgTmUA=
+
+Name: res/drawable-xhdpi-v4/lock_anim_3.png
+SHA1-Digest: OPeaYhjDWA9HkOcvCujcWIEDIBY=
+
+Name: res/layout-sw600dp-v13/crypt_keeper_progress.xml
+SHA1-Digest: rliEDN1PVb7lzDh2yw5vhPuerJY=
+
+Name: res/drawable-mdpi-v4/ic_settings_bluetooth2.png
+SHA1-Digest: hRLDOcEzgtWl89dDj/yVa7uryGI=
+
+Name: res/layout/custom_preference.xml
+SHA1-Digest: GVseCEPPo64y+AsO6LuNonHdURA=
+
+Name: res/layout/preference_header_item.xml
+SHA1-Digest: 1L9tVh/hm79GtMmbStfxRJZ/mDs=
+
+Name: res/drawable-xhdpi-v4/ic_settings_date_time.png
+SHA1-Digest: gzU9qRcB0If4B0P+S8XdASmdfHI=
+
+Name: res/layout-sw600dp-v13/settings_top_level.xml
+SHA1-Digest: dbSGa6vHcvR8o0jcv90PPg0kPqo=
+
+Name: res/layout-sw600dp-land-v13/wifi_settings_for_setup_wizard_xl.xm
+ l
+SHA1-Digest: 5EwFOzsuqndu2LU5S4/quNkYqUI=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_qqlogin.png
+SHA1-Digest: h61QpKrxJHfLFjEI27iF9JV/6pk=
+
+Name: res/layout/crypt_keeper_blank.xml
+SHA1-Digest: mWRLdKF0Ip1nopYc79QHohtkzE0=
+
+Name: res/drawable-mdpi-v4/ic_settings_about.png
+SHA1-Digest: gZhpSql9tVBlfzu6JPxPIxR/Wvk=
+
+Name: res/drawable-xhdpi-v4/ic_btn_next.png
+SHA1-Digest: vzoyUCKowD1sh4U2Kqa05xqabig=
+
+Name: res/drawable-xhdpi-v4/settings_wireless.png
+SHA1-Digest: u6QNkbEHhQ+4+62G3TorFDepS14=
+
+Name: res/layout/data_usage_detail.xml
+SHA1-Digest: CjS+lZiNABPQ/Ez2lNEnub23l80=
+
+Name: res/xml/nfc_payment_settings.xml
+SHA1-Digest: cpeFU/ITUcZ9R8DTa1ydNV5T+RM=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_scan.png
+SHA1-Digest: NmGVWXoS5hsdyjK57bYMG6w5rqs=
+
+Name: res/xml/lights_key_settings.xml
+SHA1-Digest: aWAFXS/rgzY54mnGol50bXb1aEU=
+
+Name: res/layout-land/crypt_keeper_progress.xml
+SHA1-Digest: 5+UqJfAI6ztvJcAE+1zQSm62lg4=
+
+Name: res/drawable-xhdpi-v4/lock_anim_9.png
+SHA1-Digest: 8mpdMKY7X0FTB59psmc4dC1ltwY=
+
+Name: res/layout/account_preference.xml
+SHA1-Digest: yHKLUoIfDbvCLPsQJaT4b245MuU=
+
+Name: res/drawable/lenovo_chelp_ringtone_weaken.xml
+SHA1-Digest: 00qR1Gk5HXOo5wD+IR0hD2C+eUE=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_1_dark.png
+SHA1-Digest: lyI9dM2sewV+Gna0PPxP8SzLRz8=
+
+Name: res/drawable-mdpi-v4/ic_menu_add_light.png
+SHA1-Digest: q+LO2zefHpTHuZT7fnqJ7zlWNHU=
+
+Name: res/xml/wifi_settings.xml
+SHA1-Digest: zLoctBbKYC+wokRDXX/adiN1V7g=
+
+Name: res/drawable-mdpi-v4/ic_bt_headphones_a2dp.png
+SHA1-Digest: f8XFVgxQu23oMA9ChlHFJPhzejw=
+
+Name: res/layout/lenovo_widget_switch_rom20.xml
+SHA1-Digest: aiUAFTni5B9G0FAZC/PO3AEE5cU=
+
+Name: res/xml/device_info_imei_info_gemini.xml
+SHA1-Digest: QEXhqVhNmVJ/BukJweBfE/esVdo=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_wifi_on_holo.png
+SHA1-Digest: 5GHfCI1aOkNhOWZrMxUTuRGnc0k=
+
+Name: res/xml/bluetooth_settings.xml
+SHA1-Digest: ZmWgI6Z0lh8uxbVlVvI7M6V7Oms=
+
+Name: res/xml/wifi_access_points.xml
+SHA1-Digest: 5oy/I2rYeVw6BkHqa2T0OYlkNLw=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_4_dark.png
+SHA1-Digest: TfSFxQ8o8MvyCltfMgz1LDCbeCA=
+
+Name: res/xml/lenovo_device_info_settings.xml
+SHA1-Digest: SNUzwnEopEEfUnyODaRwb/bHpXE=
+
+Name: res/layout/installed_app_details.xml
+SHA1-Digest: wKUnIotzW0DCXJhRdt3TPsbWBMA=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_brightness_full_holo.
+ png
+SHA1-Digest: Bl+a48RqHK3ZngP+0UYM2OuspCQ=
+
+Name: res/drawable-xhdpi-v4/ic_network_signal_3.png
+SHA1-Digest: 889Fc31E7bRzDc0Ddpkn5PJD2Qw=
+
+Name: res/drawable-xhdpi-v4/ic_settings_notifications.png
+SHA1-Digest: trOUr6tuoVBNILaqNATvwfa7zik=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_1_light.png
+SHA1-Digest: tezpp2wr5IyPTWukLUJPx8dq1I4=
+
+Name: res/drawable-ldpi-v4/com_lenovo_lsf_ok.png
+SHA1-Digest: mQ8iCkCBrl7zuzeClbphA9MUpuY=
+
+Name: res/layout/trusted_credential_details.xml
+SHA1-Digest: /8BoyOMt6o6ij6B7HhNuFSDBOBs=
+
+Name: res/drawable-mdpi-v4/ic_tab_unselected_running.png
+SHA1-Digest: JNYgpcIEr90vYMefiu7qgE+LwV4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_notification.png
+SHA1-Digest: Qqh35lBvpGBI3b0CnyJsqRqgqDo=
+
+Name: res/layout/device_admin_add.xml
+SHA1-Digest: P0TfN39QjMa0aU+BUKDszHDGz8Q=
+
+Name: res/drawable-xhdpi-v4/ic_settings_data_usage.png
+SHA1-Digest: mfktC1INiyH3+xJEwYGQmdJJ9N4=
+
+Name: res/drawable-mdpi-v4/ic_wps_dark.png
+SHA1-Digest: fgLNzLGD/RLpdDIF3qRscnf9U14=
+
+Name: res/layout-sw720dp-v13/tab_widget.xml
+SHA1-Digest: +KLFB6ZY4Sm+Wi4SSi9/6EKaX4M=
+
+Name: res/drawable-mdpi-v4/ic_text_dot.png
+SHA1-Digest: nnlDZok3OCYODjEjtSfS8BJRryU=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_title_setting.xml
+SHA1-Digest: 8rIedB0bjBVyLy2K/h6mza8Zfkc=
+
+Name: res/layout/preference_progress_category.xml
+SHA1-Digest: AeWTiZNsbsACZEcMt0TFItZ51G4=
+
+Name: res/layout/switch_bar.xml
+SHA1-Digest: 3RWQZ8DgocDKDG9yHgfHoLA4iZU=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete_holo_dark_press.png
+SHA1-Digest: ov4seo0/ioLuxRLNdE5aKzE/Tcw=
+
+Name: res/drawable-ldpi-v4/ic_text_dot.png
+SHA1-Digest: D535Z12JN3vut7ysnSAED+V/wYI=
+
+Name: res/layout/user_limits.xml
+SHA1-Digest: wb6/xuBx+u2YYvKpn7L/KNNHZlQ=
+
+Name: res/drawable-xhdpi-v4/ic_settings_voice_calls.png
+SHA1-Digest: 2fwtIbJtKvHIJAyTQejPsyB++9c=
+
+Name: res/drawable-xhdpi-v4/ic_settings_wifi.png
+SHA1-Digest: zkDhLfYV6fZvdlwuGUl+jjj5h/Y=
+
+Name: res/layout/enable_accessibility_service_dialog_content.xml
+SHA1-Digest: UlXGClX7U78g42BYIEgh2n7yU/k=
+
+Name: res/drawable-xhdpi-v4/ic_bt_config.png
+SHA1-Digest: MOXSnc1lJ+vxXp0NqWpBCO+8xqI=
+
+Name: res/drawable-xhdpi-v4/lenovo_effect_of_sreen_param_bar_thumb_nor
+ mal.png
+SHA1-Digest: FgFs08txPu5q2yBsYyxFEF6+d0A=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_off_l_holo.9.png
+SHA1-Digest: W7OJqAOdMozqL5kuxHxkYazTrC8=
+
+Name: res/drawable-mdpi-v4/ic_lockscreen_ime.png
+SHA1-Digest: mRMf+lsYgWn/B0xByfbah5HRT/4=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_settings_applications.png
+SHA1-Digest: hWNAI+i18l53khgx/JXMvDyrpUo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_5.png
+SHA1-Digest: NDkchN2dtEafoTH/JebH8kZZrvA=
+
+Name: res/xml/apn_editor.xml
+SHA1-Digest: gVzpqjjOM8ttfxFr6K/VVH8692Y=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_settings_multiuser.png
+SHA1-Digest: ImuG/TqaqHHNOVKoyQjJOyiZ4tg=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_2.png
+SHA1-Digest: yby+3BEBHIFZYPUevLjpmAPjRls=
+
+Name: res/drawable-xhdpi-v4/ic_bt_network_pan.png
+SHA1-Digest: PyIB6VmMAyciNn8OHevPnlU1WXc=
+
+Name: res/drawable-xhdpi-v4/data_sweep_left_activated.9.png
+SHA1-Digest: sDlqUZ+1MHOwLO4X7WEgNh1NDZc=
+
+Name: res/drawable-mdpi-v4/ic_settings_storage.png
+SHA1-Digest: 3Y7/ADhYM8VvgCcikdfo6ItFIwg=
+
+Name: res/color/accessibility_text_color_selector.xml
+SHA1-Digest: u9o5/0QgykVV2JBs4yv+dhgX+MM=
+
+Name: res/drawable-xhdpi-v4/ic_settings_applications.png
+SHA1-Digest: qs6ToNTlhX9miOY66u5U8ESz/mo=
+
+Name: res/drawable-mdpi-v4/ic_bt_network_pan.png
+SHA1-Digest: QHt9Bt51mO3kAQ8d1JvwTaXmS/s=
+
+Name: res/layout/account_sync_screen.xml
+SHA1-Digest: 3Vj06mwj76VwCKTFaCZSuPs8MuI=
+
+Name: res/layout/bluetooth_pin_entry.xml
+SHA1-Digest: LZL7aNdsSuXh8nGQFPMXNdHbNF4=
+
+Name: res/drawable-mdpi-v4/data_grid_primary.9.png
+SHA1-Digest: ShBuPlZU6hXaKj0pPEf85uvIrFs=
+
+Name: res/drawable-xhdpi-v4/lock_anim_13.png
+SHA1-Digest: NLtnClv7tPy1eqtxbP2RKwz6o0I=
+
+Name: res/drawable/btn_ueimprov_font_style.xml
+SHA1-Digest: dmdi21MRya1Z5pPdiX8fN55rg8s=
+
+Name: res/menu/storage.xml
+SHA1-Digest: +1Kw5cDCpUI7Pa3bR2UqvvJTd4M=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_radio_sel.png
+SHA1-Digest: hTle2x4AIledbVXQ4T9mhhqkUUA=
+
+Name: res/layout/trusted_credentials.xml
+SHA1-Digest: neChgHLj8c7TSSjj+vu+QE5NCKQ=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_settings_display.png
+SHA1-Digest: g+WHxJRCQSD8pX6ZjXhwbSRVmic=
+
+Name: res/drawable-xhdpi-v4/ic_menu_3d_globe.png
+SHA1-Digest: pS7wCTNzXjVUH/Acz4r4/QBnOw8=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_1_light.png
+SHA1-Digest: FiNWktA5DPslz6JxvBu1VqzXTjQ=
+
+Name: res/xml/add_account_settings.xml
+SHA1-Digest: Cxn9ofU4TmB2Rx4iYfOeEUbKpkg=
+
+Name: res/drawable-ldrtl-mdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: m5pHeyJUA0ioYFkyYVQHGXbJZR8=
+
+Name: res/xml/manage_accounts_settings.xml
+SHA1-Digest: IhFV9oRv6S3CnhFR/WhcIkbouzI=
+
+Name: res/layout/recent_settings_item.xml
+SHA1-Digest: yp86JIl9T4vv0PfaBAZ2inYkGQU=
+
+Name: res/layout/wifi_switch_popup_dialog.xml
+SHA1-Digest: Gy1ceJqC5LgOi8aflHNnNb2LRHw=
+
+Name: res/layout/date_time_settings_setupwizard.xml
+SHA1-Digest: BpFH4FAqm4bmYF8SnXXRo5cU6to=
+
+Name: res/drawable-mdpi-v4/ic_bt_laptop.png
+SHA1-Digest: S4srkVLjsf9aztIhyQOy+3bLgdQ=
+
+Name: res/layout/lenovo_preference_header_rom20.xml
+SHA1-Digest: wtOnl3pKERRzJ56VtLY0feK0nN0=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_top_holo_light_normal.9.png
+SHA1-Digest: CCIY+YtZLQM0tcI5ruwuWfF0Fcc=
+
+Name: res/drawable-xhdpi-v4/ic_settings_phone_call_ring_weaken.png
+SHA1-Digest: Xol8j+5MaQoSdN3tfpvRgA2BLc8=
+
+Name: res/drawable/lenovo_effect_of_screen_param_bar_thumb.xml
+SHA1-Digest: b0YtHu4+7sXCZ3sUCoVja2G/s+U=
+
+Name: res/xml/device_info_msim_status.xml
+SHA1-Digest: dN0BQ4oIMquiYzMZy20XfySqgk8=
+
+Name: res/drawable-xhdpi-v4/ic_network_signal_1.png
+SHA1-Digest: ST4lihJZ/saK4h6AynKtlDDMr8o=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_bt_cellphone.png
+SHA1-Digest: wgrTX+0/IaQoKTFVNQvr8RaspB4=
+
+Name: res/drawable-xhdpi-v4/ic_dialog_alert_holo_light.png
+SHA1-Digest: O71w5q4B5Y/FozzCrs4CrtE9kmk=
+
+Name: res/layout/com_lenovo_lsf_login.xml
+SHA1-Digest: NOXtE3wX9E2OqDOjTQs6iLqVAEE=
+
+Name: res/drawable-mdpi-v4/ic_sync_error_holo.png
+SHA1-Digest: gob0ZkS9Lm5u83JJdC94Qf/w2CQ=
+
+Name: res/layout/crypt_keeper_emergency_button.xml
+SHA1-Digest: zpwpWEvKJGhafueGRTf8a1qoXaE=
+
+Name: res/drawable/right_arrow_select.xml
+SHA1-Digest: UuENB3sCIF4VdwofPaRiT/M7uP4=
+
+Name: res/xml/privacy_settings_fuse.xml
+SHA1-Digest: RanKX4njJjWOjQ6QZaDzG2gkzuM=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_changeanother.png
+SHA1-Digest: iOi4/pmxifbnPz0ohJCmIIe+8vo=
+
+Name: res/drawable-xhdpi-v4/ic_settings_airplane.png
+SHA1-Digest: tQuDGJnh/J+9UU6q5XZaLGQGfXo=
+
+Name: res/layout/bluetooth_pin_confirm.xml
+SHA1-Digest: B5et0zmu4tbONgNfm+v+JZDELgQ=
+
+Name: res/layout/text_description_preference_rom20.xml
+SHA1-Digest: L/duv7xmowDBbF3aaZxYpMo7P0Q=
+
+Name: res/layout-land/character_help.xml
+SHA1-Digest: i0lcXo/BEkRwr9feZDpOFZmlyfE=
+
+Name: res/drawable-xhdpi-v4/ic_settings_display.png
+SHA1-Digest: RwH7VDJhReQjxEmneNRC4clszs4=
+
+Name: res/drawable-xhdpi-v4/appwidget_item_bg_normal.9.png
+SHA1-Digest: qSQfMvccGhLLXN8l7u1mvk5bhPw=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_1.png
+SHA1-Digest: tg7oCV9ad9Zjyp8K6gDTYjduWXU=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_settings_applications.png
+SHA1-Digest: aUS5y3q9QAQ3ddZZz+OBEQ4cSvI=
+
+Name: res/drawable-xhdpi-v4/ic_settings_font.png
+SHA1-Digest: QZhRWwcyvWq3e5YVjXLU1Ghgpjk=
+
+Name: res/xml/security_settings_encrypted.xml
+SHA1-Digest: qEB412AHmV3ajKHH17mV8n7k9tM=
+
+Name: res/drawable-mdpi-v4/data_sweep_limit_activated.9.png
+SHA1-Digest: QD2FoGDKC7Pwo59QHTDAkxJBNws=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_line.png
+SHA1-Digest: ossEyuvP0UTfupItMIzIJSYmoF4=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_appwidget_settings_brightness_hal
+ f_holo.png
+SHA1-Digest: 1IyAE0IUroQn6sHa4OWiACZRWDE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_onekeylogin_foucs.png
+SHA1-Digest: VhNHiIHp/lFRpBWxB0hR7ivOZYM=
+
+Name: res/drawable/wifi_signal_open_light.xml
+SHA1-Digest: 2iwrZXUUdcn2I0w1tcpIhT9RzRI=
+
+Name: res/xml/print_settings.xml
+SHA1-Digest: O0oMtCzxkNT6+ilIb16c9byqV6k=
+
+Name: res/drawable-xhdpi-v4/lenovo_bt_config_p.png
+SHA1-Digest: VkTUGzho9ly2pZ7ye1B78XPqtBI=
+
+Name: res/drawable-xhdpi-v4/ic_menu_add_dict.png
+SHA1-Digest: hzcn9znuS/ft9RE5VCnqEdjeIPs=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_pressed_l_holo.9.png
+SHA1-Digest: RKxhJcpfFWjSRZbaG8pnFCzViMU=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_scan_unpress.png
+SHA1-Digest: NmGVWXoS5hsdyjK57bYMG6w5rqs=
+
+Name: res/drawable-xhdpi-v4/ic_settings_shake_unlock_enable.png
+SHA1-Digest: T7DKo8ZhAUnTHKBoj5uftQeyRN0=
+
+Name: res/drawable-mdpi-v4/ic_network_signal_2.png
+SHA1-Digest: h9uegzpTHfhqWwPXK2Nvx8GARM0=
+
+Name: res/drawable-xhdpi-v4/ic_settings_face_detection_enable.png
+SHA1-Digest: w2gHBSS2I97cj0parjpp0AyJxCU=
+
+Name: res/drawable/preference_background.xml
+SHA1-Digest: OplhJ4fft8tZNjXLpjyfDLMLBFY=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_onekeylogin.png
+SHA1-Digest: WfpH1Dv/Wg1ztVrvD49uzKIStWg=
+
+Name: res/layout/preference_list_content.xml
+SHA1-Digest: 37Xyu5H2eG2ifeV4pIGiJ3X2mxw=
+
+Name: res/layout/lenovo_preference_header_checkbox_item.xml
+SHA1-Digest: zPn/pqjiE6WMtdCddiKJbxyldWY=
+
+Name: res/xml/character_settings_headers_rom20.xml
+SHA1-Digest: h/1k/INIsz5ZfHevstccrs7FRWw=
+
+Name: res/drawable-ldpi-v4/com_lenovo_lsf_lenovo_account_icon.png
+SHA1-Digest: k/Oj0SDVKHk2oFq15efSTQCq7vk=
+
+Name: res/xml/security_settings_pin.xml
+SHA1-Digest: 5enBO3A20GFfzDYz0mS0M05QSJU=
+
+Name: res/drawable-xhdpi-v4/ic_bt_laptop.png
+SHA1-Digest: yWtrQUrZCAeWoT6xJiFpVUpKhxI=
+
+Name: res/layout/text_description_preference.xml
+SHA1-Digest: zMD7u4cxwA8TuUKKmeqkqCOi8lI=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_off_l_holo.9.png
+SHA1-Digest: oOvK1tuwLH0wi3G1eECpOvG7dTM=
+
+Name: res/drawable-mdpi-v4/ic_settings_sim.png
+SHA1-Digest: h3frDLQmf9dyoq0n5U9xLJY9YuE=
+
+Name: res/drawable/ic_menu_delete_holo_dark.xml
+SHA1-Digest: zvZYh9oSoZg7sMCtLNd0JQAQbbs=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_brightness_full_holo
+ .png
+SHA1-Digest: rihS9DcRO0SiX+0h7cI6ELFMzTU=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_2_dark.png
+SHA1-Digest: FMJBnc5qY00Psm46vyZDB/vqzQQ=
+
+Name: res/layout-sw600dp-v13/choose_lock_password.xml
+SHA1-Digest: uI3rG9a8HEeS2T4Wyzwcs/a9Uu4=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_pressed_r_holo.9.png
+SHA1-Digest: /Q7akHc8YxVxCnoA1f7nQVp0hUw=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_bluetooth_off_holo.pn
+ g
+SHA1-Digest: 3QPG6nNZjX8BjgdhkI50v35slH8=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_settings_multiuser.png
+SHA1-Digest: m/k2r6jGCxb89EREguRxoJ9Hauk=
+
+Name: res/drawable-mdpi-v4/nfc_payment_empty_state.png
+SHA1-Digest: mOtopqwqm9kxoyvS/V9fR5ybejY=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_4_dark.png
+SHA1-Digest: AwiT07KqI7tprlTNMYZlUFPO0L4=
+
+Name: res/layout/manage_applications_running.xml
+SHA1-Digest: xYxClhqsMmBoorAiIByffUJI6dI=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_add_network_unpress.png
+SHA1-Digest: hzcn9znuS/ft9RE5VCnqEdjeIPs=
+
+Name: res/layout/dashboard_fragment.xml
+SHA1-Digest: jA6rY2wAABR/wbZOpyD7+TXUWWY=
+
+Name: res/layout/wfd_sink_guide.xml
+SHA1-Digest: +ykd5+VDQm64ol6RbpOhQKPdvDQ=
+
+Name: res/layout/add_account_screen.xml
+SHA1-Digest: l7/u3Kik/32FMCVQdw4WOcj73kQ=
+
+Name: res/layout/com_lenovo_lsf_uilayout.xml
+SHA1-Digest: rb2LJPjlcasm9yB/YMYlqIl4/tM=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_title_setting_normal.png
+SHA1-Digest: liB1ElHphC53ujuNrc9XBlDsQ58=
+
+Name: res/drawable-mdpi-v4/avatar_default_5.png
+SHA1-Digest: d/j7McvxX4AhN9Uh4YuVoAoiuYc=
+
+Name: res/drawable-mdpi-v4/ic_menu_refresh_holo_dark.png
+SHA1-Digest: L40WKZdxP7/TEhFT9qcn+WxtGNw=
+
+Name: res/xml/security_settings_voice_weak.xml
+SHA1-Digest: +leBt7CErC0bDIrvxfbu3rPef5M=
+
+Name: res/layout-sw600dp-land-v13/confirm_lock_password.xml
+SHA1-Digest: j7VWVPoP89D6T97wSeAXoSEFhAM=
+
+Name: res/drawable/lenovo_chelp_wifi_switch.xml
+SHA1-Digest: vom9OUcCEegmlOkMHAf0vMo9SqE=
+
+Name: res/drawable/switchbar_background.xml
+SHA1-Digest: GdpEUoZU6NxY7cKGG0nibhp5lcw=
+
+Name: res/xml/security_settings_unencrypted.xml
+SHA1-Digest: SXTYUaAR5OSUTc8fMzfNHASbo/Q=
+
+Name: res/xml/timezones.xml
+SHA1-Digest: 7uYtF4EJXXxQODMnbAsPUr6mpiQ=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_on_r_holo.9.png
+SHA1-Digest: xK34HHqCZ+/DvpVdbHk+PnGTNmU=
+
+Name: res/layout/wifi_ap_more.xml
+SHA1-Digest: g1qyZa5CxEwTOkxRhWu0QS8arD8=
+
+Name: res/layout/crypt_keeper_status.xml
+SHA1-Digest: KugIYgFH4JXcbrfZ7Y+ofbDAIbE=
+
+Name: res/drawable-xhdpi-v4/dotted_line_480px.png
+SHA1-Digest: MA1ay7xpK1Ng7I6umkO0Q1QJ6mY=
+
+Name: res/drawable-xhdpi-v4/ic_text_dot.png
+SHA1-Digest: UD0Qa90P5tYK7OSBR73SiBBXkWE=
+
+Name: res/drawable-mdpi-v4/ic_tab_selected_sdcard.png
+SHA1-Digest: alA3ou4ChjEgnsirVN2bvXYX0E4=
+
+Name: res/layout/preference_widget_sync_toggle.xml
+SHA1-Digest: rBoRN4jKjH9Oe/lsTLn7+D9T3eA=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_about_menu.png
+SHA1-Digest: ITReGEkCOE8YLN1dfO0tPIEzn+o=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_lenovo_account_icon.png
+SHA1-Digest: k/Oj0SDVKHk2oFq15efSTQCq7vk=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_3_dark.png
+SHA1-Digest: zETQ/T1YPm4YZqrVJKTdVWAjuCI=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_network_signal_1.png
+SHA1-Digest: MjxpX5QxlGX3+0kQzMktjSrMgK0=
+
+Name: res/xml/wifi_backup_settings.xml
+SHA1-Digest: 0zZlXIfz44k5lCcKddVaMIfthTQ=
+
+Name: res/layout/user_dictionary_add_word.xml
+SHA1-Digest: bWc6LHC91c3yujYEQmxO7cJEGjU=
+
+Name: res/drawable-xhdpi-v4/ic_statusbar_disturb.png
+SHA1-Digest: PzlLtmNgp9rsaGOGUoMExwWwo6Y=
+
+Name: res/drawable-xhdpi-v4/ic_settings_cell_standby.png
+SHA1-Digest: aWdQMz4qko6uxEHL9X2qu+4KQzM=
+
+Name: res/layout/data_usage_chart.xml
+SHA1-Digest: asZC2J3sd/kUeBCPM/iNodceGVU=
+
+Name: res/drawable-xhdpi-v4/ic_settings_phone_car_mode.png
+SHA1-Digest: QxmTy6q2znRe0EyrK2X6V+jU7ZY=
+
+Name: res/drawable-mdpi-v4/ic_wps_light.png
+SHA1-Digest: bAfv63Nk9lFeNm8/zqmHhbtFxx0=
+
+Name: res/drawable-mdpi-v4/ic_emergency.png
+SHA1-Digest: eb2BBKyCYuGVLQVvIWhZd7WXDxc=
+
+Name: res/drawable/wlan_bind_bottom_click.xml
+SHA1-Digest: SWlEcc5XbEoKK5o6rE9Dd/eJJM8=
+
+Name: res/layout-sw600dp-v13/choose_lock_pattern.xml
+SHA1-Digest: WPvMDzd9r9RnOgpSWeKsCuMF+lw=
+
+Name: res/layout-sw600dp-v13/wifi_settings_for_setup_wizard_xl.xml
+SHA1-Digest: 6u3gduuUpF4KMuOoMfZvohjQiko=
+
+Name: res/drawable-xhdpi-v4/ic_light_settings.png
+SHA1-Digest: rYgtvT8AGV7aMZTIsw8iceAdO1U=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_function_button_highlight.pn
+ g
+SHA1-Digest: aal37kEU5UYuzt9vTYNYRoVhWEE=
+
+Name: com/android/settings/EventLogTags.logtags
+SHA1-Digest: GoySAgpP8T17gCbN/2wevrQpKNc=
+
+Name: res/xml/facebook_account_preferences.xml
+SHA1-Digest: 6Q1G5TMhXIHdmqmhlSjoGLx0t2Q=
+
+Name: res/layout/twelve_key_entry.xml
+SHA1-Digest: uW7cHXJsp+bnXzVn++v4u4NucUo=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_qqlogin_foucs.png
+SHA1-Digest: dKV4wBm9xr84q77AcQqgVz4BKkQ=
+
+Name: res/drawable-xhdpi-v4/ic_lenovo_cloud.png
+SHA1-Digest: Gsx/m+k6sT88/H894cxPFya3NN0=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_mid_r_holo.9.png
+SHA1-Digest: 16dU5podHOcLIxOI7lsdD51UZTE=
+
+Name: res/drawable-mdpi-v4/ic_menu_add_dark.png
+SHA1-Digest: S30BTIW1/2KZ5IXxIlo2sUNUSxw=
+
+Name: res/layout/crypt_keeper_pattern_entry.xml
+SHA1-Digest: YSRcSNqCOOVQXmh7YfBu4/laeGU=
+
+Name: res/layout/screen_pinning_instructions.xml
+SHA1-Digest: 4WRrDRoQ7ZK2ddyikpbn1RZS9WM=
+
+Name: res/xml-zh/timezones.xml
+SHA1-Digest: zwcEmOTwPRFCohkzt/WZyzoHhAw=
+
+Name: res/layout/crypt_keeper_pattern_field.xml
+SHA1-Digest: ksWk2ph34XfHrzuaOlP10Bz3WUw=
+
+Name: res/drawable-xhdpi-v4/ic_settings_lockscreen_volume_key.png
+SHA1-Digest: +NyFNenAHUVSXhsMW/gUtJh6ytQ=
+
+Name: res/layout/search_panel_suggestions_header.xml
+SHA1-Digest: KBggYQFU2VVZdfFA/xo28TcDRPg=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_ok.png
+SHA1-Digest: gg80hoDikk36QUS61rXqdeQXARU=
+
+Name: res/layout/zzz_toolbar_dialog_sim_icon.xml
+SHA1-Digest: n8AxMAt7en7EkwnH2hyr+/B2ud8=
+
+Name: res/xml/security_settings_biometric_weak.xml
+SHA1-Digest: PIh09pz3pZB2GFuW5szDD2l+ewk=
+
+Name: res/drawable-xhdpi-v4/ic_settings_ringtone.png
+SHA1-Digest: 8PtjMvD+8tkRqkxVjEOUD4hWhng=
+
+Name: res/layout/manage_applications_content.xml
+SHA1-Digest: IB0SOLAxS9bYCzsIEPE6Yz5qf5s=
+
+Name: res/layout-land/choose_lock_password.xml
+SHA1-Digest: 03P2bu38NsWZtTawHUkn7Ujbt0A=
+
+Name: res/layout/wifi_switch_for_oobe.xml
+SHA1-Digest: dRnESzpEVOSWbs0zDGy/GcE48C0=
+
+Name: res/drawable-xhdpi-v4/ic_bt_transmit_ftp.png
+SHA1-Digest: my2P6V7MRaSw/DsPwthrji0iJiM=
+
+Name: res/layout/apps_spinner_dropdown_item.xml
+SHA1-Digest: 8SMRIgcFcB/mCrUfWwZmT1An9CI=
+
+Name: res/drawable-xhdpi-v4/ic_sync_grey.png
+SHA1-Digest: zkNnAm86h2iELLf9K/HQOg3xXV4=
+
+Name: res/drawable/lenovo_effect_of_screen_param_bar_contrast.xml
+SHA1-Digest: Mm2flDOSrtvei9TjOvGGZKuqUBo=
+
+Name: res/drawable-xhdpi-v4/ic_bt_headphones_a2dp.png
+SHA1-Digest: K9OnJFYziAWus8ZSCBiL1Dc1N3c=
+
+Name: res/layout/power_save_item.xml
+SHA1-Digest: GC4JAcYaVwzT5jBIcj4XIQxD5rE=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_location_on_holo.png
+SHA1-Digest: cfrZD1BkYaL9W1n7NO2nNb4v0G8=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_1_light.png
+SHA1-Digest: jD3iie1dYyNvBI8w8jwPgzhotKs=
+
+Name: res/layout/wifi_wapi_cert_install.xml
+SHA1-Digest: BM8VdHbAMSUTzUfNQ3AP3UuTT6c=
+
+Name: res/layout/preference_home_app.xml
+SHA1-Digest: lG3SoeoYkxGopj/cSqqWhZKuOQI=
+
+Name: res/layout/com_lenovo_lsf_title.xml
+SHA1-Digest: tZANIdjiQfQYRdkxEDali5zVw20=
+
+Name: res/drawable/lenovo_chelp_gesture_topspeed_snap.xml
+SHA1-Digest: wVeSouZSOVNTQEdICf9yvRXfnrE=
+
+Name: res/drawable/lenovo_chelp_slide_unlock_new.xml
+SHA1-Digest: 6DaHOu4sXt7QvjHMetT+bdbbQXY=
+
+Name: res/xml/accessibility_settings.xml
+SHA1-Digest: Evf0XHMOr3qKTlh16kHULrKp77k=
+
+Name: res/drawable-xhdpi-v4/data_grid_border.9.png
+SHA1-Digest: +kzUXJLAMv03p235aS9Ldo7a2Rc=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_4_light.png
+SHA1-Digest: WavIWChe445Qm7wmzGUZW+h2Z1k=
+
+Name: res/xml/location_settings.xml
+SHA1-Digest: Na4BTqHk8gBePhzEo7tBAJhuYug=
+
+Name: res/drawable/cling_button_bg.xml
+SHA1-Digest: ie04wpFfRJ7xEB/oicsUYRwSFTY=
+
+Name: res/layout/manage_accounts_screen.xml
+SHA1-Digest: TwlFb5Xrck3TyaJWv91e1Zt9Sko=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_pressed_r_holo.9.png
+SHA1-Digest: SHDqv1TyjSABPG/OEdakiXzoYSg=
+
+Name: res/layout/bluetooth_device_picker.xml
+SHA1-Digest: 58pwqNlruUhmnPZWoOtlZtpCsMY=
+
+Name: res/layout/preference_header_item_rom20.xml
+SHA1-Digest: lvCANimkJXVB1hJcmM0vnGrlSE0=
+
+Name: res/drawable/wifi_signal_dark.xml
+SHA1-Digest: LbZybwV7rfV65mPR48mx+IQmKGM=
+
+Name: res/xml/display_effect_of_screen_prefs_v3.xml
+SHA1-Digest: tpfdaOBv/+ImkvXGD53hyjsFqRk=
+
+Name: res/drawable/lenovo_chelp_mercury_keyboard.xml
+SHA1-Digest: vX1DYu4Bg7xKlrOUT7lmNWjptUg=
+
+Name: res/drawable-mdpi-v4/transparency.png
+SHA1-Digest: q+/kcd7W8HCHb71PqmRKI3YZ0yg=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: VxjOFhIJRNRwUYrUqbfpj1J7M+g=
+
+Name: res/drawable-xhdpi-v4/avatar_default_5.png
+SHA1-Digest: tfGf6RpzC86s2VCCFzGKY0UeGVs=
+
+Name: res/layout/wifi_config_info.xml
+SHA1-Digest: UbGcDFuJMFLzg6zR7wZWD3GKpIw=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_photo.png
+SHA1-Digest: xRc4fZMtMIpJGkCm2Xg94H6R4Bs=
+
+Name: res/drawable-nodpi-v4/caption_background.jpg
+SHA1-Digest: j1il93A45fl0h2doyQ5ng9HlXK4=
+
+Name: res/layout/choose_lock_pattern.xml
+SHA1-Digest: Cb4vu+tPGmyzGH+dUqLdb6lVWco=
+
+Name: res/layout/two_line_list_item.xml
+SHA1-Digest: cPyPpgt6kbiHc6hSluXSPEg7VZc=
+
+Name: res/drawable-mdpi-v4/data_sweep_limit_default.9.png
+SHA1-Digest: N1CGJ3NhpZFe7gVHUlNqhDZThtk=
+
+Name: res/drawable-xhdpi-v4/ic_sync_green_holo.png
+SHA1-Digest: Uxl4tdYQqYBgyB2o0HL3HiH/oBk=
+
+Name: res/layout/band_mode.xml
+SHA1-Digest: 8Ye+g5DAeJUH4oQhQ90YfzWrle4=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_1_dark.png
+SHA1-Digest: T3qRstaR2HHwLKpuibd56UGST24=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_location_saving_holo
+ .png
+SHA1-Digest: 2AgZpjb9iEE+RmrcuK9myeHiYcI=
+
+Name: res/drawable/lenovo_bt_config.xml
+SHA1-Digest: VzxFe/8IAd7hB0JDo5fvdx9nkNA=
+
+Name: res/layout/extra_pull_listview_head.xml
+SHA1-Digest: sb2vOTGZQV4A4erYpKinLkAODBY=
+
+Name: res/layout-land/crypt_keeper_password_entry.xml
+SHA1-Digest: HC9p5Vb707VbDL3R0NGjIr8XYb8=
+
+Name: res/drawable-xhdpi-v4/ic_settings_mms_ringer.png
+SHA1-Digest: 00uyqxM0OENetugm5g5NLc5SSQQ=
+
+Name: res/layout/running_processes_item.xml
+SHA1-Digest: 7oDt6Y0pV2fY689qhccDMukZvVo=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_on_l_holo.9.png
+SHA1-Digest: 0z4V1L+SK0XgmTHRu+PQuoPHRi8=
+
+Name: res/layout/credentials_dialog.xml
+SHA1-Digest: LCrr9dvOQxIl3vuGFLdM2lJoft8=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_bluetooth_off_holo.p
+ ng
+SHA1-Digest: g+jd7yiiKxgeALHN0aDa8yImFIU=
+
+Name: res/layout/trusted_credential.xml
+SHA1-Digest: tpzKfDg/6J6TVUMSQG1h7qbRX58=
+
+Name: res/drawable-mdpi-v4/ic_settings_wifi.png
+SHA1-Digest: VWzhb+W64Rg51n+GcmlT834bxRE=
+
+Name: res/drawable/appwidget_button_right.xml
+SHA1-Digest: ePm6+DhJs2OeQZBgTzhH+Pm6Oh4=
+
+Name: res/xml/wifi_access_points_for_wifi_setup_xl.xml
+SHA1-Digest: cpeFU/ITUcZ9R8DTa1ydNV5T+RM=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_4_dark.png
+SHA1-Digest: trI6L+pzoa9wXmwE4YxLyaXYEsM=
+
+Name: res/drawable/recent_item_bg_selector.xml
+SHA1-Digest: HAobtLdTl+jgjzxqac0IqDYFX7k=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_left_arrow.png
+SHA1-Digest: IIn10ttM2KPZiHYzldLUdYiHhL8=
+
+Name: res/drawable-xhdpi-v4/ic_settings_phone_call_ring_pocket.png
+SHA1-Digest: D3GoTUe8iWYpS4jPaK9FJOqN1n0=
+
+Name: res/drawable-xhdpi-v4/audioprofile_setting_p.png
+SHA1-Digest: jIo+6zMMYWRAiIhx25tJwTkD7Yk=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_2.png
+SHA1-Digest: bXQMLG+q4YikHI8XK/giiwgmD2k=
+
+Name: res/layout/sms_preference_item.xml
+SHA1-Digest: XJDHAazPGFc3/WL7yqyriCpMhuk=
+
+Name: res/drawable-xhdpi-v4/recent_bar.png
+SHA1-Digest: 4BZlO/uq1fYH4yr6c21ZHHyu4xg=
+
+Name: res/layout/usage_stats_item.xml
+SHA1-Digest: jQZa9eBS0L+JyL1A2O7P3AQCAAU=
+
+Name: res/drawable/lenovo_chelp_swing_lock.xml
+SHA1-Digest: vX1DYu4Bg7xKlrOUT7lmNWjptUg=
+
+Name: res/xml/security_settings_chooser.xml
+SHA1-Digest: ljTDs02AxCNdSfqnHSArqI5q/JM=
+
+Name: res/menu/com_lenovo_lsf_account_menu.xml
+SHA1-Digest: 80p1Nq5Vxn6uC+98sZj/GdCws1k=
+
+Name: res/layout/lenovo_widget_switch_k7.xml
+SHA1-Digest: BayMbk6ZExlwRRuaxEJ4s3vhfpI=
+
+Name: res/drawable-xhdpi-v4/ic_bt_keyboard_hid.png
+SHA1-Digest: zD0DxjzYbzCPgYQiX4ORvE8ysdk=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_brightness_auto_holo
+ .png
+SHA1-Digest: 66Sh48/m3v3JsEf2VybCqBhn/yo=
+
+Name: res/drawable-mdpi-v4/data_sweep_left_activated.9.png
+SHA1-Digest: Rj3W0Sznd/8dFMiOQ7S+qDGTun0=
+
+Name: res/layout-sw600dp-v13/crypt_keeper_password_entry.xml
+SHA1-Digest: 1NOiit8oJAwpEyFq3xpd58pg8vs=
+
+Name: res/drawable-mdpi-v4/data_sweep_warning_activated.9.png
+SHA1-Digest: NCrMzM6mPiWkwZavNmfUTIx5CX0=
+
+Name: res/xml/user_settings.xml
+SHA1-Digest: 7VhQZ+gLLoVlhzXpOPUSp5fONEQ=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_brightness_half_holo.
+ png
+SHA1-Digest: CBW/0ya0R3mmwednYyVQ1pKGpLY=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_download.png
+SHA1-Digest: XypvUoO/eg5b953OFu4kT3mbxCk=
+
+Name: res/drawable/wifi_signal_light.xml
+SHA1-Digest: wZFZcbnX/ubLFCGWlRw1h1/jQPk=
+
+Name: res/xml/security_settings_lockscreen.xml
+SHA1-Digest: G/javOgYJckFsXbf4xxnZ8wzPQw=
+
+Name: res/layout/apps_spinner_item.xml
+SHA1-Digest: QEA4te6zG3wL8DngoOFnVMk3ppg=
+
+Name: res/xml/bluetooth_device_advanced.xml
+SHA1-Digest: 5a959PVAFMMAsqKQMrhwd5uxJX0=
+
+Name: res/color/sms_checktext_color_selector.xml
+SHA1-Digest: j+KHwORcroyDZVwxAlxiueOaFIo=
+
+Name: res/drawable-xhdpi-v4/ic_settings_backup.png
+SHA1-Digest: s0TJk+/x24KSRzHg3giSu3mST2g=
+
+Name: res/drawable-mdpi-v4/lock_anim_1.png
+SHA1-Digest: flWIK7l0gnkdm+Mv1qysFI8kofo=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_add_network_light.png
+SHA1-Digest: Bx4V5d/Oeeo0B1h0ZyrmL/py7xs=
+
+Name: res/drawable-mdpi-v4/lock_anim_6.png
+SHA1-Digest: E8QJBGZVQNp9lUN0guoj8nfCw7g=
+
+Name: res/layout/choose_lock_password.xml
+SHA1-Digest: hvQPffBYJ8nurLGYCk7ryq/9gK0=
+
+Name: res/drawable-xhdpi-v4/gamma.png
+SHA1-Digest: U9K85Xw+o3jp0Fka1fvfsFBHsCI=
+
+Name: res/drawable-mdpi-v4/ic_tab_unselected_download.png
+SHA1-Digest: dwKg5n+7tcoTiEhY6gULIqQKjPk=
+
+Name: res/drawable-mdpi-v4/encroid_resignin.png
+SHA1-Digest: 3CGIcONR8mXa2zyqATxdNvT62hk=
+
+Name: res/drawable-mdpi-v4/ic_settings_development.png
+SHA1-Digest: 3kc60uXfUMjQbFXrivvT1blDSxQ=
+
+Name: res/layout/device_admin_item.xml
+SHA1-Digest: Bm+P6JQNw0iHO6ckRGLnxPt/TL8=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_pressed_c_holo.9.png
+SHA1-Digest: 8xFWSyGEPiE20uVVChAv8Ai0pWg=
+
+Name: res/drawable-xhdpi-v4/ic_settings_knock_light_enable.png
+SHA1-Digest: VkIXDCyqdJXnhwO0rPiCFOforBI=
+
+Name: res/xml/file_paths.xml
+SHA1-Digest: ZvqOx0OnSiDUhL0EeiPpVf5rl6o=
+
+Name: res/layout/wifi_ap_dialog.xml
+SHA1-Digest: HQwVVojqbMHjOXJ8bw/Y/NXwz64=
+
+Name: res/drawable-mdpi-v4/appwidget_item_bg_pressed.9.png
+SHA1-Digest: ipGkkIGIAWl5Xkza4XIF6SUjNr4=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_on_c_holo.9.png
+SHA1-Digest: dnVvpAo/reYEBRpkiFDAKxfOEdA=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_running.png
+SHA1-Digest: AErgH0qRnII6Ew/IeMIKJQbMGRo=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_1_dark.png
+SHA1-Digest: SiIEMVJpka4zimNZkIwQDHaaTdQ=
+
+Name: res/layout/power_usage_detail_item_text.xml
+SHA1-Digest: 7Q8vJw/U1zMZVcoOO3Rg1Mc5O7g=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_sim2.png
+SHA1-Digest: iBfIJ6PEYOjoQqrxlsoFXadynYY=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_frame.png
+SHA1-Digest: ORBwrdfpESJv47eWhJChCtkpZo0=
+
+Name: res/xml/development_prefs.xml
+SHA1-Digest: brpsvOhLX+i8/XcAIhpZ8rMQrMo=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_brightness_half_holo
+ .png
+SHA1-Digest: d5keAqgN/6Yw9rmVTmPFNxqlpvk=
+
+Name: res/layout/running_service_details_process.xml
+SHA1-Digest: 3vQ2orV2EMGJXgu1D7lDoa1P/2U=
+
+Name: res/layout/wifi_status_test.xml
+SHA1-Digest: KrLNipDV3GfDWJJSsCXE55hU1dI=
+
+Name: res/layout/display.xml
+SHA1-Digest: s5R/yxI376Gft6Da2O6vfPo5kDI=
+
+Name: res/layout/regulatory_info.xml
+SHA1-Digest: I/Eg1m2LRten/nlsNiap8BzLsxE=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_backup.png
+SHA1-Digest: TZeZFqyRLdxcUIDnLRCcSgooVoU=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_8.png
+SHA1-Digest: K4oT2u3eQtkwOQYx0t8mpzJWuYI=
+
+Name: res/drawable-xhdpi-v4/data_sweep_right_default.9.png
+SHA1-Digest: IwHKOGgjY2nYO7o1C3XTRu9oj+w=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_4_light.png
+SHA1-Digest: o+uh7aYVdznwTtdZKHZ/2OJLDaA=
+
+Name: res/xml/preference_legal.xml
+SHA1-Digest: X5dQ0Yr3F7OEbRGaFHDxYEUg6H4=
+
+Name: res/drawable-mdpi-v4/ic_btn_next.png
+SHA1-Digest: SkfDtGSta4eTOdEGzflvcl2s6wI=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_scan_press.png
+SHA1-Digest: Z8NDabGhFEDyheu/4rJYW+aIu1U=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_focused_r_holo.9.png
+SHA1-Digest: Api6Yb3H4Z6goDa59Qxsa2+H6eo=
+
+Name: res/drawable-mdpi-v4/data_sweep_left_default.9.png
+SHA1-Digest: 860Hy9cHCPOrUGGuaMnfLVBvuIA=
+
+Name: res/layout/com_lenovo_lsf_change.xml
+SHA1-Digest: 0xQ34u/au9avfBNQ0alX6TPMNs0=
+
+Name: res/layout/vpn_dialog.xml
+SHA1-Digest: 8YG0FAB7QbxQdAgmgSJSiO+VRj0=
+
+Name: res/layout/ptr_header_vertical.xml
+SHA1-Digest: fvdUFRcFFM+NhrwidT6ThNhonGs=
+
+Name: res/layout/preset_picker_item.xml
+SHA1-Digest: 5+pHw7wmZQftV79L57FAZBSZPhQ=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_4.png
+SHA1-Digest: TTCRHubiuZRzYWQyZ2UDZptNTSA=
+
+Name: res/drawable-xhdpi-v4/ic_settings_more.png
+SHA1-Digest: Va+g3GihJeFrvBOL2LZxqnWmwqQ=
+
+Name: res/layout/preference_app_percentage.xml
+SHA1-Digest: G6SZIs4JyAYn0DshUWRAU8elEWM=
+
+Name: res/layout/lenovo_temp_sceen_effect.xml
+SHA1-Digest: T/lmsfoSJ4JyttGhlwxAji+pL+s=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_brightness_off_holo.
+ png
+SHA1-Digest: MFzBwPwfIXzwp48b1JIFq0lNy2U=
+
+Name: res/xml-zh-TW/timezones.xml
+SHA1-Digest: Lc+hFdXt17mw6PjJmvcHrAqVeV4=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_add_network_dark.png
+SHA1-Digest: Bx4V5d/Oeeo0B1h0ZyrmL/py7xs=
+
+Name: res/drawable-xhdpi-v4/lock_anim_4.png
+SHA1-Digest: 9znhIddypx4v7+cdkTMGlZiUKZg=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_divider_holo.9.png
+SHA1-Digest: U+NGb7aMNKbFgmfLFk1ytHtL3r4=
+
+Name: res/layout/imageswitch_layout.xml
+SHA1-Digest: sWvvt+xSyulPUSPvrOfvtdC4cNY=
+
+Name: res/layout/widget.xml
+SHA1-Digest: /bd9R9ocMlu3C89M1pnSTCb7bnU=
+
+Name: res/drawable-xhdpi-v4/ic_menu_add_light.png
+SHA1-Digest: I+DDC22gZIXezx4j4KEHIswZz4Q=
+
+Name: res/drawable-xhdpi-v4/ic_grayedout_printer.png
+SHA1-Digest: GDvO2NGruXrFRwR7vIRQthN+qO4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_about.png
+SHA1-Digest: Bj547Qz15V1tKMQHrM9fQMQWQsk=
+
+Name: res/drawable-xhdpi-v4/lock_anim_14.png
+SHA1-Digest: JFrwEBqa9hTLk0+cMN14ZYJsgO8=
+
+Name: res/drawable-xhdpi-v4/ic_touch_settings.png
+SHA1-Digest: Uf7+7w5om1kxHmea+Tfqv94/faA=
+
+Name: res/layout/user_dictionary_add_word_fullscreen.xml
+SHA1-Digest: IJHEQFwihXam2Xv7UCNVe9UJWg0=
+
+Name: res/layout/process_stats_details.xml
+SHA1-Digest: Qgko0n21RfXbBSkPBN/dQELdW1A=
+
+Name: res/drawable-xhdpi-v4/avatar_default_7.png
+SHA1-Digest: 4MyP/70WjkvHoc42DXTLpSUTxwE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_fail.png
+SHA1-Digest: isWQv6PfkBNPMccElzjLLRkwXFM=
+
+Name: res/drawable-xhdpi-v4/ic_settings_smart_standby_enable.png
+SHA1-Digest: fNqJrMc+IZkPLiClpjMVVtWP8EY=
+
+Name: res/layout/color_picker_item.xml
+SHA1-Digest: lkLYmnXyeQHx+5+PL+gVF/eILx8=
+
+Name: res/layout/two_buttons_panel.xml
+SHA1-Digest: 7PGNFhjXrqjuciwvjfhzrQRhbA8=
+
+Name: res/drawable-mdpi-v4/ic_network_signal_3.png
+SHA1-Digest: pVG+beV8O3MD8oWkLkEknePDE8g=
+
+Name: res/drawable-xhdpi-v4/tab_unselected_pressed_holo.9.png
+SHA1-Digest: h1YwcNDg8/hVh0Po2eIzgJdRA9E=
+
+Name: res/layout/settings_main_dashboard.xml
+SHA1-Digest: IXFP+X+TLBZz7eq4z4lLQpaBJu8=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_changeanother_highlight.png
+SHA1-Digest: splW9I9WEghcFFdzRC1Im19TtRE=
+
+Name: res/drawable/menu_item_add_click.xml
+SHA1-Digest: 84WNuqyy1pKgXzSw4CDOjlqLqLM=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_single_holo_light_normal.9.png
+SHA1-Digest: 6kqErxzuZ9Wv2LkUZ9WYMDXdXKs=
+
+Name: res/drawable-xhdpi-v4/lock_anim_1.png
+SHA1-Digest: R4x71b4KnJLmvA93b8Bpdx4d2rU=
+
+Name: res/xml/default_header_mappings.xml
+SHA1-Digest: Juz5IZXFRO7btDgynU62eZv3hhw=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_settings.png
+SHA1-Digest: xCPE8AWduowJ1RYauTCSQCG8n3I=
+
+Name: res/layout/multi_sim_setting_tab.xml
+SHA1-Digest: NyeEiDbh3m37EG633OfEDGDe6VE=
+
+Name: res/drawable-xhdpi-v4/ic_sync_grey_holo.png
+SHA1-Digest: U1RTUp/vRW92r/gHeRBGEoBitzo=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_1_light.png
+SHA1-Digest: WaUc6SXsngppOxV2jsITeVPTSvA=
+
+Name: res/drawable-xhdpi-v4/ic_wfd_cellphone.png
+SHA1-Digest: NqDvLUidplg04pjaBSo8+c6l244=
+
+Name: res/xml/location_mode.xml
+SHA1-Digest: oi5MyAqpr3oY8ldt4ZFowCOEGV4=
+
+Name: res/xml/wallpaper_settings.xml
+SHA1-Digest: Irll15RhtCRXa1O0d0E6cM9ELwQ=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_4_light.png
+SHA1-Digest: 33UZ8Q0vFpZtWsWCNlfa0YQaH40=
+
+Name: res/layout/notification_log_row.xml
+SHA1-Digest: S4wVlKpOifMt4wINk03TSyyXjCo=
+
+Name: res/menu/wifi_setup.xml
+SHA1-Digest: u4dmY4XmiZWT0ixCpctENCAqPeo=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_tab_unselected_running.png
+SHA1-Digest: hWNAI+i18l53khgx/JXMvDyrpUo=
+
+Name: res/layout/crypt_keeper_confirm.xml
+SHA1-Digest: Dy/uQ83oi57VtFgyFNORVl6CPuw=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_network_signal_2.png
+SHA1-Digest: 2R1gmTpqLGn4NYCLYF3UDHuXJUs=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_4_light.png
+SHA1-Digest: vNq5KzFN95iyp1mxX0sH9gNSUwY=
+
+Name: res/drawable/lenovo_ic_wifi_scan.xml
+SHA1-Digest: IjvaLFH1AHlf24iWjg0VqNUumSo=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_sync_on_holo.png
+SHA1-Digest: KQmpir4R0CxbWeGjUgDurO3QTBQ=
+
+Name: res/layout/ownerinfo.xml
+SHA1-Digest: BcvZ9PuYfDmT6NdY2lNF+J8KGts=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_radio.png
+SHA1-Digest: d1PuniZnNlnEsnJxAJQNEH/WjZ4=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_sim2.png
+SHA1-Digest: 9e5gvE3WkArq25hwwB3OCCOBiAI=
+
+Name: res/layout/lenovo_widget_status_k7.xml
+SHA1-Digest: mPIUlSVv23Ml5zu/M0bvtNtuwc8=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_title_setting_normal.png
+SHA1-Digest: qTyP+nINKtwjViMKJ/0bgOYMo/Y=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_scan_light.png
+SHA1-Digest: ASlce1qxy8xQo6JwIAwrlWwHrK0=
+
+Name: res/drawable-mdpi-v4/ic_sysbar_quicksettings.png
+SHA1-Digest: G4PMqJDP7j8XXtkmIa0jIK2xJ4A=
+
+Name: res/xml/security_settings.xml
+SHA1-Digest: Fr3eUoGa/AjJu7M2T78Yv1Zb85A=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_brightness_off_holo.p
+ ng
+SHA1-Digest: sRM3UIB8CNCcCa0rD+tC++926fY=
+
+Name: res/drawable/lenovo_chelp_pocket_mode.xml
+SHA1-Digest: 00qR1Gk5HXOo5wD+IR0hD2C+eUE=
+
+Name: res/layout/apn_preference_layout.xml
+SHA1-Digest: BXccYC+4KL4wzvbyvSkjZZz2MEc=
+
+Name: res/layout/preference_memoryusage.xml
+SHA1-Digest: DhgJt+qjJUB9m0xl1FkEUbg8Dp8=
+
+Name: res/drawable-mdpi-v4/password_field_default.9.png
+SHA1-Digest: h44zCFOg8MD1PY4tZdO5P/Oy+nU=
+
+Name: res/drawable/ic_tab_all.xml
+SHA1-Digest: ZlDXcpdZH8MF7WsHUTGWuENU9wU=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_wifi_on_holo.png
+SHA1-Digest: Xoubcymy/5MW1r+aUWH+o8c7Ft8=
+
+Name: res/layout/characterhelp_titlebar.xml
+SHA1-Digest: fmgZciqRv9wEb7zRhDWSeMGZWjI=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_tab_selected_running.png
+SHA1-Digest: hWNAI+i18l53khgx/JXMvDyrpUo=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: du8hGF7GvIZKb7kXi5wQG8LMZNw=
+
+Name: res/drawable-xhdpi-v4/ic_settings_schpwronoff.png
+SHA1-Digest: Vdc0zcCq8SLfYu4ygDy1LoY4T14=
+
+Name: res/layout/notification_listener_item.xml
+SHA1-Digest: yHok7DIvKSufGxxwQ4UiOwPhA9k=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_location_off_holo.pn
+ g
+SHA1-Digest: MTiOgwQvk3rGt2Gtv1Kb24OnacI=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_settings_sound.png
+SHA1-Digest: 9gth6XCP6AUeLduuTuuhZB9YlXs=
+
+Name: res/layout/wifi_notify_scan_mode.xml
+SHA1-Digest: aM7BQYAGcqKZVKOaWy1NdE6nz6w=
+
+Name: res/layout/wifi_display_preference.xml
+SHA1-Digest: bSqCNnYyagrLPMiJqsrJahpY3Ag=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_network_signal_0.png
+SHA1-Digest: WJwO90c9Yyg8PyftRHQisrDdGNs=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_2_dark.png
+SHA1-Digest: /DX4YxrtORMOlPUzTA4ftMN2kGs=
+
+Name: res/drawable/lenovo_chelp_gesture_wave_hand.xml
+SHA1-Digest: wJOp2/s1VSEcvDcrWd9mnt3vvcE=
+
+Name: res/xml/lenovo_about_settings_gemini.xml
+SHA1-Digest: W6P+LHdKQ178ztvUqlM+pb8hgFY=
+
+Name: res/layout/wifi_wapi_cert_uninstall.xml
+SHA1-Digest: ZxKi91y1E2CXW8ovFmXVZ2OMRxE=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_wifi_off_holo.png
+SHA1-Digest: xhH9NPERfyy7yHvD+XwtytkrvyY=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_running.png
+SHA1-Digest: AErgH0qRnII6Ew/IeMIKJQbMGRo=
+
+Name: res/xml/security_settings_misc.xml
+SHA1-Digest: f5/iZW6jqmu70j+zATjfErXMEUY=
+
+Name: res/drawable-xhdpi-v4/ic_more_account.png
+SHA1-Digest: 5TsqzJt1zmVZMpRi2JnNObHvbG8=
+
+Name: res/drawable/data_sweep_right.xml
+SHA1-Digest: hfO4QFtC+cEoFXoBKDs8rY0h3OA=
+
+Name: res/layout/power_usage_package_item.xml
+SHA1-Digest: /faQemBIEqJ6cBBVf4+G1kCgQMQ=
+
+Name: res/layout/preference_radiobutton.xml
+SHA1-Digest: MlKgUeLUSwbTWeNJ7pJ7sfjVP5E=
+
+Name: res/layout/dream_info_row.xml
+SHA1-Digest: gjLRkplS0szEFa6WxzJ/gmG8VBs=
+
+Name: res/drawable-xhdpi-v4/ic_char_settings.png
+SHA1-Digest: xJV7R0xjcTc9fVuun87/X02UcFQ=
+
+Name: res/drawable-xhdpi-v4/ic_sync_anim_holo.png
+SHA1-Digest: nmcd9HhqMNx+ZNLzgvF7yTEKLd4=
+
+Name: res/layout/preference_header_button_item.xml
+SHA1-Digest: tZOvhJZsXoZeVUVhs/CC9cZV77o=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_network_signal_2.png
+SHA1-Digest: iZvwhwZcpMrHxEMa96qJK1eU4NM=
+
+Name: res/layout-sw600dp-v13/confirm_lock_password.xml
+SHA1-Digest: OAOqFFMiO+EMkaKIOmvVI8br9Y8=
+
+Name: res/layout/tab_widget.xml
+SHA1-Digest: vntIHaxqcFup14ZGz5f1GAONsJs=
+
+Name: res/drawable-mdpi-v4/avatar_default_4.png
+SHA1-Digest: pE/MUsbHHsTm1aoWHrrhGPZ3do8=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_bt_cellphone.png
+SHA1-Digest: NYzmnkiMQiBcvubGcxw/rMUOI9s=
+
+Name: res/drawable-xhdpi-v4/item_bg.9.png
+SHA1-Digest: fgzwZzsXR11nvC+PhKaZcwW3A+I=
+
+Name: res/layout/usage_stats.xml
+SHA1-Digest: 7EIz11urJchDPFC4OZvQkCg7yaU=
+
+Name: res/xml/settings_headers.xml
+SHA1-Digest: qeUAUW0LmDScH7MziB53goa5ykE=
+
+Name: res/drawable/data_sweep_left.xml
+SHA1-Digest: phLAi12iBEYo/YaPZFBtaTDIXQo=
+
+Name: res/layout/usb_mode_preference.xml
+SHA1-Digest: P9zlb6YDXPT8PyngccNw3pFjslU=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_mid_l_holo.9.png
+SHA1-Digest: rStmpREgdlreQpQz3+h/Xr8fwKI=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_middle_holo_light_normal.9.png
+SHA1-Digest: Uz7eRGUeEdf7inhx9TxFMPZfjOQ=
+
+Name: res/layout/preference_header_status_item_k7.xml
+SHA1-Digest: WQL5Z5IfE/oP3/iP4gh1eMH8Czo=
+
+Name: res/drawable/ic_tab_running.xml
+SHA1-Digest: liptY6eIn0X66T1ZvB648gb3cQ4=
+
+Name: res/layout/notification_info_row.xml
+SHA1-Digest: vH2Y+MyMZeLEcZAyncJ3hcXBsKI=
+
+Name: res/drawable-xhdpi-v4/ic_network_signal_4.png
+SHA1-Digest: b09Xmy9/PYQER78KP2ZG/F1ApJk=
+
+Name: res/layout/account_type_preference.xml
+SHA1-Digest: c8pkid3q56Z3veXLxNqgT1/HvXA=
+
+Name: res/drawable/ic_tab_download.xml
+SHA1-Digest: teHcAdwnjpi+sr2SuA4Pni4MlW0=
+
+Name: res/xml/lenovo_settings_headers.xml
+SHA1-Digest: KEh2ubRUs+gRZXIvY2c17creSGs=
+
+Name: res/xml/char_settings.xml
+SHA1-Digest: GeOzO9MaQwGMJIAOpM1/o1JUB00=
+
+Name: res/drawable-xhdpi-v4/ic_settings_development.png
+SHA1-Digest: oc3Tjd79FcTTNt6qc+v9pB1VEdA=
+
+Name: res/layout/date_time_setup_custom_list_item_2.xml
+SHA1-Digest: e3VftpM3OJvAbx9qOEEQTF+gyBQ=
+
+Name: res/xml/lenovo_about_mtk_settings.xml
+SHA1-Digest: cxEmXdbVsXGgxeZ9HNyQG16Jzkw=
+
+Name: res/layout/setup_preference.xml
+SHA1-Digest: IIRmiMpyS26K00WJKEdRUtrHDt0=
+
+Name: res/xml/colorlight_settings.xml
+SHA1-Digest: QVR+VfA9H2WefJWwDnMHqQYTPFE=
+
+Name: res/layout/preference_charactersettings_item.xml
+SHA1-Digest: 8sQ37HdI7iB1fkCckNHBGMeiJ9c=
+
+Name: res/drawable-mdpi-v4/ic_power_system.png
+SHA1-Digest: MKqUQYfT2TA6n8tMFtcKbqsd1Vo=
+
+Name: res/drawable-xhdpi-v4/nfc_payment_empty_state.png
+SHA1-Digest: qz662X5RinoD+GoNVCWyxY4fn38=
+
+Name: res/drawable-xhdpi-v4/ic_sync_red.png
+SHA1-Digest: B/C7U0XFSzQ6QAVN0vLXCD8N4Rc=
+
+Name: res/layout/pick_item_k7.xml
+SHA1-Digest: NEKKgT3963sWA4LuEK2HrDI5xY0=
+
+Name: res/drawable-mdpi-v4/ic_settings_phone_idle.png
+SHA1-Digest: vTWovdwJE8I4DNSXRExncC4wFBA=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_sdcard.png
+SHA1-Digest: BfQzyjtHaDWC2Febd8Pl/eOHMlM=
+
+Name: res/drawable/search_panel_list_background.xml
+SHA1-Digest: b44I03ZNTq1Yc8Y689BIk/vSUzU=
+
+Name: res/drawable-xhdpi-v4/ic_bt_pointing_hid.png
+SHA1-Digest: tVXw396ZbKmhUALeWtuYPdImtLA=
+
+Name: res/drawable/ideaui_rounded_cornor_preference_background_single_
+ holo_light.xml
+SHA1-Digest: 1BS/ZAyH9PK2gQuyGGWtEXVrASk=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_3_dark.png
+SHA1-Digest: fM3+XtD5DV0aaew0R/r+789uHv8=
+
+Name: res/xml/security_settings_password.xml
+SHA1-Digest: mziDoKyoOdinoVvUpUKCevuN/Ls=
+
+Name: res/drawable-xhdpi-v4/lock_anim_5.png
+SHA1-Digest: mL8Gmgqb8gKVqaLl6yvKxi9kIIs=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_dialog_middle_holo_light.9.p
+ ng
+SHA1-Digest: e9BmqFGgLB9qj96idR9rgzdfAHE=
+
+Name: res/drawable-mdpi-v4/ic_settings_date_time.png
+SHA1-Digest: ACzqBvRsNyr55bDBlL9gA16W7hc=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete_dict.png
+SHA1-Digest: XnikRmaqy3WJipcwJOjrXMvhA0M=
+
+Name: res/layout/wfd_sink_countdown.xml
+SHA1-Digest: yXc2t5QtkTeCQuWblBu67xAVq4o=
+
+Name: res/layout/vpn_lockdown_editor.xml
+SHA1-Digest: KPC/MQ4nxGHYEJXeUZoXOSB++B4=
+
+Name: res/layout/settings_storage_miscfiles.xml
+SHA1-Digest: +e5LxQ854zgrb8+3ENuJglzlqy4=
+
+Name: res/drawable-mdpi-v4/lock_anim_8.png
+SHA1-Digest: //XFHLgk8sbHXaQ8sndgIAwClv4=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_check.png
+SHA1-Digest: p4oHWMxBJ4lotITNRsrawAWZSwk=
+
+Name: res/drawable/empty_icon.xml
+SHA1-Digest: 1WPwQCL2P1rpvasrBTPxeJO1O3o=
+
+Name: res/layout/remember_dock_setting.xml
+SHA1-Digest: fBUHXmuoP4LqVYm0/jKWJxu2JbY=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_changeanother_highlight.png
+SHA1-Digest: 7H0sGv+RatEWo4phIpNarT73jkM=
+
+Name: res/layout/lenovo_display_effect_of_screen.xml
+SHA1-Digest: UlOA2AHgAcIcdjdQbDM5olr1K4E=
+
+Name: res/layout/locale_picker.xml
+SHA1-Digest: alqbu6NKOt5XlyNG5l3GFhZ/IdI=
+
+Name: res/drawable-xhdpi-v4/avatar_default_3.png
+SHA1-Digest: V29JNmBHCtpIBw3i1wkUPGPeMXg=
+
+Name: res/layout-land/confirm_lock_password.xml
+SHA1-Digest: rSvgm7BaB4p9ec6wJfBkPlMIFeQ=
+
+Name: res/drawable/lenovo_effect_of_screen_param_bar_hue.xml
+SHA1-Digest: Xu9mNF9nCDfQ0bvgrD9qwipmnq8=
+
+Name: res/drawable/lenovo_chelp_side_key_backlight.xml
+SHA1-Digest: 6DaHOu4sXt7QvjHMetT+bdbbQXY=
+
+Name: res/drawable-xhdpi-v4/ic_sync_error_holo.png
+SHA1-Digest: O95J08CqzrccnGdiH87W+5MTw00=
+
+Name: res/layout-land/choose_lock_pattern.xml
+SHA1-Digest: oOPg86JXUU4J7zWWyA6AkMBLwuE=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_divider_holo.9.png
+SHA1-Digest: 8rMZEbSTD82DR5qrmmJSTZkWGJE=
+
+Name: res/drawable-xhdpi-v4/avatar_default_2.png
+SHA1-Digest: fi0nHPnom6R31H7pPE/5ssWz6Fc=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_mid_c_holo.9.png
+SHA1-Digest: 1PU5kf8/9+40uhJwFAYn2eGUGYs=
+
+Name: res/drawable-mdpi-v4/ic_settings_voice_calls.png
+SHA1-Digest: SC3kDQ0Q3P6GGn2dhWOSV0i5m3w=
+
+Name: res/layout/wifi_dialog_row.xml
+SHA1-Digest: an28ze8YeJLUacRhz+JWufkXNA0=
+
+Name: res/drawable-mdpi-v4/ic_settings_wireless.png
+SHA1-Digest: mHjMfvZ4YKTGOzgcqiCwWR5M6Yo=
+
+Name: res/layout-land/confirm_lock_pattern.xml
+SHA1-Digest: 4GyDTrMvTKTDwNgiZAOBj+SNt0o=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_update_menu.png
+SHA1-Digest: V0vi4RR1XmsSkFCLnlVDh2gmUH8=
+
+Name: res/layout-sw720dp-v13/date_time_settings_setupwizard.xml
+SHA1-Digest: rkOf0V7ShxvN7QHD/yNuJiS6gh0=
+
+Name: res/drawable-mdpi-v4/ic_settings_security.png
+SHA1-Digest: VSfxJg8fsfH4fBxvZZxuo4r9En4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_nfc_payment.png
+SHA1-Digest: t4Gi2iCMOrT+62MnFZb3hY1JsoQ=
+
+Name: res/drawable-xhdpi-v4/btn_cling_pressed.9.png
+SHA1-Digest: BEmefKzfp0XRK/Bd6W7s2txOh68=
+
+Name: res/xml/common_settings_headers.xml
+SHA1-Digest: eaRteqj6ZHq4dGE+8I802fVSZdY=
+
+Name: res/xml/input_methods_prefs.xml
+SHA1-Digest: jwCQMKQ9T4Ae1Xw7c+3SrtIYRNQ=
+
+Name: res/drawable-xhdpi-v4/appwidget_item_bg_pressed.9.png
+SHA1-Digest: IFrLZBX1ctDdBX8ksf5pjDIHROo=
+
+Name: res/layout-sw600dp-v13/confirm_lock_pattern.xml
+SHA1-Digest: 16L5sJtOZrJVW62244HSXMNI9R8=
+
+Name: res/drawable-mdpi-v4/avatar_default_8.png
+SHA1-Digest: C24dbjNU/jM4vYCRhIIbXW2CR4E=
+
+Name: res/drawable-xhdpi-v4/ic_settings_call.png
+SHA1-Digest: +PglbO+LuG9wasMMt2MuObKyKMo=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_sim1.png
+SHA1-Digest: +gt5KlYpUC6GBFL5lW3EX+QFE+E=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_2_dark.png
+SHA1-Digest: 8mb2n3C5VEki1HZbKK1VcWFqT48=
+
+Name: res/drawable-mdpi-v4/lock_anim_12.png
+SHA1-Digest: QYthTefDlaBzhMxgzQdAuTDHBVI=
+
+Name: res/drawable-mdpi-v4/ic_settings_cell_standby.png
+SHA1-Digest: 5JqhvVWiHgqI3f52TdCKgWZmXcU=
+
+Name: res/layout/crypt_keeper_password_field.xml
+SHA1-Digest: i8OUO+v57gxDfH31+3QMbTIK7Ig=
+
+Name: res/layout/printer_dropdown_item.xml
+SHA1-Digest: q5JP3xAcB/JCwiKJcUatnZvFGjU=
+
+Name: res/layout/preference_usb.xml
+SHA1-Digest: WBfX1MJg6nAv5vhvYbYYxXNd7g8=
+
+Name: res/drawable/ideaui_rounded_cornor_preference_background_top_hol
+ o_light.xml
+SHA1-Digest: 754ChXepIId4ILVO+5ZHBlj3kms=
+
+Name: res/drawable-xhdpi-v4/ic_wps_light.png
+SHA1-Digest: BEBDQGCsm2IhitjwklTUhKfChvk=
+
+Name: res/drawable-xhdpi-v4/data_sweep_right_activated.9.png
+SHA1-Digest: 9aJZIO0+8Bj5trDY8sJg+1+8H04=
+
+Name: res/drawable-xhdpi-v4/avatar_default_6.png
+SHA1-Digest: 8KY+l6/mDgDQgxubr32KJls3uVE=
+
+Name: res/drawable-xhdpi-v4/ic_settings_fingerprint.png
+SHA1-Digest: vXUaCpDeJCp5wdM6E/ZAcJG7DyM=
+
+Name: res/drawable/lenovo_ic_wifi_add_network.xml
+SHA1-Digest: 22z/M2KqgfkCd7JtCYjjkbc6rqE=
+
+Name: res/drawable-mdpi-v4/ic_sync_red.png
+SHA1-Digest: XGaLiguthR56evYZtHihlvhAbrc=
+
+Name: res/layout-land/character_help_with_try.xml
+SHA1-Digest: mas3wuO9X16XA0cedLkmgqYMrKQ=
+
+Name: res/layout/device_admin_settings.xml
+SHA1-Digest: isAH+WlazKnOM91N16RMP9b3pII=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_focused_l_holo.9.png
+SHA1-Digest: lezwZ71FBpHdFG9unpOli0uLP04=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_on_c_holo.9.png
+SHA1-Digest: uLPeCRBF7hniPXrXZLRLxozeWuc=
+
+Name: res/layout/preference_linearcolor.xml
+SHA1-Digest: kCOCsHsLlUUT5AZVLQnyhsDOYEw=
+
+Name: res/menu/print_service_settings.xml
+SHA1-Digest: VQDr9wfOfV13TOqDAQlnQY3tmNk=
+
+Name: res/layout/crypt_keeper_progress.xml
+SHA1-Digest: rOwKFY52l9qzd7lSWfLuQpq42ks=
+
+Name: res/drawable-xhdpi-v4/data_grid_primary.9.png
+SHA1-Digest: lEJa+ECc5K61HEo0JC95Op0mtwY=
+
+Name: res/drawable/lenovo_chelp_float_button.xml
+SHA1-Digest: wVeSouZSOVNTQEdICf9yvRXfnrE=
+
+Name: res/drawable/lenovo_chelp_slide_unlock.xml
+SHA1-Digest: 6DaHOu4sXt7QvjHMetT+bdbbQXY=
+
+Name: res/layout/profile_icon_small.xml
+SHA1-Digest: wLvnKVeE1pJSviVl7KBp7ZnlYa8=
+
+Name: res/drawable-mdpi-v4/ic_settings_sound.png
+SHA1-Digest: nK0JGHxS7YAPDiZ/fWPuLTUX0lA=
+
+Name: res/drawable-mdpi-v4/lock_anim_7.png
+SHA1-Digest: gmkk9G7BbR4fdMgJUtoKGI4rGbg=
+
+Name: res/layout/preference_settings_checkbox_widget.xml
+SHA1-Digest: QvllGnkA8v5T3nbOSW5qKKfvVvk=
+
+Name: res/drawable-xhdpi-v4/ic_settings_battery.png
+SHA1-Digest: 3De8IFldC7KJzvGhUAeXRmr3ELo=
+
+Name: res/layout/print_job_summary.xml
+SHA1-Digest: 8pxGeLD4fXnlhmUXsV9Aeps6ZtI=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_radio.png
+SHA1-Digest: 5w429ZwJX2Jr+QLFB2Xx76uzh58=
+
+Name: res/drawable-mdpi-v4/ic_bt_pointing_hid.png
+SHA1-Digest: 8gHgeJIyB9G4XcjFB8/00+mvcSY=
+
+Name: res/drawable-mdpi-v4/ic_settings_accessibility.png
+SHA1-Digest: aOoQqipbSmqZM8hX5/fazNxBdCc=
+
+Name: res/xml/quick_launch_settings.xml
+SHA1-Digest: 1+S1v/FWJ1G8/0e2tq5CBWRbrWE=
+
+Name: res/layout/separator_label.xml
+SHA1-Digest: b9psvnBBi5bZwIY5y4TAsVprd1M=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_bottom_holo_light_normal.9.png
+SHA1-Digest: Kufa4xCjO1QXtzNBQWQ75y7EMMs=
+
+Name: res/drawable-mdpi-v4/ic_settings_location.png
+SHA1-Digest: MPa1uYn9vdp5Pqxdpsao+mzK+ko=
+
+Name: res/layout/preference_header_itemmain_rom20.xml
+SHA1-Digest: luhsG4nAlWuWSZFsV8gwwU8eH8w=
+
+Name: res/layout-sw600dp-land-v13/confirm_lock_pattern.xml
+SHA1-Digest: 382rlDjgAZxFqQfelXZVh7fJCzs=
+
+Name: res/layout/lenovo_preference_k7_nonext.xml
+SHA1-Digest: 0bya26P2KYCuN+x9iNm9ySljvUY=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_add_network_press.png
+SHA1-Digest: EljEEVt5lhb/tDQQ4Xz2mNPH1dk=
+
+Name: res/layout/com_lenovo_lsf_myaccount.xml
+SHA1-Digest: lL6VCDpi40+CpLl8x4KVDjplraM=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete_holo_dark_n.png
+SHA1-Digest: XnikRmaqy3WJipcwJOjrXMvhA0M=
+
+Name: res/layout/display_effect_of_screen_item.xml
+SHA1-Digest: gb6NKFduRzZxAnU6SM689iTBeqw=
+
+Name: res/layout-sw600dp-v13/date_time_settings_setupwizard.xml
+SHA1-Digest: LQkV16wr2bJx4zPxCyXQxuDajBM=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_settings_sound.png
+SHA1-Digest: +RnYBNiaVPS7FpJMR49a8CmwtiE=
+
+Name: res/drawable-mdpi-v4/ic_settings_nfc_payment.png
+SHA1-Digest: mmIR6HBEBXnqXvF7QLKAhH/5Z0A=
+
+Name: res/layout/display_effect_of_screen.xml
+SHA1-Digest: mQP9B2haf59oU8MhsC8AS05+FAI=
+
+Name: res/layout/bluetooth_access.xml
+SHA1-Digest: xt+7NIkvY4TgBAZ6QDqu2kk9LTA=
+
+Name: res/layout/select_subscription.xml
+SHA1-Digest: Q83wkCa28TJXEtnzMYtxTUxMKQg=
+
+Name: res/layout/confirm_lock_password.xml
+SHA1-Digest: w1dCwk6gBOp1l4c7SLBnxQRPMWA=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_onekeylogin.png
+SHA1-Digest: J3xhXYkH3RVE9XEDLdebkrNsA+w=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_sync_on_holo.png
+SHA1-Digest: EWXRG305DqFlTAIQ85NuhS/fKEA=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_phone_login_button.xml
+SHA1-Digest: CcvzQahx3+iSj7ElGibu1dEVL/k=
+
+Name: res/drawable-xhdpi-v4/ic_settings_smart_call_answer.png
+SHA1-Digest: V66DPLvzs9SGpL7zeNXl4NcPRl8=
+
+Name: res/drawable-mdpi-v4/ic_bt_misc_hid.png
+SHA1-Digest: PvcZdCxfU+9tsM0/MzUw1pVcVwU=
+
+Name: res/layout/character_help.xml
+SHA1-Digest: PC/0zo/GRBPDw/OJ+mfWA3o+Cew=
+
+Name: res/layout-sw600dp-land-v13/choose_lock_password.xml
+SHA1-Digest: ANdb/B9lB977SBmvHT8afGYpdvY=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_sim1.png
+SHA1-Digest: peqha9AJSWqcpbYglBKQDM4Zoo8=
+
+Name: res/layout/character_help_rom20.xml
+SHA1-Digest: 7kuXUyajN18GO+gO83+aVuUgMP0=
+
+Name: res/layout/preference_bluetooth.xml
+SHA1-Digest: 8SX0kv/NZFO/tBMNF9fiMis4wxA=
+
+Name: res/layout/recent_settings_fragment.xml
+SHA1-Digest: WxzxdLB/dmcGmjFE4ZIGZInhFJk=
+
+Name: res/xml/vpn_settings2.xml
+SHA1-Digest: NLADqrLYa3FLcjWKwnzOpQZthmk=
+
+Name: res/xml/all_settings_headers.xml
+SHA1-Digest: TvJjz+nrtvXNLF+ZBUD1hmW690g=
+
+Name: res/layout/process_stats_mem_details.xml
+SHA1-Digest: UPsAadFRii+Oi/l3iIQQkQLTtgk=
+
+Name: res/layout/media_format_final.xml
+SHA1-Digest: BcT3ab9ST7WYQijXGKHIStAFP10=
+
+Name: res/drawable-xhdpi-v4/lock_anim_8.png
+SHA1-Digest: 3ycTIK8Ffhj+7LbiONZmmBlkQkA=
+
+Name: res/layout/wifi_wps_dialog.xml
+SHA1-Digest: ztIFX0ORuCSSgiAW1QlS1iA2J9M=
+
+Name: res/drawable-xhdpi-v4/ic_bt_unkown.png
+SHA1-Digest: YRTPVJG04nrUnmkXEsMaIgon+PQ=
+
+Name: res/drawable/ic_list_sync_anim.xml
+SHA1-Digest: NYb/kG83EdVimsLXrpFOK+qUtI8=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_settings_language.png
+SHA1-Digest: rnuMFmErMp7ZlSJT6lTjA2ayvgk=
+
+Name: res/drawable/lenovo_chelp_gesture_pick_up.xml
+SHA1-Digest: 6DaHOu4sXt7QvjHMetT+bdbbQXY=
+
+Name: res/drawable-mdpi-v4/ic_bt_keyboard_hid.png
+SHA1-Digest: EeHHx8thpZ1J9dvBmoe5tstEwy4=
+
+Name: res/layout/pick_item.xml
+SHA1-Digest: oZp9YqGZc5+tfvz+mnb/zToFcfA=
+
+Name: res/drawable-xhdpi-v4/nav_divider.png
+SHA1-Digest: 915XIphrT/gsJ9NELnoNTgkxaLc=
+
+Name: res/layout/master_clear.xml
+SHA1-Digest: hsQGnWc+3FAiCUGIPPbp4Pi8w/g=
+
+Name: res/drawable-mdpi-v4/ic_sync_grey.png
+SHA1-Digest: ZIsmAoYMrzAJ9iGwaMmtu01zTNE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_dialog_style_xml_color.xml
+SHA1-Digest: YZmcz5evYQIC8NnMf+gWyyxweXM=
+
+Name: res/layout/data_usage_summary.xml
+SHA1-Digest: PlUB2Am1zyiYZ0CqR06XNiZnrco=
+
+Name: res/drawable-mdpi-v4/ic_settings_multiuser.png
+SHA1-Digest: dpeuxRjE8tR84r9o+pUZM+7D5io=
+
+Name: res/layout/preference_checkbutton.xml
+SHA1-Digest: vyLUgeyJSqSpXiL1Gx6MuXfnS/c=
+
+Name: res/layout/crypt_keeper_settings.xml
+SHA1-Digest: YhuzEryQ8zQzCgDhQRChiWtSRZw=
+
+Name: res/drawable-mdpi-v4/avatar_default_2.png
+SHA1-Digest: 531yz8KbgOOXXaRpVGfS8BjLm8A=
+
+Name: res/layout/preference_dialog_ringervolume.xml
+SHA1-Digest: 4DwwGdW+PIq4wXqO1zL39hRNbMA=
+
+Name: res/drawable-mdpi-v4/lock_anim_0.png
+SHA1-Digest: 54WqsGs30MDYk5U+36J2iZ7W45s=
+
+Name: res/xml/wifi_access_points_and_gprs.xml
+SHA1-Digest: BLOWrfdk2I3FiIMoyGZ0LCoUrxg=
+
+Name: res/layout/empty_printers_list_service_enabled.xml
+SHA1-Digest: /xqRd+gzAMxLW+krA2RhO+EF97o=
+
+Name: res/layout/wifi_ap_client_dialog.xml
+SHA1-Digest: mF678IT5emYoSkUg7KX5T1DNSik=
+
+Name: res/layout/weak_biometric_fallback_header.xml
+SHA1-Digest: afqZXyvSq0SiCieL+Md1vrGEh7I=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_right_arrow.png
+SHA1-Digest: 40czy2LN5IGXGV3BKzeUxJP5Y6M=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_sdcard.png
+SHA1-Digest: BfQzyjtHaDWC2Febd8Pl/eOHMlM=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_off_c_holo.9.png
+SHA1-Digest: oNMawV+wsqbsV0dI8wS+fvFiUfY=
+
+Name: res/drawable-xhdpi-v4/encroid_progress.png
+SHA1-Digest: qh27JGXE9VIUf/tPv15SaypiLSE=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_middle_holo_light_pressed.9.png
+SHA1-Digest: JafKCXZqaJWE0MTF2+xCIWkEMms=
+
+Name: res/layout/keyguard_appwidget_item.xml
+SHA1-Digest: him2nKVCx8jcXxvitCtFUPJnxr0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: FQPDGu0yczr6ZVH39zzytu3nUDk=
+
+Name: res/drawable/signal.xml
+SHA1-Digest: 0NOGyu1GELvd0+MwQSfu6WDcdDE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_change_verify_code.xml
+SHA1-Digest: MGSrR8aQ+dWgOMM6d1UirrXr3iI=
+
+Name: res/layout/preference_rename_widget.xml
+SHA1-Digest: n6Ge18bUzoixUOmPMEDtFEfUmwA=
+
+Name: res/drawable-mdpi-v4/ic_settings_battery.png
+SHA1-Digest: eSaj+1WdASXTIRmV1Rw2xLtC8+Y=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_sinalogin.png
+SHA1-Digest: +U2Z9+UXXPlYx5I+4pqQZsGtA/g=
+
+Name: res/drawable-xhdpi-v4/ic_settings_accounts.png
+SHA1-Digest: FE/bOxBc//eF1U/1FVWH7uwdioY=
+
+Name: res/layout/com_lenovo_lsf_forgetfail.xml
+SHA1-Digest: OIU6cyChUNH/0l6+ZdmefxKX+k0=
+
+Name: res/drawable-xhdpi-v4/bg.png
+SHA1-Digest: bP+Bf56XwKuffcbFpxr+Yqn4FnM=
+
+Name: res/drawable-xhdpi-v4/ic_settings_sync.png
+SHA1-Digest: tY+FkUSu5mEVXtEgCxjo1WZelAY=
+
+Name: res/drawable-xhdpi-v4/ic_settings_print.png
+SHA1-Digest: gDpOIhMTSrZMv1GXkb2EjJa/AnM=
+
+Name: classes.dex
+SHA1-Digest: chXPDld2P83jCFLKQO8KrKutXEo=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_download.png
+SHA1-Digest: XypvUoO/eg5b953OFu4kT3mbxCk=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_3_light.png
+SHA1-Digest: tclukYJsjYrFTeU36umlk4xb8dU=
+
+Name: res/layout/app_percentage_item.xml
+SHA1-Digest: rBdaYqoqSLR2TwVAS47HNyqsbcg=
+
+Name: res/drawable-xhdpi-v4/lenovo_ic_end_k7.png
+SHA1-Digest: NfbCNPo7RXNRsh8VMGAGHVtsVIQ=
+
+Name: res/xml/lenovo_phone_info.xml
+SHA1-Digest: 0YBLRD+MPpEPbxb4/4/h6eZN68A=
+
+Name: res/xml/data_usage_metered_prefs.xml
+SHA1-Digest: XCUPMJ3vglA6Ze9EezLpIve31HY=
+
+Name: res/drawable-mdpi-v4/ic_bt_headset_hfp.png
+SHA1-Digest: OLTrfEcTZ3xmfLh1/hXQZw+K8vk=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_update_menu.png
+SHA1-Digest: v709nTRKhbC4Z5wN21+aRLHPtwQ=
+
+Name: res/layout/wifi_ap_bandwidth_usage_chart.xml
+SHA1-Digest: FDJuSTzawULmtiZoHGZMkBL4zJU=
+
+Name: res/layout/wifi_setup_custom_list_item_1.xml
+SHA1-Digest: HTKMYXjK4Tt0RVtBZCicoyT/eY0=
+
+Name: res/xml/date_time_prefs.xml
+SHA1-Digest: N/1DsfPh1RgP4rQ17Uy615jm+3g=
+
+Name: res/layout/wifi_api_test.xml
+SHA1-Digest: dJg7FmmHP7GKi9yVfT/PwE1X+hw=
+
+Name: res/layout/ssl_certificate.xml
+SHA1-Digest: vK8h/FnWckRNqiCl2qeEt0KTYWI=
+
+Name: res/layout/lenovo_preference_k7.xml
+SHA1-Digest: tNwUu6ixu4+ilFgkOGXJr/v771M=
+
+Name: res/drawable-xhdpi-v4/ic_settings_wireless.png
+SHA1-Digest: u6QNkbEHhQ+4+62G3TorFDepS14=
+
+Name: res/xml/device_info_subscription_status.xml
+SHA1-Digest: 0r8OgfHW7Tbpewq+xXqyFY3JjTg=
+
+Name: res/layout/preference_header_status_item_rom20.xml
+SHA1-Digest: HCfbWpTmnbRiXI/fE0qTYtq0nfQ=
+
+Name: res/layout/confirm_lock_pattern.xml
+SHA1-Digest: stbyMNvsarV/hxrCj0SBf+zGZL4=
+
+Name: res/drawable-xhdpi-v4/ab_bottom_solid_light_holo.9.png
+SHA1-Digest: TVk501sH2Bqy+WU6riJWWnldT5U=
+
+Name: res/drawable-xhdpi-v4/ic_settings_smart_rotation_enable.png
+SHA1-Digest: +bJZF9ddikOVgGdHfUY1qIeq0cY=
+
+Name: res/layout/app_ops_details_item.xml
+SHA1-Digest: 99l3C3nuBM2zeMNXzzEHC+hY0Oc=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_2_light.png
+SHA1-Digest: 2pd4TfZ7ia3tJclkkYZ34QCrCSI=
+
+Name: res/layout/preference_button.xml
+SHA1-Digest: tl/3ExUJPE1xxiz7k9yR2l4YzYE=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_single_holo_light_pressed.9.png
+SHA1-Digest: Ro74Fic1JFYSbQyzBDgXmBo6jWs=
+
+Name: res/drawable-xhdpi-v4/tab_selected_holo.9.png
+SHA1-Digest: bU4zXXavzRGzqz/IAnCUiiCfYqo=
+
+Name: res/drawable-mdpi-v4/avatar_default_1.png
+SHA1-Digest: lkJjLDtgtmyvC8t8SkRf8NapjZo=
+
+Name: res/layout/lenovo_try_swing_lock.xml
+SHA1-Digest: 4YQ3dWwjwFYEHPH6eVibCa/X/JU=
+
+Name: res/xml/wifi_display_settings.xml
+SHA1-Digest: LRES4dFLwiC5Wc2g3XXC4hCvbXY=
+
+Name: res/layout/keyguard_appwidget_picker_layout.xml
+SHA1-Digest: 6EpZe6T26cHSbrFZTTPLIn1zMqI=
+
+Name: res/layout/preference_app_restrictions.xml
+SHA1-Digest: zW3wYohh1yaGFz+Ghn3QgInWFh8=
+
+Name: res/drawable-xhdpi-v4/ic_menu_refresh_holo_dark.png
+SHA1-Digest: NmGVWXoS5hsdyjK57bYMG6w5rqs=
+
+Name: res/layout/app_ops_summary.xml
+SHA1-Digest: V5oC//riw03/T5YT2kPxkhWC8lI=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_pressed_l_holo.9.png
+SHA1-Digest: nijuLFnUcnxWQEp9cgeNeq7IPzQ=
+
+Name: res/layout/lenovo_preference_rom20_nonarrow.xml
+SHA1-Digest: AGpVsHL3/AKN2b7nJiCALDOgEpY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_tab_selected_running.png
+SHA1-Digest: aUS5y3q9QAQ3ddZZz+OBEQ4cSvI=
+
+Name: res/drawable-xhdpi-v4/romui_v2_dialog_button_divider_holo_light.
+ 9.png
+SHA1-Digest: rKYFifyGzlPgBBHfRUmhQmow8f4=
+
+Name: res/layout/keyboard_layout_dialog_switch_hint.xml
+SHA1-Digest: vK7C+yW4uU+DEMRFhAGdN1EJbsI=
+
+Name: res/drawable/regulatory_info.png
+SHA1-Digest: CEXkv7QaXtNp3dtSOO7EddsCi2w=
+
+Name: res/layout/grid_picker_dialog.xml
+SHA1-Digest: 7XoJDyZS/XujjAj//VWYuKl4X8U=
+
+Name: res/xml/device_info_memory.xml
+SHA1-Digest: ml43iM6xavkYACd8L8hRJV3ODSo=
+
+Name: res/drawable-xhdpi-v4/specllchecker_settings_n.png
+SHA1-Digest: vkCVS1yscedidwtylgkh2g6n5eI=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_onekeylogin_foucs.png
+SHA1-Digest: 8DCGS3BD2YWngC2DfBFuJO7Td/Q=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_3_light.png
+SHA1-Digest: /hldVq8HcGtPlUmkafw9b3U3Tak=
+
+Name: res/layout/preference_inputmethod.xml
+SHA1-Digest: PF6kb9g28LGY/IXV+gvmVzdiugU=
+
+Name: res/layout/power_usage_action_item.xml
+SHA1-Digest: +HYp4DhEv1bbl74iORhs3ot/VfU=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call_bluetooth.png
+SHA1-Digest: jdrr4m0ai10njU5QzRTYcDitiUw=
+
+Name: res/layout/wifi_display_options.xml
+SHA1-Digest: 7KAxQeYpp6gVJJvcGfF3XUS/Juw=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_dialog_top_holo_light.9.png
+SHA1-Digest: rNO6uCd+/RN947ShAdQLICHIhxA=
+
+Name: res/drawable-xhdpi-v4/ic_personal_hotspot.png
+SHA1-Digest: hUirHTJ6zVE2Y3LVgC8xR+H5P2o=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_settings.png
+SHA1-Digest: 6ZoRkCRzjMP56nf5xVaCKBrBu5Q=
+
+Name: res/layout/edit_user_info_dialog_content.xml
+SHA1-Digest: 5xB4T85d4XGHhKwlHfoM+8cAFMk=
+
+Name: res/drawable-xhdpi-v4/encroid_resignin.png
+SHA1-Digest: p2xILqLmdBvO0e8s/pEoYtbZyrg=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_4.png
+SHA1-Digest: cv8/WxpUg2FOYxOx6WylIXpstA8=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_lenovo_account_icon.png
+SHA1-Digest: yRT8ECjGIYN4Cfn2Iz5kTdNSs8Y=
+
+Name: res/layout/dock_audio_media_enable_dialog.xml
+SHA1-Digest: l1XVD0vYRnefthDJW2+tQ/5JWDE=
+
+Name: res/drawable-xhdpi-v4/ic_network_signal_0.png
+SHA1-Digest: 45I0uTQ0VSP7eos/URDueqMRNyw=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_network_signal_3.png
+SHA1-Digest: XQV3Da8HMtMUDVDBOiK+6u9bWVg=
+
+Name: res/xml/tts_settings.xml
+SHA1-Digest: 2b00mxgAMKQIb15T9ThhKWbGsMo=
+
+Name: res/drawable/appwidget_item_bg.xml
+SHA1-Digest: H2btBUo9hICjCtlegmCZplQVBqg=
+
+Name: res/drawable-xhdpi-v4/ic_tab_unselected_all.png
+SHA1-Digest: KcPlh+iK9d+AsKdLo7kS/oCZ4PA=
+
+Name: res/drawable-mdpi-v4/ic_settings_data_usage.png
+SHA1-Digest: Crsfb+fsOjY5/zCdh3JWJsCKZgA=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_network_signal_4.png
+SHA1-Digest: 2ElqI5GjPEUbjr2miB8l0fWtRPk=
+
+Name: res/drawable-xhdpi-v4/ic_print_state_printing.png
+SHA1-Digest: qdgfYe+vMaHBSbz3WWvwh8uki+o=
+
+Name: res/xml/application_settings.xml
+SHA1-Digest: knO4OfOlfkaaJMOM/uwcp6JMhG0=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_tab_unselected_running.png
+SHA1-Digest: aUS5y3q9QAQ3ddZZz+OBEQ4cSvI=
+
+Name: res/drawable/specllchecker_settings_select.xml
+SHA1-Digest: yFQ9Yr6h4J6ZETDdoYn9hlkjyqg=
+
+Name: res/drawable-xhdpi-v4/tab_selected_pressed_holo.9.png
+SHA1-Digest: Tl2ViOnLLqn8t3j5PLE6zrYNK2o=
+
+Name: res/drawable-xhdpi-v4/data_sweep_warning_default.9.png
+SHA1-Digest: 0NOZ6BsgdLyQvsTtuaxZqHkSDO8=
+
+Name: res/drawable-mdpi-v4/dotted_line_480px.png
+SHA1-Digest: M0HGcDNsSESXJAaACc4A30mewPY=
+
+Name: res/drawable/ic_menu_delete_holo_dark_select.xml
+SHA1-Digest: d7YGlFUIXRhlYnmfZfCn3VhgxAo=
+
+Name: res/drawable-mdpi-v4/ic_settings_notifications.png
+SHA1-Digest: DG4PNinVOk1bkEpu3n1FMQjri/E=
+
+Name: res/drawable-xhdpi-v4/lenovo_bt_config_n.png
+SHA1-Digest: 6zCCiBtByllHwX+I4M/GlAyQJwQ=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_photo.png
+SHA1-Digest: yQS9ZmYi1Seks3g39BKpl7Z/wLs=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_mid_c_holo.9.png
+SHA1-Digest: XV1Rs/FYDaPa5w23zXRiLNDg8+Y=
+
+Name: res/drawable-mdpi-v4/ic_bt_config.png
+SHA1-Digest: G4PMqJDP7j8XXtkmIa0jIK2xJ4A=
+
+Name: res/layout/com_lenovo_lsf_register.xml
+SHA1-Digest: jjhW40l9496Z00K+lYwuz62XViI=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_on_l_holo.9.png
+SHA1-Digest: cf04nXRXqwEsfpAcrPnMYYCbrpw=
+
+Name: res/xml/security_settings_picker.xml
+SHA1-Digest: Or7mK49nI50TmiHG6YJVJ6c0BQI=
+
+Name: res/drawable/data_sweep_limit.xml
+SHA1-Digest: D4vz0o9bbXoJ1VNgELO4/XdiCsY=
+
+Name: res/layout/search_suggestion_item.xml
+SHA1-Digest: SpO7MHwpIGYdUJv1zV8iGSKLPGo=
+
+Name: res/layout/power_save_content.xml
+SHA1-Digest: 1Y6H8imlmD+ayuId+FpKZX6Sy9Q=
+
+Name: res/drawable-xhdpi-v4/appwidget_inner_focused_c_holo.9.png
+SHA1-Digest: fwyMqG0tAg8bPov1DN/41vluPrA=
+
+Name: res/drawable-mdpi-v4/ic_menu_3d_globe.png
+SHA1-Digest: rzYixEMONW+mPqSo6q+SVRodbc8=
+
+Name: res/xml/lenovo_about_legal.xml
+SHA1-Digest: 6kN+wJn+MDIpckotElFftbqV/EU=
+
+Name: res/drawable-xhdpi-v4/ic_settings_double_click_multiwin_enabled.
+ png
+SHA1-Digest: MjJph7ycHmSbYy0n7HISk7a5y1w=
+
+Name: res/xml/security_settings_pattern.xml
+SHA1-Digest: a6N4ijzenvUjVn8zAvAM2QlpayE=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_signal_2_dark.png
+SHA1-Digest: LOXo3C0/7o1TyG+4+4jyw1axnYQ=
+
+Name: res/drawable-xhdpi-v4/lenovo_ic_end_k7_press.png
+SHA1-Digest: lVLMOC20NzB1CR4mcvT9oIX7JlE=
+
+Name: res/menu/options_menu.xml
+SHA1-Digest: UtC+z02rG2xIZ6Eom7beCo2mbcQ=
+
+Name: res/layout/preference_color.xml
+SHA1-Digest: 2Ip65p2tAEIo12DaoGN8DBrYpQA=
+
+Name: res/layout/search_panel.xml
+SHA1-Digest: IwlJxI5KyTBbqxB8AYK8E1Lm3D4=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete.png
+SHA1-Digest: l8xr7ewkQ9LtQwVbl4/Eby0Vkic=
+
+Name: res/drawable-xhdpi-v4/ic_settings_bluetooth2.png
+SHA1-Digest: bbrIWjD9mery5BqLKU3syimWBM0=
+
+Name: res/drawable-mdpi-v4/lock_anim_2.png
+SHA1-Digest: 8tyjiHwy0/9W0h8BfYyUaxdloio=
+
+Name: res/xml/print_job_settings.xml
+SHA1-Digest: qes1eC2bbQTCdcuYDS36AUspf+o=
+
+Name: res/layout/lenovo_license.xml
+SHA1-Digest: p0gfUX9j6EPBv/4ZR23VY2Jw4uI=
+
+Name: res/drawable-xhdpi-v4/ic_bt_cellphone.png
+SHA1-Digest: W0bo9dlVwYrswMDoCOjMB1yZny8=
+
+Name: res/drawable-xhdpi-v4/ic_settings_dock.png
+SHA1-Digest: D8MKYVY7AD7bQDK2nxQTkStL7iI=
+
+Name: res/layout/running_service_details_service.xml
+SHA1-Digest: pAb/9aKvjzdOGbQpEfQQvr8vZeo=
+
+Name: res/xml/privacy_settings.xml
+SHA1-Digest: f3EHtFy2jC2WhX3KkLlkWeMV0Bg=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_off_r_holo.9.png
+SHA1-Digest: i8uJYjNaBn4Nk+emopzyh6Rqjes=
+
+Name: res/layout/preference_commonsettings_item.xml
+SHA1-Digest: hme5AcX65z1To9qmP4xV02pzwZE=
+
+Name: res/xml/agps_settings.xml
+SHA1-Digest: ZABA83rWDUm5b9sHR5xVETdqM7E=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_check.png
+SHA1-Digest: pK5qQ92c0KT87XMcKPL5e/F2OAU=
+
+Name: res/xml/display_settings.xml
+SHA1-Digest: sixlbn/oCTXjgDkqxMTi6w6QgDc=
+
+Name: res/layout/simple_list_item_2_single_choice.xml
+SHA1-Digest: IfaQ66URlKQcDWQCA+IpVsR+6qo=
+
+Name: res/drawable-mdpi-v4/ic_sync_grey_holo.png
+SHA1-Digest: FZv9qkXZIqZsZYdwYKGnpboAbMs=
+
+Name: res/layout/preference.xml
+SHA1-Digest: 7RFYW9ScUnPj8DUBQXD0CTaJpS4=
+
+Name: res/drawable-xhdpi-v4/lock_anim_6.png
+SHA1-Digest: /mP8pSqrfr3R7gFPWjUo691TjiQ=
+
+Name: res/drawable-mdpi-v4/lock_anim_10.png
+SHA1-Digest: xSG6G6hoL3EvRLyZBVLWix6W0Ug=
+
+Name: res/drawable-xhdpi-v4/ic_settings_sound.png
+SHA1-Digest: OXXfJXDhNq3tO92htjVUZBc+ufs=
+
+Name: res/xml/apn_settings.xml
+SHA1-Digest: IyMkpkoxBy3UMbmHNCihlCskAVU=
+
+Name: res/layout/title.xml
+SHA1-Digest: DQAorv2Yiktu5jhYzFrFn1SL+ww=
+
+Name: res/layout/search_main.xml
+SHA1-Digest: kCloHj1EPBNwQn0Slmuhn70GeI0=
+
+Name: res/drawable-xhdpi-v4/eye_mode_notification.png
+SHA1-Digest: llIuKm4Zd1I++7vNvVgDhtQIR4I=
+
+Name: res/drawable-xhdpi-v4/avatar_default_8.png
+SHA1-Digest: AM0JkwqPBS+vpjpWx9rQ4foKRfQ=
+
+Name: res/layout/uepromotion.xml
+SHA1-Digest: CeNm8PF/u3XfunIRC+kfjrLtUyE=
+
+Name: res/drawable-mdpi-v4/ic_tab_unselected_sdcard.png
+SHA1-Digest: alA3ou4ChjEgnsirVN2bvXYX0E4=
+
+Name: res/xml/testing_wifi_settings.xml
+SHA1-Digest: h8QfEolFNY5B+plvVTaaEgQphsE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_function_button.png
+SHA1-Digest: maEHA9rp1qM+30G2Y8BiFTJSzTQ=
+
+Name: res/layout/preference_batteryhistory.xml
+SHA1-Digest: v1nEKogbAWT71o99RTgYBo05wAA=
+
+Name: res/drawable/ic_tab_sim1.xml
+SHA1-Digest: zk/psVH0Xy4QBHB0e8kWQnPms4s=
+
+Name: res/layout/data_usage_cycle_editor.xml
+SHA1-Digest: CrAHPzclv9JN1HkZMnTCzMnrMtI=
+
+Name: res/drawable-xhdpi-v4/ic_settings_multisim.png
+SHA1-Digest: BHCO0D0HvPgWw1tCq8LENnaZBWU=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_input_area.png
+SHA1-Digest: R6eYtUaIH+tfx/yBbhZYfkkt4MM=
+
+Name: res/drawable-xhdpi-v4/ic_appwidget_settings_sync_off_holo.png
+SHA1-Digest: x6yzITGRhDeWf9cjBLf+E+un0SA=
+
+Name: res/drawable-xhdpi-v4/lenovo_effect_of_sreen_param_bar_backgroun
+ d_saturation.png
+SHA1-Digest: I1riG8sqDBjO7U8o68+ffl8BckA=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_location_off_holo.png
+SHA1-Digest: PDjhldvvXKWi7X4CTIN2YhlR4xw=
+
+Name: res/layout/edit_user_photo_popup_item.xml
+SHA1-Digest: PojCn2uoCgq1y45/7WVvpadERvI=
+
+Name: assets/config
+SHA1-Digest: P8ISRDGMaTxQq22NDJChkMSWMhQ=
+
+Name: res/drawable-xhdpi-v4/ic_sync_green.png
+SHA1-Digest: BRpS3DSmCxQMFPWM1uvKKo2E7zk=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_3.png
+SHA1-Digest: rghysQhrAq9Cs+0pEI2uIcSFakc=
+
+Name: res/xml/trust_agent_settings.xml
+SHA1-Digest: F2tLTcG+VhcT4UaGcdoUM3hzSxc=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_qq_login_button.xml
+SHA1-Digest: 4tZaUyFU65y84KWsJ/LK76Wc7ew=
+
+Name: res/layout/select_dialog_singlechoice_holo.xml
+SHA1-Digest: XrS++ZNJAtBcHTCfSGUPuTIaPH4=
+
+Name: res/drawable-xhdpi-v4/lenovo_effect_of_sreen_param_bar_backgroun
+ d_contrast.png
+SHA1-Digest: wLXMrWi0SrIn6ruNLbaeWepsjfw=
+
+Name: res/layout/app_ops_details.xml
+SHA1-Digest: wMHJ2qjzwrjKfhpl7rZH3DjfB60=
+
+Name: res/drawable/lock_anim.xml
+SHA1-Digest: PWOgmmoy+DTlNJ+2KblhySWJhiw=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_left_arrow.png
+SHA1-Digest: 9ffvOooY80wlEnPropBUIT7s350=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_3_dark.png
+SHA1-Digest: tHg8MivtoI1WCdNpDB2uCuaxOQw=
+
+Name: res/drawable-xhdpi-v4/ic_action_search.png
+SHA1-Digest: zEli1rfVpn6pdO0/wVxO4myxjnQ=
+
+Name: res/drawable-xhdpi-v4/btn_cling_normal.9.png
+SHA1-Digest: AoQfYADN9pj0FGYl9lnRDCKib08=
+
+Name: res/layout/double_click_seekbar_dialog.xml
+SHA1-Digest: rFJjDPAmekJvsx7X8HLs+OAME8A=
+
+Name: res/layout/preference_empty_list.xml
+SHA1-Digest: dZSD4QMEGVu/0q4aTd5XXlUKkfw=
+
+Name: res/layout/preference_widget_shortcut.xml
+SHA1-Digest: Zuk1fAGxJMsMfyaKsAJYnWX8FqE=
+
+Name: res/xml/sim_lock_settings.xml
+SHA1-Digest: HIrKRkbKcF98Po/vPaVZkWsE6Xc=
+
+Name: res/drawable-xhdpi-v4/ic_search_history.png
+SHA1-Digest: VpsF+bvB17FL4gxWTFCsWAqSbKQ=
+
+Name: res/drawable-mdpi-v4/lock_anim_3.png
+SHA1-Digest: xanMQWXxQ0B8EYZYJv+W8Km4fqk=
+
+Name: res/drawable/txt_bg.xml
+SHA1-Digest: zgYbtJl/AnMJaf4HIfHOCKdKZSk=
+
+Name: res/drawable-xhdpi-v4/ic_network_signal_2.png
+SHA1-Digest: 7pMYxmXMXApLRRwLDHV0cS3kxs0=
+
+Name: res/drawable-xhdpi-v4/ic_print_state_error.png
+SHA1-Digest: JiVd5HxfB/EMfIY/GzTPv/iLA/4=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_network_signal_0.png
+SHA1-Digest: Xqe7TLIuN/meG9kn3Z+S+oGELHI=
+
+Name: res/drawable/lenovo_effect_of_screen_param_bar_saturation.xml
+SHA1-Digest: kQk9fO72q9Y+G+fiLjRl20N/GfM=
+
+Name: res/layout/preference_header_switch_item.xml
+SHA1-Digest: AihdmPy/kl+KUdAPBdsvAz4jNyg=
+
+Name: res/drawable/lenovo_chelp_singlehand.xml
+SHA1-Digest: Ty9tAXw1lv1np58NwsLtcalogt8=
+
+Name: res/menu/account_settings.xml
+SHA1-Digest: 9AXnyHAvsRpZKQMkJBqHDddzZPc=
+
+Name: res/drawable-mdpi-v4/lock_anim_13.png
+SHA1-Digest: 9MqnlhO90y2ekjewS++jabAbuWA=
+
+Name: res/drawable-mdpi-v4/ic_network_signal_1.png
+SHA1-Digest: Lo5bYDkygQv5jdO7+mD9ocomxXs=
+
+Name: res/layout/com_lenovo_lsf_alert_dialog_holo.xml
+SHA1-Digest: 1XDoAJ6YlprOdnHDBRcExUxVR34=
+
+Name: res/xml/sync_settings.xml
+SHA1-Digest: /lES8Pf2lbchTbn38QSQ0btdvKk=
+
+Name: res/layout/media_format_primary.xml
+SHA1-Digest: D5Et/BGEJShvKVoukRcLvBnilx0=
+
+Name: res/drawable-mdpi-v4/ic_sync_green_holo.png
+SHA1-Digest: FSDQm9PArp5CsRK5n22CooBfxsQ=
+
+Name: res/layout/character_help_wifiswitch.xml
+SHA1-Digest: cB8ZBex9M/dzVwSK/NQ+/bqaeOs=
+
+Name: res/layout/wifi_ap_wps_dialog.xml
+SHA1-Digest: WXmcO/vHC1eSponr1Fk2FSLu7vU=
+
+Name: res/drawable-xhdpi-v4/ic_settings_language.png
+SHA1-Digest: 2c36Wosrcy8cTzSR9/TEMq7E7PI=
+
+Name: res/drawable-xhdpi-v4/audioprofile_setting_n.png
+SHA1-Digest: MOXSnc1lJ+vxXp0NqWpBCO+8xqI=
+
+Name: res/drawable-xhdpi-v4/wifi_ap_more_up.png
+SHA1-Digest: znLn5bmd943+AurUs9nA2I4Xd2A=
+
+Name: res/drawable-mdpi-v4/ic_settings_backup.png
+SHA1-Digest: e8WAqjcLFj2DZJt4sKNaUoFHFIs=
+
+Name: res/drawable-xhdpi-v4/ic_settings_lockscreen.png
+SHA1-Digest: EqyQxQKWa4wPmKHrtfflKulYvjE=
+
+Name: res/layout/preference_bluetooth_profile.xml
+SHA1-Digest: X1gJWf4clJCMqXcwNKxCs5DyJVE=
+
+Name: res/layout/do_usb_notify.xml
+SHA1-Digest: 009ADz3oiavTlMnS//u7AyCbmww=
+
+Name: res/xml/drm_settings.xml
+SHA1-Digest: yfPdDCY7J4QSmu3u29gmCOsXtT8=
+
+Name: res/layout/data_usage_item.xml
+SHA1-Digest: /vq6P2YqjZuYZRrl8fraHQTDvcQ=
+
+Name: res/drawable-mdpi-v4/avatar_default_3.png
+SHA1-Digest: EN9CGdHub7uUJFFntF7Xsv6IQGw=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_focused_l_holo.9.png
+SHA1-Digest: pbJgiFENTBljRgDu7GrMAFs6Ctc=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_4_dark.png
+SHA1-Digest: 53cX6uq1M597bRzufpOj7g98FkQ=
+
+Name: res/menu/misc_files_menu.xml
+SHA1-Digest: d9Pv/MuDSthKAaaxBo1u3GpBFN8=
+
+Name: res/xml/account_sync_settings.xml
+SHA1-Digest: Cxn9ofU4TmB2Rx4iYfOeEUbKpkg=
+
+Name: res/drawable-mdpi-v4/data_sweep_right_default.9.png
+SHA1-Digest: GTrRBXK1hqnQ7gMPu0EzJw/ZBBw=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_on_r_holo.9.png
+SHA1-Digest: eFNZaABXdPtyMpwsS6keoS0SB50=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_settings_language.png
+SHA1-Digest: ZJO2uHTL5wmaNftXRZxsgk5WRAk=
+
+Name: res/drawable-mdpi-v4/encroid_progress.png
+SHA1-Digest: grZ0W+1fjpQ2T0xzQft8C2wRxuE=
+
+Name: res/layout/lenovo_display_effect_of_screen_preference_seekbar.xm
+ l
+SHA1-Digest: 7LO0/w2/hgty3TrW+fp1RkxxUAk=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_focused_r_holo.9.png
+SHA1-Digest: 6JQblRU0BUT7z7SCPQSc/seK+8c=
+
+Name: res/layout/dashboard.xml
+SHA1-Digest: Zo+iy0P/+jmZZh4FBa9h7VA2fQI=
+
+Name: res/drawable-xhdpi-v4/ic_emergency.png
+SHA1-Digest: GQGzukY5O4vHHhCyy3brQBBPWoU=
+
+Name: res/drawable-mdpi-v4/data_sweep_right_activated.9.png
+SHA1-Digest: emi+eYhMzp2JFJBF5keSeLOt6Rk=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: jiJd+LOceZ7anwbi9oWtxYFoo6o=
+
+Name: res/drawable/tab_indicator_settings.xml
+SHA1-Digest: 5NrjudH4dh4jUdQLykpPqckill8=
+
+Name: res/drawable-xhdpi-v4/lock_anim_7.png
+SHA1-Digest: Gs3lee4DSAosSBK28kkf2Yn9zoI=
+
+Name: res/drawable/wifi_signal_lock_dark.xml
+SHA1-Digest: hpp1WveHdWwx/NuDIccTQ/+gA7c=
+
+Name: res/drawable-xhdpi-v4/appwidget_bg_holo.9.png
+SHA1-Digest: GcYLkvNgaqrxL+b3sUF6f+aDeZo=
+
+Name: res/layout/lenovo_preference_rom20_nonext.xml
+SHA1-Digest: dSeCjIbWuK1CO4ZpkE8DDYI3kh8=
+
+Name: res/drawable-mdpi-v4/ic_settings_language.png
+SHA1-Digest: QDDHA69VaaQjB0dc9ZaVYEPBc4I=
+
+Name: res/drawable-xhdpi-v4/wifi_switch.png
+SHA1-Digest: vnYqQLpIsMljlBqc9wc8ZT9esaM=
+
+Name: res/layout/notification_access_settings.xml
+SHA1-Digest: w9heAJ+uWTkGHSdnv2qq0975zLA=
+
+Name: res/drawable-xhdpi-v4/appwidget_settings_ind_mid_l_holo.9.png
+SHA1-Digest: uOnn7nUDTgjWnktnxmGbunvwWPY=
+
+Name: res/layout/search_panel_results_header.xml
+SHA1-Digest: tcrVCeH/4py1G2PvO6VY7gtP+g0=
+
+Name: res/layout/com_lenovo_lsf_forgetsuccess.xml
+SHA1-Digest: K/XuXmj74WNXBMmgXird0VdfKoo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_3.png
+SHA1-Digest: ECvxn/cfzb1dHZ+X+ilTOiqRCBg=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_scan_dark.png
+SHA1-Digest: ASlce1qxy8xQo6JwIAwrlWwHrK0=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_network_signal_4.png
+SHA1-Digest: H5gMvrf+BhdXjqwkcIRh2oRvg1s=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_lock_signal_2_light.png
+SHA1-Digest: S3T3fGMmOPgFw4i2CAlmq4l1DnQ=
+
+Name: res/layout/preference_widget_checkbox.xml
+SHA1-Digest: kDdxKHQi4Xc6/+b9hFshEU5AgrE=
+
+Name: res/layout/running_service_details.xml
+SHA1-Digest: 4AY3oovdGC1+84ecYl0Q9L3H3+4=
+
+Name: res/layout/com_lenovo_lsf_progress_dialog_holo.xml
+SHA1-Digest: uBsilTq+VjEPm9jMKHcuDiQYooE=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: XPx98JCbJ49k0gklPzBGcL+kYAQ=
+
+Name: res/raw/media_volume.ogg
+SHA1-Digest: 3My0Ro04VTBOMDcfDucgkfcYkkQ=
+
+Name: res/xml/touch_settings.xml
+SHA1-Digest: nWdCQcoTjdoG1+R8iZN0dV4vYRk=
+
+Name: res/drawable-mdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: Qe2lqTsPAdsN78rnT7o7hXAIxFQ=
+
+Name: res/layout/data_usage_bytes_editor.xml
+SHA1-Digest: EIPM256P2Rs8kwIR0PsVOTe3kLk=
+
+Name: res/layout/settings_storage_miscfiles_list.xml
+SHA1-Digest: odzqXA721anqbVmrBHzv4n0rR5o=
+
+Name: res/drawable-mdpi-v4/ic_sync_green.png
+SHA1-Digest: 8vijKHvrHgbS+SV2AeVd7Qu72g0=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_settings.png
+SHA1-Digest: WqR1f5kV4ai0ggN9QvXKCfHDRhY=
+
+Name: res/xml/wifi_p2p_settings.xml
+SHA1-Digest: Cxn9ofU4TmB2Rx4iYfOeEUbKpkg=
+
+Name: res/layout/manage_applications_apps.xml
+SHA1-Digest: 1PXaYX9yHRzrGCwXn5p0I0R4+0g=
+
+Name: res/layout-sw600dp-v13/preference_inputmethod.xml
+SHA1-Digest: fG86ZQJGezWNRXyMkEbNWn5fCis=
+
+Name: res/drawable-xhdpi-v4/password_field_default.9.png
+SHA1-Digest: ELdMfmxR67R0ayFNLDwqDS0xg6s=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_7.png
+SHA1-Digest: zU8l8InbiIdbC9d4FKArirqtKCU=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_dialog_bottom_holo_light.9.p
+ ng
+SHA1-Digest: EKbOcQ77fuVFJLG4nAHHTFkDTuw=
+
+Name: res/drawable-xhdpi-v4/ic_bt_imaging.png
+SHA1-Digest: j54SsOlVuzmrsCN65wLrHDCLAfE=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_right_arrow.png
+SHA1-Digest: 0gb8lFN3TNhtvqcnfEdVepcHQ1c=
+
+Name: res/drawable-mdpi-v4/appwidget_inner_focused_c_holo.9.png
+SHA1-Digest: NY28pBUR8I6JyhfEqoN2jq+9o64=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_brightness_auto_holo.
+ png
+SHA1-Digest: t9mJrUeeupF1/zJaZMt+PeE9eSU=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_location_on_holo.png
+SHA1-Digest: c9Aqori9jJjcHCF88mMnfAsxiVw=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_title_setting_foucs.png
+SHA1-Digest: LbisfWsXBx7rTP44wUrIt3nrCA4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_volumn.png
+SHA1-Digest: OXXfJXDhNq3tO92htjVUZBc+ufs=
+
+Name: res/layout/preference_header_item_rom30.xml
+SHA1-Digest: Y5u89B7vKTIldZrg6I0FnyUSGVI=
+
+Name: res/drawable-xhdpi-v4/lock_anim_12.png
+SHA1-Digest: w75eLdJt6speocpse73/9KLqQ1U=
+
+Name: res/drawable-xhdpi-v4/ic_power_system.png
+SHA1-Digest: dbnu3KPQE39+MJZ9Q00mbnxg6MM=
+
+Name: res/drawable-xhdpi-v4/ic_settings_timely_power_on_off.png
+SHA1-Digest: b90V+DAlkk6Xh5Nf+bvuVtpVqZI=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_sinalogin_foucs.png
+SHA1-Digest: FH3YgWj4ZT2CwPj4jWQKqYQceTg=
+
+Name: res/drawable-mdpi-v4/ic_settings_dock.png
+SHA1-Digest: bQdL4Q0wtZPWwnzlvJrEC8cA6BE=
+
+Name: res/drawable-mdpi-v4/ic_tab_selected_running.png
+SHA1-Digest: JNYgpcIEr90vYMefiu7qgE+LwV4=
+
+Name: res/drawable-xhdpi-v4/encroid_waiting.png
+SHA1-Digest: ijLzfdMYPJFpz7GZ4kP4PqzvDcw=
+
+Name: res/drawable-mdpi-v4/data_grid_secondary.9.png
+SHA1-Digest: zhR+FkyuO5UsJHFLIsaz0KUEBGs=
+
+Name: res/layout/data_usage_cycles.xml
+SHA1-Digest: iAudZlZvWvwXTDzLUFLEEwfLetI=
+
+Name: res/drawable-mdpi-v4/ic_wifi_signal_2_light.png
+SHA1-Digest: Ir5tm+3oLkVfCFbJDEgxhgV60Mw=
+
+Name: res/drawable-xhdpi-v4/ic_bt_misc_hid.png
+SHA1-Digest: ad6Y/DDxA5ngNOa7Sg2xwJTjU3E=
+
+Name: res/layout/lenovo_preference_rom20.xml
+SHA1-Digest: kqCJDPxUJS/EaCzhAnmhSfDCf5g=
+
+Name: res/xml/wifi_advanced_settings.xml
+SHA1-Digest: JEyV8V5GPK72CTVipCOc4evzAk0=
+
+Name: res/drawable-mdpi-v4/lock_anim_5.png
+SHA1-Digest: ET0V1eiE3ypIS4FpFiaCplwzUjE=
+
+Name: res/drawable-mdpi-v4/ic_settings_applications.png
+SHA1-Digest: JNYgpcIEr90vYMefiu7qgE+LwV4=
+
+Name: res/drawable-xhdpi-v4/tab_unselected_focused_holo.9.png
+SHA1-Digest: h1YwcNDg8/hVh0Po2eIzgJdRA9E=
+
+Name: res/xml/appwidget_info.xml
+SHA1-Digest: hAv1o+gWIcC4+LtwySNVX9Yfxcc=
+
+Name: res/drawable-xhdpi-v4/ic_settings_wallpaper.png
+SHA1-Digest: XQpdwJo5H/YO06VQyofCKvR8JoQ=
+
+Name: res/drawable-mdpi-v4/ic_tab_unselected_all.png
+SHA1-Digest: 2pB4cSbvldsO5IBk1rczN/cnvzg=
+
+Name: res/drawable-xhdpi-v4/ic_settings_sim.png
+SHA1-Digest: BHCO0D0HvPgWw1tCq8LENnaZBWU=
+
+Name: res/drawable-xhdpi-v4/ic_settings_theme.png
+SHA1-Digest: RmcZPuurwRcwGSDoNh61wtzm8OE=
+
+Name: res/drawable-nodpi-v4/preview.png
+SHA1-Digest: IfcxSnpnbslg7QrFCHYObpnRgH4=
+
+Name: res/drawable-mdpi-v4/data_sweep_warning_default.9.png
+SHA1-Digest: 1MjNujip7BD4pugw5MYPv92I0BA=
+
+Name: res/drawable-xhdpi-v4/ic_wifi_add_network.png
+SHA1-Digest: hzcn9znuS/ft9RE5VCnqEdjeIPs=
+
+Name: res/layout/running_processes_view.xml
+SHA1-Digest: n7PN1zQ9/OmqrMgixImISYK2+eI=
+
+Name: res/layout/data_usage_header.xml
+SHA1-Digest: sp6uzgIgXtgY2XEi0gs1Zm8IXRE=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_6.png
+SHA1-Digest: xyV3QXGytDSlKOOabiH7viWtgUg=
+
+Name: resources.arsc
+SHA1-Digest: fBEvXn+Eqc6CZynULTZMk80T8OY=
+
+Name: res/xml/captioning_settings.xml
+SHA1-Digest: SF5km1UalSHTZKFb4wIjSgzNbd4=
+
+Name: res/drawable-xhdpi-v4/stat_sys_data_bluetooth.png
+SHA1-Digest: lLEYM/CukjIVJZmiFWO7Q9mdjzs=
+
+Name: res/layout/lenovo_preference_account_rom20.xml
+SHA1-Digest: ckKrMzw9oUk6mLkdyj+aFi1lFiU=
+
+Name: res/layout/wifi_dialog.xml
+SHA1-Digest: 6YAeRrZTYisSrs2tfjYjn8C7zlU=
+
+Name: res/drawable-xhdpi-v4/ic_settings_lepower.png
+SHA1-Digest: s3Ya4U1coaDfPLG8dO4heJOZMXA=
+
+Name: res/drawable/ic_tab_sdcard.xml
+SHA1-Digest: bB6tS4luAbttmTYz//HYa9WvW+8=
+
+Name: res/drawable-mdpi-v4/ic_grayedout_printer.png
+SHA1-Digest: GDvO2NGruXrFRwR7vIRQthN+qO4=
+
+Name: res/layout/preference_user_delete_widget.xml
+SHA1-Digest: q+V51U6qEEETFkNIVxanAOGHero=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_8.png
+SHA1-Digest: k7PWu/so1FIPRjXBmnCziAT+PWY=
+
+Name: res/drawable-mdpi-v4/encroid_waiting.png
+SHA1-Digest: 9J+cW2KOnAvYb33EgieCPA24mgE=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_dialog_full_holo_light.9.png
+SHA1-Digest: OeTHeuLATbr4tQBlOMIc6IiHGQk=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_qqlogin.png
+SHA1-Digest: BPSkQ3il4398W9K0OCor61Pc0q0=
+
+Name: res/layout/settings_tabs_pager_recent.xml
+SHA1-Digest: DWJ5iVKgEeTTkGZ0TtcLOx8IhNY=
+
+Name: res/xml/device_info_status.xml
+SHA1-Digest: 2QS/snb+iCTDRKnVyk3Wk661bOs=
+
+Name: res/drawable-xhdpi-v4/ideaui_rounded_cornor_preference_backgroun
+ d_bottom_holo_light_pressed.9.png
+SHA1-Digest: ZrE71pL3uUM6el1xCaQKxY6wWoU=
+
+Name: res/drawable-ldrtl-mdpi-v4/ic_appwidget_settings_brightness_half
+ _holo.png
+SHA1-Digest: Fi10yqhR2akHcVnsOYAPFRK8me0=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_frame.png
+SHA1-Digest: NSYxRtKMqvOyN/IpSZ65VLLirBg=
+
+Name: res/xml/sound_settings.xml
+SHA1-Digest: /vGB9626G9q5sjJbI1B8admGm3g=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_5.png
+SHA1-Digest: tRBNi3oDPlPV5mzcfAOIRJjh+CU=
+
+Name: res/drawable-mdpi-v4/ic_bt_imaging.png
+SHA1-Digest: F+XEJp01l+m4/NG58aD186GfbBQ=
+
+Name: res/layout/character_help_with_try.xml
+SHA1-Digest: PaXpV9rc6ZFCDkDqejk1I+WayoY=
+
+Name: res/xml/app_restrictions.xml
+SHA1-Digest: dpyP6OC6G4046JBRaOx7JgLy2JM=
+
+Name: res/layout/settings_main_prefs.xml
+SHA1-Digest: tXBT8k+HiHYPSC+3Dnf+f07FbcM=
+
+Name: res/layout/com_lenovo_lsf_webview.xml
+SHA1-Digest: pfs7uGQoAxB70GmrWDvF9hC+gwQ=
+
+Name: res/xml/lights_settings.xml
+SHA1-Digest: cYV6D3uzRd6rQeL7VjAIxc+T2e0=
+
+Name: res/drawable/data_usage_sweep_background.xml
+SHA1-Digest: cHF8MlkiQ7Y/IbF8B4OtuWDm9jw=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_wifi_off_holo.png
+SHA1-Digest: OSGW1c+wtgmThWcUHJ1OuOiX4u4=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_sina_login_button.xml
+SHA1-Digest: eUF2lV+8Q+DBrtPqboJeTvnt0PI=
+
+Name: res/xml/wireless_settings.xml
+SHA1-Digest: GHHQ5jlZR5b4ElD/TjnyXpipiqE=
+
+Name: res/layout/power_usage_details.xml
+SHA1-Digest: Q78Vb9ZkMLpgLLCtbrZMu0bdpbc=
+
+Name: res/xml/usage_access_settings.xml
+SHA1-Digest: AlgmgVA+841nhJIkSPxCbwITbwo=
+
+Name: res/layout/preference_widget_radiobutton.xml
+SHA1-Digest: nTTi6V/sAPm4ayqIF63EU5MVhgc=
+
+Name: res/layout/lenovo_preference_rom20_nopadding.xml
+SHA1-Digest: zToT/KLMaWiBiACXBxFpqOtTLvk=
+
+Name: res/drawable-mdpi-v4/ic_appwidget_settings_bluetooth_on_holo.png
+SHA1-Digest: 3B5IEPa6CDoRzvGGG4BjTLXvXEA=
+
+Name: res/drawable-mdpi-v4/ic_sync_red_holo.png
+SHA1-Digest: JtEnt6fUWyFNfG3KUyVW0A2Braw=
+
+Name: res/xml/device_info_settings.xml
+SHA1-Digest: HtjCXYufo6hQn1smwk+ok1oClDU=
+
+Name: res/layout/lenovo_widget_status_rom20.xml
+SHA1-Digest: MBDdHBR6PxO/C7q2DOYMoAydv8E=
+
+Name: res/menu/vpn.xml
+SHA1-Digest: MxrgweXLuzLshHPvLD54Jp2cw9M=
+
+Name: res/drawable-xhdpi-v4/data_grid_secondary.9.png
+SHA1-Digest: BnbDrdOXTzd3Wf+8hQFKPcGQl+A=
+
+Name: res/layout/preference_inputmethod_widget.xml
+SHA1-Digest: OmHlmDjH1F9fdO5mEign1Ix7RpE=
+
+Name: res/layout/crypt_keeper_password_entry.xml
+SHA1-Digest: k9H56YaPvMVyRS18ltYTnQMTWt0=
+
+Name: res/drawable-xhdpi-v4/ic_tab_selected_all.png
+SHA1-Digest: KcPlh+iK9d+AsKdLo7kS/oCZ4PA=
+
+Name: res/drawable-xhdpi-v4/ic_sysbar_quicksettings.png
+SHA1-Digest: F1bjYxuV2GdGRauG8+w9tlSTnBg=
+
+Name: res/drawable-mdpi-v4/ic_tab_selected_download.png
+SHA1-Digest: dwKg5n+7tcoTiEhY6gULIqQKjPk=
+
+Name: res/drawable-mdpi-v4/ic_wifi_lock_signal_1_dark.png
+SHA1-Digest: bDt1H3ICz7kJ5YlFiftirN9OGSk=
+
+Name: res/drawable-mdpi-v4/ic_settings_sync.png
+SHA1-Digest: xmEzdRiuROQU5rYP0raMpLK9uGc=
+
+Name: res/drawable-xhdpi-v4/lock_anim_10.png
+SHA1-Digest: CFsy4T+obSN3UX0rJyiFV2/n7o8=
+
+Name: res/drawable-xhdpi-v4/lenovo_effect_of_sreen_param_bar_backgroun
+ d_hue.png
+SHA1-Digest: 0Ect6SZYJV8xE6+FiTSjTdXVsg4=
+
+Name: res/drawable/data_usage_bar.xml
+SHA1-Digest: Xw/V670/nI56eFH6ccZzJjSxffI=
+
+Name: res/drawable-mdpi-v4/appwidget_settings_ind_off_r_holo.9.png
+SHA1-Digest: MrNBY7OXxxK0Qde9GI3d4Y47eTw=
+
+Name: res/xml/device_picker.xml
+SHA1-Digest: +SEqlXvRdY3xNO0I8gqIFuj6SS8=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_sinalogin.png
+SHA1-Digest: f/tBCXsOINGai9WUsim+x30uhEQ=
+
+Name: res/layout/android_beam.xml
+SHA1-Digest: Fw79DmolTgx7KbJBkQtAbdXoZXs=
+
+Name: res/drawable-xhdpi-v4/lock_anim_11.png
+SHA1-Digest: VS8021oZHjvqGkAUUs/0Ghx8Dus=
+
+Name: res/drawable-xhdpi-v4/lock_anim_2.png
+SHA1-Digest: GcmlR3hu5+gtqe9WeFrforE3vEI=
+
+Name: res/drawable-xhdpi-v4/ic_settings_multiuser.png
+SHA1-Digest: 3vABrm1kHaZXsy/YZ8VuOrTCXXc=
+
+Name: res/xml/spellchecker_prefs.xml
+SHA1-Digest: cqmiIbTh8GZ2zantDSrsKpuTKw8=
+
+Name: res/drawable-mdpi-v4/data_grid_border.9.png
+SHA1-Digest: xpJb8AFysTZtlJaofnVv7dTHMMM=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_qqlogin_foucs.png
+SHA1-Digest: bib7n+Yz4wwLhNdH7UV3UyLanv4=
+
+Name: res/layout/lenovo_character_black_screen_settings.xml
+SHA1-Digest: qxRjOcccoocnZY0ncH6UPBddgPo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_emergency.png
+SHA1-Digest: 2iHJ+MitXi4a1bHPWNFs65vGNzY=
+
+Name: res/layout/captioning_preview.xml
+SHA1-Digest: nSy1F79WkIzt/Pq7I89tATkiN/0=
+
+Name: res/xml/usb_settings.xml
+SHA1-Digest: p0mfLktZg0vMWMb5sMN6ReTaHjU=
+
+Name: res/drawable-xhdpi-v4/wifi_ap_more_down.png
+SHA1-Digest: MkEwEP92qHvDzVVjzaxUzdfH87Y=
+
+Name: res/drawable-xhdpi-v4/transparency.png
+SHA1-Digest: g9/N0tBXaLalftdHWIczpWqZpd0=
+
+Name: res/drawable/appwidget_button_center.xml
+SHA1-Digest: IYpYWevQzwabdGdNPiCJVsayIT4=
+
+Name: res/xml/process_stats_summary.xml
+SHA1-Digest: Rwo19Vtv7nYbgk7bHC7T0jC2NB0=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete_holo_dark_p.png
+SHA1-Digest: ov4seo0/ioLuxRLNdE5aKzE/Tcw=
+
+Name: res/drawable-mdpi-v4/lock_anim_9.png
+SHA1-Digest: RIhTo+kmCw9ONReshOVmPWanm6w=
+
+Name: res/drawable-xhdpi-v4/avatar_default_1.png
+SHA1-Digest: Z8/EZCgIkgUn2tjzDOl6e0jPKIQ=
+
+Name: res/drawable/transparency_tileable.xml
+SHA1-Digest: Bz3Oav6+og3FFnjL+elnd3z19mg=
+
+Name: res/drawable-xhdpi-v4/data_sweep_limit_activated.9.png
+SHA1-Digest: BvjpLL5f4LHI6YztYRsumIb15j4=
+
+Name: res/drawable/audioprofile_settings_select.xml
+SHA1-Digest: 4C4pNVyagd5AfudrnNR1XyI9ghw=
+
+Name: res/drawable/ic_tab_sim2.xml
+SHA1-Digest: DQc3wOqCgh0kZbgvXiWMPI/1g5Y=
+
+Name: res/menu/data_usage.xml
+SHA1-Digest: tKeAUPUIASQIbct8ww2Ol8saIyk=
+
+Name: res/drawable-mdpi-v4/appwidget_item_bg_normal.9.png
+SHA1-Digest: Ol6aKImYBVXSJg0F2lo6uqu8rZ8=
+
+Name: res/layout/recent_settings.xml
+SHA1-Digest: E8jSyUZymmZZQCsQfTbP2bv+b0Q=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete_holo_dark.png
+SHA1-Digest: v1grJy9MmHFfMtyTv/XqWoJNYhE=
+
+Name: res/layout/crypt_keeper_pin_entry.xml
+SHA1-Digest: 3P0VtCEDyNjo0PFQYIBVn7M1oxA=
+
+Name: res/layout/set_backup_pw.xml
+SHA1-Digest: K/VADkxYJlmvC3Rf7vLDo+dH228=
+
+Name: res/drawable-ldrtl-xhdpi-v4/avatar_default_6.png
+SHA1-Digest: llM8WzN4aDNbFCBi46O6kI0VBcU=
+
+Name: res/drawable-ldrtl-mdpi-v4/avatar_default_1.png
+SHA1-Digest: wnZJCtpFsZGOMABa0HoJo8b1ZoU=
+
+Name: res/layout/preference_tts_engine.xml
+SHA1-Digest: WjEq5nZhc5BwGGgc6SIRvtZnCnU=
+
+Name: res/layout/dialog_edittext.xml
+SHA1-Digest: Vm7UIR5UKmXuXSJS4GFMDJ39OHc=
+
+Name: res/drawable-xhdpi-v4/ic_settings_security.png
+SHA1-Digest: bnttfkpmg2wOeHu1jNAPp4mNQuk=
+
+Name: res/layout/app_ops_item.xml
+SHA1-Digest: MOIrzhj5oFK3/8Rc2+qixyE3at8=
+
+Name: res/drawable-xhdpi-v4/com_lenovo_lsf_title_setting_foucs.png
+SHA1-Digest: 4N6lNTtb/h+pBbbKAKzG9WnQH/0=
+
+Name: res/drawable-mdpi-v4/com_lenovo_lsf_changeanother.png
+SHA1-Digest: QItXCNCoDAXCgxBMBB0xoxVGHXY=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_settings.png
+SHA1-Digest: Qb+hhp2EkH74PaxRvVVvryLqw54=
+
+Name: res/xml/tether_wifi_prefs.xml
+SHA1-Digest: J5v7CUmRxbVPBhUa9uunWFksjto=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_settings.png
+SHA1-Digest: 3kyht+elaeGRD2NqS9WeRCIzceY=
+
+Name: res/xml/home_selection.xml
+SHA1-Digest: leMGWiPnS/T12oIazQ+zTAcCdNg=
+
+Name: res/xml/key_settings.xml
+SHA1-Digest: RHfPCA07e8Awd61LnGfhbVIV8I4=
+
+Name: res/layout/preference_list_fragment.xml
+SHA1-Digest: 7hD3g+AANKBiog9mHjfffxVfTO0=
+
+Name: res/drawable-xhdpi-v4/lock_anim_0.png
+SHA1-Digest: n+KcgJOqM0VbbpFEI1c0gsgyBP0=
+

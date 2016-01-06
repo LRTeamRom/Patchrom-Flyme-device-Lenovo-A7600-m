@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_category_wireless_networks" android:key="call_and_msg">
+        <Preference android:icon="@drawable/ic_settings_airplane" android:id="@id/toggle_airplane" android:layout="@layout/preference_header_switch_item_rom20" android:title="@string/airplane_mode" android:key="toggle_airplane" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/display_personalize" android:key="display_personalize_section" />
+    <PreferenceCategory android:title="@string/account_settings" android:key="account_settings" />
+    <PreferenceCategory android:title="@string/header_category_device" android:key="device_section">
+        <Preference android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:layout="@layout/preference_header_item_rom20" android:title="@string/display_settings" android:key="display_settings" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/header_category_system" android:key="system_section" />
+</PreferenceScreen>

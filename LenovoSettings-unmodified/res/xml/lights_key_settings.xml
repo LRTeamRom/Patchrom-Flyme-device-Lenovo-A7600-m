@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/light_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lenovo="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/key_settings_title" android:key="key_settings_category" />
+    <com.lenovo.settings.charactersettings.EnhanceStatusPreferenceRom20 android:id="@id/side_key_backlight_mode_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/side_key_backlight_title" android:key="side_key_backlight" android:summary="@string/side_key_backlight_summary" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+    <com.lenovo.settings.charactersettings.EnhanceSwitchPreferenceRom20 android:persistent="false" android:id="@id/long_menu_recent_id" android:layout="@layout/lenovo_preference_rom20_nonext" android:title="@string/long_menu_active_voice" android:key="long_menu_active_voice" android:summary="@string/long_menu_active_voice_summary" android:widgetLayout="@layout/lenovo_widget_switch_rom20" android:defaultValue="false" settings:hasSubPreference="false" />
+    <com.lenovo.settings.charactersettings.EnhanceSwitchPreferenceRom20 android:persistent="false" android:id="@id/long_home_recent_id" android:layout="@layout/lenovo_preference_rom20_nonext" android:title="@string/long_menu_active_troch" android:key="long_home_active_troch" android:summary="@string/long_menu_active_troch_summary" android:widgetLayout="@layout/lenovo_widget_switch_rom20" android:defaultValue="false" settings:hasSubPreference="false" />
+    <PreferenceCategory android:title="@string/light_title" android:key="light_settings_category" />
+    <ListPreference android:entries="@array/entries_button_brightness" android:id="@id/keyboard_lights_recent_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/button_brightness" android:key="button_brightness" android:defaultValue="auto" android:dialogTitle="@string/dialog_title_button_brightness" android:entryValues="@array/entryvalues_button_brightness" />
+</PreferenceScreen>

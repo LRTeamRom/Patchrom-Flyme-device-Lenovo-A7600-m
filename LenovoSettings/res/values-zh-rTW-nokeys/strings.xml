@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applications_settings_summary">管理應用程式</string>
+    <item type="string" name="APKTOOL_DUMMY_0c84">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c85">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c87">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c89">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c8f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c90">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c91">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c92">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c93">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0c94">false</item>
+</resources>

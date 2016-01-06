@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/display_effect_off_screen" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/saturation_lyt" android:layout_width="fill_parent" android:layout_height="97.0dip" android:layout_below="@id/img">
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/gamma_text" android:paddingLeft="17.0dip" android:layout_width="73.0dip" android:layout_height="97.0dip" android:text="@string/display_effect_of_screen_hue_title" />
+        <RelativeLayout android:id="@id/gamma_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/gamma_text" android:layout_below="@id/img">
+            <SeekBar android:layout_gravity="top" android:id="@id/seekbar1" android:paddingLeft="10.0dip" android:paddingTop="19.0dip" android:layout_width="394.0dip" android:layout_height="60.0dip" android:progressDrawable="@drawable/gamma" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/gamma_tips" android:paddingLeft="23.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="97.0dip" android:layout_below="@id/seekbar1">
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/gamma_warm" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_warm" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/gamma_default" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_default" android:layout_toRightOf="@id/gamma_warm" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/gamma_cool" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_cool" android:layout_toRightOf="@id/gamma_default" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/list_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_below="@id/saturation_lyt" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/hue_lyt" android:layout_width="fill_parent" android:layout_height="97.0dip" android:layout_below="@id/saturation_lyt">
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/pq_text" android:paddingLeft="17.0dip" android:layout_width="73.0dip" android:layout_height="97.0dip" android:text="@string/display_effect_of_screen_saturation_title" />
+        <RelativeLayout android:id="@id/pq_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/pq_text" android:layout_below="@id/img">
+            <SeekBar android:layout_gravity="top" android:id="@id/seekbar2" android:paddingLeft="10.0dip" android:paddingTop="19.0dip" android:layout_width="394.0dip" android:layout_height="60.0dip" android:progressDrawable="@drawable/pq" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/pq_tips" android:paddingLeft="23.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="97.0dip" android:layout_below="@id/seekbar2">
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/pq_soft" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_soft" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/pq_default" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_default" android:layout_toRightOf="@id/pq_soft" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center_vertical" android:id="@id/pq_bright" android:layout_width="162.0dip" android:layout_height="wrap_content" android:text="@string/display_effect_of_screen_bright" android:layout_toRightOf="@id/pq_default" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/list_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_below="@id/hue_lyt" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_container" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_below="@id/gamma_cool" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="center_vertical" android:id="@id/reset" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="11.0dip" android:layout_marginRight="6.0dip" android:text="@string/display_effect_of_screen_reset" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/apply" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/display_effect_of_screen_apply" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/cancel" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="11.0dip" android:text="@string/display_effect_of_screen_cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

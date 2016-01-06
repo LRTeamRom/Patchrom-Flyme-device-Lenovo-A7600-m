@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/lenovo_effect_of_sreen_param_bar_background_hue" />
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/display_effect_drawer_bar_layer_progress" />
+    </item>
+</layer-list>

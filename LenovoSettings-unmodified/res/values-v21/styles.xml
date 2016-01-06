@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
+        <item name="android:colorAccent">@color/switch_accent_color</item>
+    </style>
+</resources>

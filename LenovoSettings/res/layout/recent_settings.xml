@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <fragment android:id="@id/recent" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.lenovo.settings.recentsettings.ui.RecentSettingsPreferenceFragment" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/recent_bar_root" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/recent_bar_up" android:background="@drawable/recent_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#99191919" android:id="@id/show_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_recent_settings" android:layout_centerInParent="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#99191919" android:id="@id/hide_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hide_recent_settings" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/recent_bar_down" android:background="@drawable/recent_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/hide_info" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <fragment android:id="@id/sys" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.lenovo.settings.AllSettings" />
+</LinearLayout>

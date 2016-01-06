@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/display_effect_of_screen_temp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <RadioGroup android:orientation="vertical" android:id="@id/temp_radiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/img">
+        <RadioButton android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modetext1" />
+        <RadioButton android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modetext2" />
+        <RadioButton android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modetext3" />
+        <RadioButton android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modetext4" />
+        <RadioButton android:id="@id/button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modetext5" />
+    </RadioGroup>
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_container" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_below="@id/gamma_cool" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="center_vertical" android:id="@id/reset" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="11.0dip" android:layout_marginRight="6.0dip" android:text="@string/display_effect_of_screen_reset" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/apply" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/display_effect_of_screen_apply" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/cancel" android:layout_width="105.0dip" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="11.0dip" android:text="@string/display_effect_of_screen_cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.flyme.deviceoriginalsettings">
+    <com.lenovo.settings.WifiPreference android:persistent="false" android:layout="@layout/preference_charactersettings_switch_item" android:title="@string/wifi_settings_title" android:key="wifi_settings" android:defaultValue="true" android:fragment="com.flyme.deviceoriginalsettings.wifi.WifiSettings" />
+    <com.lenovo.settings.DataPreference android:layout="@layout/preference_charactersettings_switch_item" android:title="@string/data_connect_settings_title" android:key="data_connect_settings" />
+    <com.lenovo.settings.BluetoothPreference android:layout="@layout/preference_charactersettings_switch_item" android:title="@string/bluetooth_settings_title" android:key="bluetooth_settings" android:fragment="com.flyme.deviceoriginalsettings.bluetooth.BluetoothSettings" />
+    <com.flyme.deviceoriginalsettings.BrightnessPreference android:layout="@layout/preference_commonsettings_item" android:title="@string/brightness" android:key="brightness" android:dialogTitle="@string/brightness" />
+    <Preference android:layout="@layout/preference_commonsettings_item" android:title="@string/wallpaper_settings_title" android:key="wallpaper" android:fragment="com.flyme.deviceoriginalsettings.WallpaperTypeSettings" />
+    <Preference android:layout="@layout/preference_commonsettings_item" android:title="@string/theme_settings_title" android:key="theme" />
+    <com.flyme.deviceoriginalsettings.RingerVolumePreference android:layout="@layout/preference_commonsettings_item" android:title="@string/sound_settings_title" android:key="sound_settings" />
+    <com.flyme.deviceoriginalsettings.DefaultRingtonePreference android:layout="@layout/preference_commonsettings_item" android:title="@string/incoming_call_ringer_title" android:key="call_ringer" android:ringtoneType="ringtone" />
+    <com.flyme.deviceoriginalsettings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_commonsettings_item" android:title="@string/incoming_call_ringer_title" android:key="threeg_call_sound" android:dialogTitle="@string/incoming_call_ringer_title" />
+    <com.flyme.deviceoriginalsettings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_commonsettings_item" android:title="@string/incoming_call_ringer_title" android:key="twog_call_sound" android:dialogTitle="@string/incoming_call_ringer_title" />
+    <com.flyme.deviceoriginalsettings.DefaultRingtonePreference android:layout="@layout/preference_commonsettings_item" android:title="@string/incoming_mms_ringer_title" android:key="mms_ringer" android:ringtoneType="notification" />
+</PreferenceScreen>

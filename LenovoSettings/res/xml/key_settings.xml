@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lenovo="http://schemas.android.com/apk/res/com.flyme.deviceoriginalsettings"
+  xmlns:settings="http://schemas.android.com/apk/res/com.flyme.deviceoriginalsettings">
+    <com.lenovo.settings.charactersettings.EnhanceStatusPreferenceRom20 android:id="@id/side_key_backlight_mode_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/side_key_backlight_title" android:key="side_key_backlight" android:summary="@string/side_key_backlight_summary" android:widgetLayout="@layout/lenovo_widget_status_rom20" android:defaultValue="false" />
+    <com.lenovo.settings.charactersettings.EnhanceSwitchPreferenceRom20 android:persistent="false" android:id="@id/long_menu_recent_id" android:layout="@layout/lenovo_preference_rom20_nonext" android:title="@string/long_menu_active_voice" android:key="long_menu_active_voice" android:summary="@string/long_menu_active_voice_summary" android:widgetLayout="@layout/lenovo_widget_switch_rom20" android:defaultValue="false" settings:hasSubPreference="false" />
+    <com.lenovo.settings.charactersettings.EnhanceSwitchPreferenceRom20 android:persistent="false" android:id="@id/long_home_recent_id" android:layout="@layout/lenovo_preference_rom20_nonext" android:title="@string/long_menu_active_troch" android:key="long_home_active_troch" android:summary="@string/long_menu_active_troch_summary" android:widgetLayout="@layout/lenovo_widget_switch_rom20" android:defaultValue="false" settings:hasSubPreference="false" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="right" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/help_gif" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:gravity="center" android:id="@id/help_summary" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_centerHorizontal="true" />
+    <View android:layout_width="wrap_content" android:layout_height="16.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="54.0dip" android:divider="?android:dividerHorizontal" android:layout_centerHorizontal="true" android:showDividers="beginning">
+        <Button android:id="@id/help_ok" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/i_know_it" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.flyme.deviceoriginalsettings">
+    <PreferenceCategory android:title="@string/display_effect_category_title_commom_mode" android:key="common_mode">
+        <CheckBoxPreference android:title="@string/display_effect_mode_default_title" android:key="mode_default" android:summary="@string/display_effect_mode_default_summary" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <CheckBoxPreference android:title="@string/display_effect_mode_comfirtable_title" android:key="mode_comfirtable" android:summary="@string/display_effect_mode_comfirtable_summary" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <CheckBoxPreference android:title="@string/display_effect_mode_ultra_bright_title" android:key="mode_ultra_bright" android:summary="@string/display_effect_mode_ultra_bright_summary" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <CheckBoxPreference android:title="@string/display_effect_mode_custom_title" android:key="mode_custom" android:summary="@string/display_effect_mode_custom_summary" android:widgetLayout="@layout/preference_widget_radiobutton" />
+        <com.flyme.deviceoriginalsettings.display.screeneffect.ui.ParamSeekBarPreference android:layout="@layout/lenovo_display_effect_of_screen_preference_seekbar" android:title="@string/display_effect_type_hue" android:key="param_hue" settings:hint_min="@string/display_effect_type_hue_cool" settings:hint_max="@string/display_effect_type_hue_warm" settings:seekbar_max="@integer/display_effect_param_bar_max" />
+        <com.flyme.deviceoriginalsettings.display.screeneffect.ui.ParamSeekBarPreference android:layout="@layout/lenovo_display_effect_of_screen_preference_seekbar" android:title="@string/display_effect_type_saturation" android:key="param_saturation" settings:hint_min="@string/display_effect_type_saturation_soft" settings:hint_max="@string/display_effect_type_saturation_bright" settings:seekbar_max="@integer/display_effect_param_bar_max" />
+        <com.flyme.deviceoriginalsettings.display.screeneffect.ui.ParamSeekBarPreference android:layout="@layout/lenovo_display_effect_of_screen_preference_seekbar" android:title="@string/display_effect_type_contrast" android:key="param_contrast" settings:hint_min="@string/display_effect_type_contrast_soft" settings:hint_max="@string/display_effect_type_contrast_sharp" settings:seekbar_max="@integer/display_effect_param_bar_max" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/display_effect_category_title_smart" android:key="smart">
+        <CheckBoxPreference android:title="@string/display_effect_smart_brightness_title" android:key="smart_brightness" android:summary="@string/display_effect_smart_brightness_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

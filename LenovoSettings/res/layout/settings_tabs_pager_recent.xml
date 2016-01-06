@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.settings.recentsettings.ui.UIScrollLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/display_text" android:background="#ffff00ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_settings_to_recent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/recent_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/display_text">
+        <TextView android:textSize="24.0sp" android:textColor="#99191919" android:layout_gravity="center_horizontal" android:id="@id/show_info" android:background="@drawable/recent_item_bg_selector" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/recent_settings" android:paddingStart="@dimen/item_preference_pading_left" android:paddingEnd="@dimen/item_preference_pading_right" />
+        <fragment android:id="@id/recent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" class="com.lenovo.settings.recentsettings.ui.RecentSettingsPreferenceFragment" />
+    </LinearLayout>
+    <TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/display_text">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+            <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ListView android:id="@android:id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TabHost>
+</com.lenovo.settings.recentsettings.ui.UIScrollLayout>

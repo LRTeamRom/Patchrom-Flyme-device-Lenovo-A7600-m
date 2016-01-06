@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/item_preference_pading_left" android:paddingEnd="@dimen/item_preference_pading_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <Switch android:layout_gravity="center" android:id="@id/switchWidget" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

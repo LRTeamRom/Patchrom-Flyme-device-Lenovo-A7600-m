@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/lenovo_preference_rom20" android:title="@string/lenovo_system_update" android:key="lenovoOTA_system_update">
+        <intent android:action="com.lenovo.intent.LenovoOtaClient" />
+    </PreferenceScreen>
+    <PreferenceScreen android:id="@id/status_info_recent_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.flyme.deviceoriginalsettings" android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.settings.StatusGemini" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/lenovo_preference_rom20" android:title="@string/wizard_title" android:key="setting_wizard">
+        <intent android:targetPackage="com.lenovo.PlayersTutorial" android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.PlayersTutorial.PlayersTutorialActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:id="@id/legal_information_recent_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/legal_information" android:key="container" />
+    <PreferenceScreen android:id="@id/version_info_recent_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/device_info_label" android:key="more_device_info" />
+    <Preference android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" style="?android:preferenceInformationStyle" />
+    <Preference android:id="@id/security_information_recent_id" android:layout="@layout/lenovo_preference_rom20" android:title="@string/safety_information" android:key="security_information" />
+    <Preference android:title="@string/phone_info" android:key="phone_info_key" />
+    <com.lenovo.settings.wizard.LenovoExpCheckBoxPref android:id="@id/lenovo_exp_recent_id" android:layout="@layout/lenovo_preference_rom20_nonext" android:title="@string/server_lenovo_exp_title" android:key="lenovo_exp_checkbox" android:summary="@string/server_lenovo_exp_summery" android:defaultValue="false" />
+    <PreferenceScreen android:layout="@layout/lenovo_preference_rom20" android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="flyme.deviceoriginalsettings.SAFETY" />
+    </PreferenceScreen>
+</PreferenceScreen>
