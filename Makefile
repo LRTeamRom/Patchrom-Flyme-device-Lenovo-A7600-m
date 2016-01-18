@@ -116,7 +116,7 @@ board_saved_files := lib/libwebviewchromium.so lib64/libwebviewchromium.so
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode board system apk).
 #-----------------------------------------------------------------------------
-board_modify_apps := FlymeLauncher TeleService TelephonyProvider Telecom
+board_modify_apps := FlymeLauncher TeleService TelephonyProvider Telecom SystemUI
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the board framework jar.
@@ -151,6 +151,9 @@ board_modify_apps := FlymeLauncher TeleService TelephonyProvider Telecom
 override_property += \
     ro.flyme.romer=Po_Chan \
     ro.product.model_romer=LenovoA7600-m_Po_Chan
+
+override_property += \
+    ro.author.name=PIXLETOOL
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
